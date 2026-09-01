@@ -18,4 +18,4 @@ data/
 
 ## 来源与许可
 
-初始数据来自 [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)，遵循其 MIT 许可。每个案例保留原始来源链接和作者标识；使用或再分发时请保留这些归属信息。
+初始数据来自 [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)，遵循其 MIT 许可。每个案例保留原始来源链接和作者标识；使用或再分发时请保留这些归属信息。。

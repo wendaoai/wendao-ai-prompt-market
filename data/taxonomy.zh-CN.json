@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "categories": {
+    "Architecture & Spaces": "建筑与空间",
+    "Brand & Logos": "品牌与标志",
+    "Characters & People": "人物与角色",
+    "Charts & Infographics": "图表与信息图",
+    "Documents & Publishing": "文档与出版",
+    "History & Classical Themes": "历史与古典题材",
+    "Illustration & Art": "插画与艺术",
+    "Other Use Cases": "其他创作场景",
+    "Photography & Realism": "摄影与写实",
+    "Posters & Typography": "海报与排版",
+    "Products & E-commerce": "商品与电商",
+    "Scenes & Storytelling": "场景与叙事",
+    "UI & Interfaces": "界面与交互"
+  },
+  "styles": {
+    "3D": "3D 立体",
+    "Architecture": "建筑",
+    "Brand": "品牌",
+    "Character": "角色",
+    "Characters": "人物",
+    "Charts": "图表",
+    "Classical": "古典",
+    "Documents": "文档",
+    "History": "历史",
+    "Illustration": "插画",
+    "Infographic": "信息图",
+    "Other Use Cases": "其他用途",
+    "Photography": "摄影",
+    "Poster": "海报",
+    "Product": "商品",
+    "Products": "产品",
+    "Realistic": "写实",
+    "Scenes": "场景",
+    "UI": "用户界面"
+  }
+}
