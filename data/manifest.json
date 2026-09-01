@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "wendao-ai-prompt-market",
+  "catalogVersion": "1.0.0",
+  "sourceRepository": "https://github.com/freestylefly/awesome-gpt-image-2",
+  "sourceRevision": "local-import-2026-09-01",
+  "license": "MIT",
+  "casesPath": "cases.json",
+  "styleLibraryPath": "style-library.json",
+  "imageBasePath": "images/"
+}
