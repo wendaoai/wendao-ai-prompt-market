@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wendao.ai/schemas/resource-market-manifest-v2.json",
+  "title": "Wendao AI resource market manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "marketId", "marketVersion", "generatedAt", "sourceRevision", "license", "catalogs", "taxonomyPath", "assetBasePath", "previewBasePath"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "marketId": { "const": "wendao-ai-resource-market" },
+    "marketVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "sourceRevision": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "license": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "catalogs": {
+      "type": "array", "minItems": 6, "maxItems": 32,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["type", "version", "path"],
+        "properties": {
+          "type": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 100 },
+          "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+          "path": { "type": "string", "pattern": "^catalogs/[a-z-]+\\.json$" }
+        }
+      }
+    },
+    "taxonomyPath": { "type": "string", "const": "taxonomy/zh-CN.json" },
+    "assetBasePath": { "type": "string", "const": "assets/" },
+    "previewBasePath": { "type": "string", "const": "previews/" }
+  }
+}

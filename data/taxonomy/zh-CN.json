@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "categories": {
     "Architecture & Spaces": "建筑与空间",
     "Brand & Logos": "品牌与标志",
@@ -35,5 +35,17 @@
     "Realistic": "写实",
     "Scenes": "场景",
     "UI": "用户界面"
+  },
+  "scenes": {
+    "Commerce": "Commerce",
+    "Creative": "Creative",
+    "Education": "Education",
+    "Fashion": "Fashion",
+    "Food": "Food",
+    "History": "History",
+    "Social": "Social",
+    "Story": "Story",
+    "Tech": "Tech",
+    "Travel": "Travel"
   }
 }

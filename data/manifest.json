@@ -1,12 +1,43 @@
 {
-  "schemaVersion": 1,
-  "catalogId": "wendao-ai-prompt-market",
-  "catalogVersion": "1.1.0",
-  "sourceRepository": "https://github.com/freestylefly/awesome-gpt-image-2",
-  "sourceRevision": "local-import-2026-09-01",
-  "license": "MIT",
-  "casesPath": "cases.json",
-  "styleLibraryPath": "style-library.json",
-  "taxonomyPath": "taxonomy.zh-CN.json",
-  "imageBasePath": "images/"
+  "schemaVersion": 2,
+  "marketId": "wendao-ai-resource-market",
+  "marketVersion": "2.0.0",
+  "generatedAt": "2026-09-10T00:00:00Z",
+  "sourceRevision": "schema-v2-migration-2026-09-10",
+  "license": "Mixed; see each resource and NOTICE.md",
+  "catalogs": [
+    {
+      "type": "prompts",
+      "version": "2.0.0",
+      "path": "catalogs/prompts.json"
+    },
+    {
+      "type": "prompt-styles",
+      "version": "2.0.0",
+      "path": "catalogs/prompt-styles.json"
+    },
+    {
+      "type": "fonts",
+      "version": "2.0.0",
+      "path": "catalogs/fonts.json"
+    },
+    {
+      "type": "papers",
+      "version": "2.0.0",
+      "path": "catalogs/papers.json"
+    },
+    {
+      "type": "overlays",
+      "version": "2.0.0",
+      "path": "catalogs/overlays.json"
+    },
+    {
+      "type": "decorations",
+      "version": "2.0.0",
+      "path": "catalogs/decorations.json"
+    }
+  ],
+  "taxonomyPath": "taxonomy/zh-CN.json",
+  "assetBasePath": "assets/",
+  "previewBasePath": "previews/"
 }

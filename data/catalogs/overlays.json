@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 2,
+  "type": "overlays",
+  "version": "2.0.0",
+  "resources": [
+    {
+      "id": "light-01",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "左侧叶影",
+      "description": "左侧叶影手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-01.webp",
+      "byteSize": 438008,
+      "sha256": "64989044e1a9e9c072d87bcfd622de3fade953437878139701e4f5b62c363134",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1280,
+        "height": 1920,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1280,
+        "previewHeight": 1920
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-01.webp",
+      "previewByteSize": 438008,
+      "previewSha256": "64989044e1a9e9c072d87bcfd622de3fade953437878139701e4f5b62c363134",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-02",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "右侧叶影",
+      "description": "右侧叶影手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-02.webp",
+      "byteSize": 429404,
+      "sha256": "958da056bbaa0dd6055350d9d89d0fecdec4c084b6afa499bf8fc22b5c5d5569",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1280,
+        "height": 1920,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1280,
+        "previewHeight": 1920
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-02.webp",
+      "previewByteSize": 429404,
+      "previewSha256": "958da056bbaa0dd6055350d9d89d0fecdec4c084b6afa499bf8fc22b5c5d5569",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-03",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "方格窗影",
+      "description": "方格窗影手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-03.webp",
+      "byteSize": 100224,
+      "sha256": "1c0fdc75eefbc7370d812c8fbb2ac41cf35961c118bfe389cdf0e0ef3b101563",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 2000,
+        "height": 2000,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 2000,
+        "previewHeight": 2000
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-03.webp",
+      "previewByteSize": 100224,
+      "previewSha256": "1c0fdc75eefbc7370d812c8fbb2ac41cf35961c118bfe389cdf0e0ef3b101563",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-04",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "斜格窗影",
+      "description": "斜格窗影手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-04.webp",
+      "byteSize": 67164,
+      "sha256": "49f272dd756f9de4b0416ba6ca803feb7abacf9f410e5ec41c471fa8d26dd351",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1200,
+        "height": 1200,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1200,
+        "previewHeight": 1200
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-04.webp",
+      "previewByteSize": 67164,
+      "previewSha256": "49f272dd756f9de4b0416ba6ca803feb7abacf9f410e5ec41c471fa8d26dd351",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-05",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "横向窗影",
+      "description": "横向窗影手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-05.webp",
+      "byteSize": 45042,
+      "sha256": "9c49c0a04cab3f90ad936536bba59cf53ead5f2b2712ca4b74de20344b6e9979",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1200,
+        "height": 1200,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1200,
+        "previewHeight": 1200
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-05.webp",
+      "previewByteSize": 45042,
+      "previewSha256": "9c49c0a04cab3f90ad936536bba59cf53ead5f2b2712ca4b74de20344b6e9979",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-06",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "窗格花影",
+      "description": "窗格花影手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-06.webp",
+      "byteSize": 65722,
+      "sha256": "d9cc472be1ff79532e5c62297f90f74e686fec37ee1f18944f400bced3b0c5a8",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1200,
+        "height": 1200,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1200,
+        "previewHeight": 1200
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-06.webp",
+      "previewByteSize": 65722,
+      "previewSha256": "d9cc472be1ff79532e5c62297f90f74e686fec37ee1f18944f400bced3b0c5a8",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-07",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "细框窗影",
+      "description": "细框窗影手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-07.webp",
+      "byteSize": 41526,
+      "sha256": "5c9dd3010b122ea46e773f3125429c5284120363f5866c7b5b1f5fa8be6a3b13",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1200,
+        "height": 1200,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1200,
+        "previewHeight": 1200
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-07.webp",
+      "previewByteSize": 41526,
+      "previewSha256": "5c9dd3010b122ea46e773f3125429c5284120363f5866c7b5b1f5fa8be6a3b13",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-08",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "百叶树影",
+      "description": "百叶树影手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-08.webp",
+      "byteSize": 58976,
+      "sha256": "2b4891ab7918cdf82400553b2368aeadc5db1a864e3b37d399c7b23a95c15a1a",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1200,
+        "height": 1200,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1200,
+        "previewHeight": 1200
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-08.webp",
+      "previewByteSize": 58976,
+      "previewSha256": "2b4891ab7918cdf82400553b2368aeadc5db1a864e3b37d399c7b23a95c15a1a",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-09",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "百叶窗影",
+      "description": "百叶窗影手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-09.webp",
+      "byteSize": 76350,
+      "sha256": "a515bd7cd4a3743f0e2c9a4e4b2da97086bb92ddd2bbcef9e20d5711ec68ed35",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1200,
+        "height": 1200,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1200,
+        "previewHeight": 1200
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-09.webp",
+      "previewByteSize": 76350,
+      "previewSha256": "a515bd7cd4a3743f0e2c9a4e4b2da97086bb92ddd2bbcef9e20d5711ec68ed35",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-10",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "左侧柔光",
+      "description": "左侧柔光手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-10.webp",
+      "byteSize": 397622,
+      "sha256": "073310f849a1d22b7ea271fb6a06ef8de7c2e4c9f0acc0fb40e984ffcec2505a",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1500,
+        "height": 1500,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1500,
+        "previewHeight": 1500
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-10.webp",
+      "previewByteSize": 397622,
+      "previewSha256": "073310f849a1d22b7ea271fb6a06ef8de7c2e4c9f0acc0fb40e984ffcec2505a",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-11",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "中央柔光",
+      "description": "中央柔光手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-11.webp",
+      "byteSize": 822012,
+      "sha256": "f80ba7cc6a94470bbfc2bcea08cfb5c0ef3f4d000ae059064f65981efa60743d",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 2000,
+        "height": 2000,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 2000,
+        "previewHeight": 2000
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-11.webp",
+      "previewByteSize": 822012,
+      "previewSha256": "f80ba7cc6a94470bbfc2bcea08cfb5c0ef3f4d000ae059064f65981efa60743d",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "light-12",
+      "type": "overlay",
+      "version": "1.0.0",
+      "name": "右侧柔光",
+      "description": "右侧柔光手写画布素材",
+      "tags": [
+        "手写",
+        "overlay"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/overlays/light-overlay-12.webp",
+      "byteSize": 117822,
+      "sha256": "652f232c66a00d55d3b354fa29a3d45567dd79221bae6cb3b861739373cfae7b",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1500,
+        "height": 1500,
+        "format": "webp",
+        "usage": "handwriting-overlay",
+        "previewWidth": 1500,
+        "previewHeight": 1500
+      },
+      "previewPath": "assets/materials/overlays/light-overlay-12.webp",
+      "previewByteSize": 117822,
+      "previewSha256": "652f232c66a00d55d3b354fa29a3d45567dd79221bae6cb3b861739373cfae7b",
+      "previewMimeType": "image/webp"
+    }
+  ]
+}

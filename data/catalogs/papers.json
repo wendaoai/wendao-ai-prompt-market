@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 2,
+  "type": "papers",
+  "version": "2.0.0",
+  "resources": [
+    {
+      "id": "paper-cotton",
+      "type": "paper",
+      "version": "1.0.0",
+      "name": "温润棉纸",
+      "description": "温润棉纸手写画布素材",
+      "tags": [
+        "手写",
+        "paper"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/papers/cotton-paper.webp",
+      "byteSize": 147516,
+      "sha256": "d769897bd7ef19036d819828c73b3f1676f43a894fffe77987e30e9fb2e2f5c8",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1086,
+        "height": 1448,
+        "format": "webp",
+        "usage": "handwriting-background",
+        "previewWidth": 1086,
+        "previewHeight": 1448
+      },
+      "previewPath": "assets/materials/papers/cotton-paper.webp",
+      "previewByteSize": 147516,
+      "previewSha256": "d769897bd7ef19036d819828c73b3f1676f43a894fffe77987e30e9fb2e2f5c8",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "paper-bamboo",
+      "type": "paper",
+      "version": "1.0.0",
+      "name": "竹影信纸",
+      "description": "竹影信纸手写画布素材",
+      "tags": [
+        "手写",
+        "paper"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/papers/bamboo-letter-paper.webp",
+      "byteSize": 77944,
+      "sha256": "95456f35df03994512dd9a3ffcc53fb7eb7d9c975391a90c213e5a5d5b426240",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1086,
+        "height": 1448,
+        "format": "webp",
+        "usage": "handwriting-background",
+        "previewWidth": 1086,
+        "previewHeight": 1448
+      },
+      "previewPath": "assets/materials/papers/bamboo-letter-paper.webp",
+      "previewByteSize": 77944,
+      "previewSha256": "95456f35df03994512dd9a3ffcc53fb7eb7d9c975391a90c213e5a5d5b426240",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "paper-warm-lined",
+      "type": "paper",
+      "version": "1.0.0",
+      "name": "暖色横线纸",
+      "description": "暖色横线纸手写画布素材",
+      "tags": [
+        "手写",
+        "paper"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/papers/warm-lined-paper.webp",
+      "byteSize": 15794,
+      "sha256": "524296ac6fdccbcaf49ed8c763c71c28c5205eed0d89a0a23c6c15ca6ba08fdf",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1086,
+        "height": 1448,
+        "format": "webp",
+        "usage": "handwriting-background",
+        "previewWidth": 1086,
+        "previewHeight": 1448
+      },
+      "previewPath": "assets/materials/papers/warm-lined-paper.webp",
+      "previewByteSize": 15794,
+      "previewSha256": "524296ac6fdccbcaf49ed8c763c71c28c5205eed0d89a0a23c6c15ca6ba08fdf",
+      "previewMimeType": "image/webp"
+    },
+    {
+      "id": "paper-mist-mountain",
+      "type": "paper",
+      "version": "1.0.0",
+      "name": "水墨山岚纸",
+      "description": "水墨山岚纸手写画布素材",
+      "tags": [
+        "手写",
+        "paper"
+      ],
+      "license": "Content Workbench bundled asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": false,
+      "updatedAt": "2026-09-10T00:00:00Z",
+      "assetPath": "assets/materials/papers/mist-mountain-paper.webp",
+      "byteSize": 46942,
+      "sha256": "bde0b008876b832472186cba775b4345ae4c986d182c132830dd4af192d9f37f",
+      "mimeType": "image/webp",
+      "details": {
+        "width": 1086,
+        "height": 1448,
+        "format": "webp",
+        "usage": "handwriting-background",
+        "previewWidth": 1086,
+        "previewHeight": 1448
+      },
+      "previewPath": "assets/materials/papers/mist-mountain-paper.webp",
+      "previewByteSize": 46942,
+      "previewSha256": "bde0b008876b832472186cba775b4345ae4c986d182c132830dd4af192d9f37f",
+      "previewMimeType": "image/webp"
+    }
+  ]
+}

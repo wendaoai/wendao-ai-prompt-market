@@ -1,0 +1,9 @@
+{
+  "name": "wendao-ai-resource-market",
+  "private": true,
+  "type": "module",
+  "scripts": {
+	"sync-metadata": "node scripts/sync-metadata.mjs",
+    "validate": "node scripts/validate-market.mjs"
+  }
+}
