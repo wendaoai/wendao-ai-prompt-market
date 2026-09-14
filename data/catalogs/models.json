@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "type": "models",
+  "version": "1.0.0",
+  "resources": [
+    {
+      "id": "model-office-woman",
+      "type": "model",
+      "version": "1.0.0",
+      "name": "办公女性模特",
+      "description": "自然微笑的职业女性半身模特，适合办公、软件和商务营销内容。",
+      "tags": [
+        "女性",
+        "职场",
+        "办公",
+        "商务"
+      ],
+      "license": "Content Workbench official asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": true,
+      "updatedAt": "2026-09-14T09:23:13Z",
+      "assetPath": "assets/models/1.webp",
+      "previewPath": "assets/models/1.webp",
+      "byteSize": 53092,
+      "previewByteSize": 53092,
+      "sha256": "8cb704e0c50290a01bb06f3cbe35ab51bb89603b4ffa129abd833013678f3059",
+      "previewSha256": "8cb704e0c50290a01bb06f3cbe35ab51bb89603b4ffa129abd833013678f3059",
+      "mimeType": "image/webp",
+      "previewMimeType": "image/webp",
+      "details": {
+        "width": 896,
+        "height": 1200,
+        "previewWidth": 896,
+        "previewHeight": 1200,
+        "format": "webp",
+        "usage": "marketing-model"
+      }
+    }
+  ]
+}

@@ -3,8 +3,8 @@ import { readFile, readdir, stat } from "node:fs/promises";
 import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
-const allowedTypes = new Set(["prompt", "prompt-style", "font", "paper", "overlay", "decoration"]);
-const expectedCatalogs = new Set(["prompts", "prompt-styles", "fonts", "papers", "overlays", "decorations"]);
+const allowedTypes = new Set(["prompt", "prompt-style", "font", "paper", "overlay", "decoration", "model", "scene"]);
+const expectedCatalogs = new Set(["prompts", "prompt-styles", "fonts", "papers", "overlays", "decorations", "models", "scenes"]);
 const errors = [];
 const ids = new Set();
 const paths = new Map();
@@ -130,13 +130,17 @@ for (const item of resources) {
   if (!allowedTypes.has(item.type)) fail(`${item.id}: 未知资源类型`);
   if (!item.name || item.name.length > 120 || !item.version || !item.license || !item.attribution || !item.details) fail(`${item.id}: 缺少必要字段`);
   if (!Array.isArray(item.tags) || item.tags.length > 40) fail(`${item.id}: tags 无效`);
-  if (["font", "paper", "overlay", "decoration"].includes(item.type) && !item.assetPath) fail(`${item.id}: 可安装资源缺少 assetPath`);
+  if (["font", "paper", "overlay", "decoration", "model", "scene"].includes(item.type) && !item.assetPath) fail(`${item.id}: 可安装资源缺少 assetPath`);
   if (item.type === "font" && (item.details?.format !== "woff2" || !item.details?.family || !item.details?.displayName)) fail(`${item.id}: 字体 details 无效`);
   if (item.previewPath && !["image/webp", "image/png", "image/jpeg"].includes(item.previewMimeType)) fail(`${item.id}: 预览 MIME 无效`);
   if (item.type === "font" && (!safeRelative(item.details?.licenseFile || "") || !item.details.licenseFile.startsWith("licenses/fonts/"))) fail(`${item.id}: 字体许可证路径无效`);
   if (item.type === "font" && item.details?.licenseFile) {
     const license = await stat(path.join(root, item.details.licenseFile)).catch(() => null);
     if (!license?.isFile()) fail(`${item.id}: 字体许可证不存在`);
+  }
+  if (item.type === "model" || item.type === "scene") {
+    if (!item.previewPath) fail(`${item.id}: 官方视觉资产缺少 previewPath`);
+    if (!Number.isInteger(item.details?.width) || !Number.isInteger(item.details?.height)) fail(`${item.id}: 官方视觉资产缺少图片尺寸`);
   }
   if (item.type === "prompt") {
     if (!taxonomy.categories[item.details?.category]) fail(`${item.id}: 分类不存在 ${item.details?.category}`);
@@ -159,7 +163,7 @@ async function walk(directory) {
   }
 }
 await walk("assets");
-for (const file of assetFiles) if (!referenced.has(file) && !file.endsWith("banner.svg") && !file.includes("/category-covers/") && !file.includes("/sponsors/")) fail(`孤立资源: ${file}`);
+for (const file of assetFiles) if (!referenced.has(file) && !file.endsWith("banner.svg") && !file.startsWith("assets/models/") && !file.startsWith("assets/scenes/") && !file.includes("/category-covers/") && !file.includes("/sponsors/")) fail(`孤立资源: ${file}`);
 if (errors.length) {
   console.error(errors.map((item) => `- ${item}`).join("\n"));
   process.exit(1);

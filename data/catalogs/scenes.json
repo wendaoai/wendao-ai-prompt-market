@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "type": "scenes",
+  "version": "1.0.0",
+  "resources": [
+    {
+      "id": "scene-bright-office",
+      "type": "scene",
+      "version": "1.0.0",
+      "name": "明亮办公场景",
+      "description": "自然采光的现代办公环境，适合软件、职场服务和商务主题营销内容。",
+      "tags": [
+        "办公室",
+        "商务",
+        "自然光",
+        "现代"
+      ],
+      "license": "Content Workbench official asset",
+      "licenseURL": "",
+      "attribution": "Content Workbench",
+      "featured": true,
+      "updatedAt": "2026-09-14T09:23:13Z",
+      "assetPath": "assets/scenes/1.png",
+      "previewPath": "assets/scenes/1.png",
+      "byteSize": 53092,
+      "previewByteSize": 53092,
+      "sha256": "8cb704e0c50290a01bb06f3cbe35ab51bb89603b4ffa129abd833013678f3059",
+      "previewSha256": "8cb704e0c50290a01bb06f3cbe35ab51bb89603b4ffa129abd833013678f3059",
+      "mimeType": "image/png",
+      "previewMimeType": "image/png",
+      "details": {
+        "width": 896,
+        "height": 1200,
+        "previewWidth": 896,
+        "previewHeight": 1200,
+        "format": "png",
+        "usage": "marketing-scene"
+      }
+    }
+  ]
+}

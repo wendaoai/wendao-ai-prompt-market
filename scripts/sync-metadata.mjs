@@ -4,7 +4,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 
 const root = path.resolve(import.meta.dirname, '..')
-const catalogs = ['prompts', 'prompt-styles', 'fonts', 'papers', 'overlays', 'decorations']
+const catalogs = ['prompts', 'prompt-styles', 'fonts', 'papers', 'overlays', 'decorations', 'models', 'scenes']
 
 function dimensions(filename) {
   return new Promise((resolve, reject) => {
@@ -27,7 +27,7 @@ for (const name of catalogs) {
   const filename = path.join(root, 'data', 'catalogs', `${name}.json`)
   const document = JSON.parse(await readFile(filename, 'utf8'))
   for (const item of document.resources) {
-    if (['paper', 'overlay', 'decoration'].includes(item.type) && item.assetPath && !item.previewPath) item.previewPath = item.assetPath
+    if (['paper', 'overlay', 'decoration', 'model', 'scene'].includes(item.type) && item.assetPath && !item.previewPath) item.previewPath = item.assetPath
     if (item.assetPath) Object.assign(item, await metadata(item.assetPath))
     if (item.previewPath) {
       item.previewMimeType = item.previewPath.endsWith('.webp') ? 'image/webp' : item.previewPath.endsWith('.png') ? 'image/png' : 'image/jpeg'

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "marketId": "wendao-ai-resource-market",
-  "marketVersion": "2.0.0",
-  "generatedAt": "2026-09-10T00:00:00Z",
-  "sourceRevision": "schema-v2-migration-2026-09-10",
+  "marketVersion": "2.1.0",
+  "generatedAt": "2026-09-14T09:23:13Z",
+  "sourceRevision": "official-visual-catalog-2026-09-14",
   "license": "Mixed; see each resource and NOTICE.md",
   "catalogs": [
     {
@@ -35,6 +35,16 @@
       "type": "decorations",
       "version": "2.0.0",
       "path": "catalogs/decorations.json"
+    },
+    {
+      "type": "models",
+      "version": "1.0.0",
+      "path": "catalogs/models.json"
+    },
+    {
+      "type": "scenes",
+      "version": "1.0.0",
+      "path": "catalogs/scenes.json"
     }
   ],
   "taxonomyPath": "taxonomy/zh-CN.json",
