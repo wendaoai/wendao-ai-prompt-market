@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "type": "scenes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "resources": [
     {
       "id": "scene-bright-office",
@@ -22,17 +22,17 @@
       "updatedAt": "2026-09-14T09:23:13Z",
       "assetPath": "assets/scenes/1.png",
       "previewPath": "assets/scenes/1.png",
-      "byteSize": 53092,
-      "previewByteSize": 53092,
-      "sha256": "8cb704e0c50290a01bb06f3cbe35ab51bb89603b4ffa129abd833013678f3059",
-      "previewSha256": "8cb704e0c50290a01bb06f3cbe35ab51bb89603b4ffa129abd833013678f3059",
+      "byteSize": 531961,
+      "previewByteSize": 531961,
+      "sha256": "173dc9aac8a368b93b3e3364736bba22c27f8e31881696852ddaa8425132930f",
+      "previewSha256": "173dc9aac8a368b93b3e3364736bba22c27f8e31881696852ddaa8425132930f",
       "mimeType": "image/png",
       "previewMimeType": "image/png",
       "details": {
-        "width": 896,
-        "height": 1200,
-        "previewWidth": 896,
-        "previewHeight": 1200,
+        "width": 941,
+        "height": 1672,
+        "previewWidth": 941,
+        "previewHeight": 1672,
         "format": "png",
         "usage": "marketing-scene"
       }

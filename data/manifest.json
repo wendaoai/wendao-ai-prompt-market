@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "marketId": "wendao-ai-resource-market",
-  "marketVersion": "2.1.0",
-  "generatedAt": "2026-09-14T09:23:13Z",
-  "sourceRevision": "official-visual-catalog-2026-09-14",
+  "marketVersion": "2.1.1",
+  "generatedAt": "2026-09-14T09:40:00Z",
+  "sourceRevision": "official-visual-catalog-2026-09-14-r2",
   "license": "Mixed; see each resource and NOTICE.md",
   "catalogs": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "type": "scenes",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "catalogs/scenes.json"
     }
   ],
