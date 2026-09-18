@@ -1,0 +1,5874 @@
+{
+  "schemaVersion": 2,
+  "type": "ai-providers",
+  "version": "1.0.0",
+  "generatedAt": "2026-09-18T06:25:08.776Z",
+  "sourceURL": "https://models.dev/api.json",
+  "resources": [
+    {
+      "id": "ai-provider-deepseek",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "DeepSeek",
+      "description": "DeepSeek 的 AI 模型目录",
+      "tags": [
+        "text"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": true,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "deepseek",
+        "sourceName": "DeepSeek",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://api.deepseek.com",
+        "providerType": "openai_compatible",
+        "adapterKey": "openai_compatible_chat",
+        "authType": "bearer",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": false,
+        "models": [
+          {
+            "id": "deepseek-v4-flash",
+            "name": "DeepSeek V4 Flash",
+            "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
+            "family": "deepseek-flash",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 384000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-09-10",
+            "lastUpdated": "2026-09-10",
+            "openWeights": true
+          },
+          {
+            "id": "deepseek-v4-flash-vision-exp",
+            "name": "DeepSeek V4 Flash Vision Exp",
+            "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
+            "family": "deepseek-flash",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 384000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-09-10",
+            "lastUpdated": "2026-09-10",
+            "openWeights": true
+          },
+          {
+            "id": "deepseek-v4-pro",
+            "name": "DeepSeek V4 Pro",
+            "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 384000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-08-12",
+            "lastUpdated": "2026-08-22",
+            "openWeights": true
+          },
+          {
+            "id": "deepseek-flash",
+            "name": "DeepSeek V4.1 Flash",
+            "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
+            "family": "deepseek-flash",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 384000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-09-10",
+            "lastUpdated": "2026-09-10",
+            "openWeights": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-provider-openai",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "OpenAI",
+      "description": "OpenAI 的 AI 模型目录",
+      "tags": [
+        "text",
+        "image",
+        "audio"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": true,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "openai",
+        "sourceName": "OpenAI",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://api.openai.com/v1",
+        "providerType": "openai_compatible",
+        "adapterKey": "openai_compatible_chat",
+        "authType": "bearer",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": true,
+        "models": [
+          {
+            "id": "chatgpt-image-latest",
+            "name": "chatgpt-image-latest",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text",
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-12-16",
+            "lastUpdated": "2025-12-16",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-3.5-turbo",
+            "name": "GPT-3.5-turbo",
+            "description": "Compact GPT model for low-latency assistance and high-volume workloads",
+            "family": "gpt",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 16385,
+            "maxOutput": 4096,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2023-03-01",
+            "lastUpdated": "2023-11-06",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4",
+            "name": "GPT-4",
+            "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
+            "family": "gpt",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 8192,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2023-11-06",
+            "lastUpdated": "2024-04-09",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4-turbo",
+            "name": "GPT-4 Turbo",
+            "description": "Compact GPT model for low-latency assistance and high-volume workloads",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 4096,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2023-11-06",
+            "lastUpdated": "2024-04-09",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4.1",
+            "name": "GPT-4.1",
+            "description": "Long-lived GPT workhorse for coding, instruction following, and production apps",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1047576,
+            "maxOutput": 32768,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-04-14",
+            "lastUpdated": "2025-04-14",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4.1-mini",
+            "name": "GPT-4.1 mini",
+            "description": "Affordable GPT-4.1 lane for fast coding help and structured extraction",
+            "family": "gpt-mini",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1047576,
+            "maxOutput": 32768,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-04-14",
+            "lastUpdated": "2025-04-14",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4.1-nano",
+            "name": "GPT-4.1 nano",
+            "description": "Tiny GPT-4.1 option for classification, routing, and very high-volume tasks",
+            "family": "gpt-nano",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1047576,
+            "maxOutput": 32768,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-04-14",
+            "lastUpdated": "2025-04-14",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4o",
+            "name": "GPT-4o",
+            "description": "Omni-era GPT for multimodal chat, practical coding, and general assistants",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 16384,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2024-05-13",
+            "lastUpdated": "2024-08-06",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4o-2024-05-13",
+            "name": "GPT-4o (2024-05-13)",
+            "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 4096,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2024-05-13",
+            "lastUpdated": "2024-05-13",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4o-2024-08-06",
+            "name": "GPT-4o (2024-08-06)",
+            "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 16384,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2024-08-06",
+            "lastUpdated": "2024-08-06",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4o-2024-11-20",
+            "name": "GPT-4o (2024-11-20)",
+            "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 16384,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2024-11-20",
+            "lastUpdated": "2024-11-20",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-4o-mini",
+            "name": "GPT-4o mini",
+            "description": "Small omni GPT for cheap multimodal assistance and production-scale traffic",
+            "family": "gpt-mini",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 16384,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2024-07-18",
+            "lastUpdated": "2024-07-18",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5",
+            "name": "GPT-5",
+            "description": "Original GPT-5 workhorse for reasoning, coding, writing, and tool workflows",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-08-07",
+            "lastUpdated": "2025-08-07",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5-mini",
+            "name": "GPT-5 Mini",
+            "description": "Small GPT-5 for responsive agents, coding help, and everyday automation",
+            "family": "gpt-mini",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-08-07",
+            "lastUpdated": "2025-08-07",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5-nano",
+            "name": "GPT-5 Nano",
+            "description": "Tiny GPT-5 lane for routing, extraction, classification, and bulk jobs",
+            "family": "gpt-nano",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-08-07",
+            "lastUpdated": "2025-08-07",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5-pro",
+            "name": "GPT-5 Pro",
+            "description": "Higher-accuracy GPT-5 tier for tough analysis, coding reviews, and planning",
+            "family": "gpt-pro",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 272000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-06",
+            "lastUpdated": "2025-10-06",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.1",
+            "name": "GPT-5.1",
+            "description": "Sharper GPT-5 generation for coding, product work, and tool-assisted tasks",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-11-13",
+            "lastUpdated": "2025-11-13",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.2",
+            "name": "GPT-5.2",
+            "description": "Reliable GPT generation for broad coding, writing, and tool-assisted product work",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-12-11",
+            "lastUpdated": "2025-12-11",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.2-chat-latest",
+            "name": "GPT-5.2 Chat",
+            "description": "Chat-tuned GPT model for conversational assistance, writing, and tool workflows",
+            "family": "gpt-codex",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-12-11",
+            "lastUpdated": "2025-12-11",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.2-pro",
+            "name": "GPT-5.2 Pro",
+            "description": "Higher-accuracy GPT-5.2 variant for tougher reasoning and review workflows",
+            "family": "gpt-pro",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-12-11",
+            "lastUpdated": "2025-12-11",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.3-chat-latest",
+            "name": "GPT-5.3 Chat (latest)",
+            "description": "Chat-tuned GPT model for conversational assistance, writing, and tool workflows",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 16384,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-03-03",
+            "lastUpdated": "2026-03-03",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.3-codex",
+            "name": "GPT-5.3 Codex",
+            "description": "Coding-optimized GPT model for repository edits, reviews, and agentic software work",
+            "family": "gpt-codex",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-02-05",
+            "lastUpdated": "2026-02-05",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.3-codex-spark",
+            "name": "GPT-5.3 Codex Spark",
+            "description": "Coding-optimized GPT model for repository edits, reviews, and agentic software work",
+            "family": "gpt-codex-spark",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 32000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-02-05",
+            "lastUpdated": "2026-02-05",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.4",
+            "name": "GPT-5.4",
+            "description": "Agent-ready GPT for coding and computer-use workflows at a lower cost",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1050000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-03-05",
+            "lastUpdated": "2026-03-05",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.4-mini",
+            "name": "GPT-5.4 mini",
+            "description": "Strong small GPT for coding subagents, quick tool use, and high-volume work",
+            "family": "gpt-mini",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-03-17",
+            "lastUpdated": "2026-03-17",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.4-nano",
+            "name": "GPT-5.4 nano",
+            "description": "Cheapest GPT-5.4 lane for simple routing, extraction, and bulk automation",
+            "family": "gpt-nano",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 400000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-03-17",
+            "lastUpdated": "2026-03-17",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.4-pro",
+            "name": "GPT-5.4 Pro",
+            "description": "More exact GPT-5.4 tier for demanding professional reasoning and agent tasks",
+            "family": "gpt-pro",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1050000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-03-05",
+            "lastUpdated": "2026-03-05",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.5",
+            "name": "GPT-5.5",
+            "description": "Default frontier GPT for coding, computer use, research, and knowledge work",
+            "family": "gpt",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1050000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-04-23",
+            "lastUpdated": "2026-04-23",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.5-pro",
+            "name": "GPT-5.5 Pro",
+            "description": "Highest-accuracy GPT-5.5 tier for slower, precision-heavy reasoning and coding",
+            "family": "gpt-pro",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1050000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-04-23",
+            "lastUpdated": "2026-04-23",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.6",
+            "name": "GPT-5.6",
+            "description": "Frontier GPT-5.6 model for complex professional work, coding, and agentic workflows",
+            "family": "gpt-sol",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1050000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-07-09",
+            "lastUpdated": "2026-07-09",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.6-luna",
+            "name": "GPT-5.6 Luna",
+            "description": "Cost-efficient GPT-5.6 model for fast, high-volume workloads",
+            "family": "gpt-luna",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1050000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-07-09",
+            "lastUpdated": "2026-07-09",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.6-sol",
+            "name": "GPT-5.6 Sol",
+            "description": "Frontier GPT-5.6 model for complex professional work, coding, and agentic workflows",
+            "family": "gpt-sol",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1050000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-07-09",
+            "lastUpdated": "2026-07-09",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-5.6-terra",
+            "name": "GPT-5.6 Terra",
+            "description": "Balanced GPT-5.6 model for capable, cost-efficient everyday work",
+            "family": "gpt-terra",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1050000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-07-09",
+            "lastUpdated": "2026-07-09",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-6-astra",
+            "name": "GPT-6 Astra",
+            "description": "GPT-6 Astra is OpenAI's most capable model for complex reasoning, coding, computer use, research, and document creation.",
+            "family": "gpt-astra",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1050000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-09-04",
+            "lastUpdated": "2026-09-04",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-image-1",
+            "name": "gpt-image-1",
+            "description": "OpenAI image model for production generation, edits, and brand-safe visual workflows",
+            "family": "gpt-image",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-04-24",
+            "lastUpdated": "2025-04-24",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-image-1-mini",
+            "name": "gpt-image-1-mini",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text",
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-09-26",
+            "lastUpdated": "2025-09-26",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-image-1.5",
+            "name": "gpt-image-1.5",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text",
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-11-25",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-image-2",
+            "name": "gpt-image-2",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-04-21",
+            "lastUpdated": "2026-04-21",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-realtime-2.1",
+            "name": "GPT-Realtime-2.1",
+            "description": "Realtime speech-to-speech model with configurable reasoning, tool use, and robust voice-agent behavior",
+            "family": "gpt",
+            "input": [
+              "text",
+              "audio",
+              "image"
+            ],
+            "output": [
+              "text",
+              "audio"
+            ],
+            "context": 128000,
+            "maxOutput": 32000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-07-06",
+            "lastUpdated": "2026-07-06",
+            "openWeights": false
+          },
+          {
+            "id": "o1",
+            "name": "o1",
+            "description": "O-series reasoning model for hard analysis, math, coding, and planning",
+            "family": "o",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 100000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2024-12-05",
+            "lastUpdated": "2024-12-05",
+            "openWeights": false
+          },
+          {
+            "id": "o1-pro",
+            "name": "o1-pro",
+            "description": "O-series reasoning model for hard analysis, math, coding, and planning",
+            "family": "o-pro",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 100000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-03-19",
+            "lastUpdated": "2025-03-19",
+            "openWeights": false
+          },
+          {
+            "id": "o3",
+            "name": "o3",
+            "description": "Deliberate o-series reasoner for hard math, coding, and multi-step analysis",
+            "family": "o",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 100000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-04-16",
+            "lastUpdated": "2025-04-16",
+            "openWeights": false
+          },
+          {
+            "id": "o3-mini",
+            "name": "o3-mini",
+            "description": "Smaller o-series reasoner for economical coding, math, and planning tasks",
+            "family": "o-mini",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 100000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2024-12-20",
+            "lastUpdated": "2025-01-29",
+            "openWeights": false
+          },
+          {
+            "id": "o3-pro",
+            "name": "o3-pro",
+            "description": "High-effort o3 tier for difficult technical reasoning and careful answers",
+            "family": "o-pro",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 100000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-06-10",
+            "lastUpdated": "2025-06-10",
+            "openWeights": false
+          },
+          {
+            "id": "o4-mini",
+            "name": "o4-mini",
+            "description": "Fast o-series model for compact reasoning, coding, and tool use",
+            "family": "o-mini",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 100000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-04-16",
+            "lastUpdated": "2025-04-16",
+            "openWeights": false
+          },
+          {
+            "id": "text-embedding-3-large",
+            "name": "text-embedding-3-large",
+            "description": "Embedding model for semantic search, retrieval, clustering, and ranking pipelines",
+            "family": "text-embedding",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 8191,
+            "maxOutput": 3072,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-01-25",
+            "lastUpdated": "2024-01-25",
+            "openWeights": false
+          },
+          {
+            "id": "text-embedding-3-small",
+            "name": "text-embedding-3-small",
+            "description": "Embedding model for semantic search, retrieval, clustering, and ranking pipelines",
+            "family": "text-embedding",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 8191,
+            "maxOutput": 1536,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-01-25",
+            "lastUpdated": "2024-01-25",
+            "openWeights": false
+          },
+          {
+            "id": "text-embedding-ada-002",
+            "name": "text-embedding-ada-002",
+            "description": "Embedding model for semantic search, retrieval, clustering, and ranking pipelines",
+            "family": "text-embedding",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 8192,
+            "maxOutput": 1536,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2022-12-15",
+            "lastUpdated": "2022-12-15",
+            "openWeights": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-provider-anthropic",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "Anthropic",
+      "description": "Anthropic 的 AI 模型目录",
+      "tags": [
+        "text"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": true,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "anthropic",
+        "sourceName": "Anthropic",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://api.anthropic.com",
+        "providerType": "anthropic",
+        "adapterKey": "anthropic_chat",
+        "authType": "x-api-key",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": true,
+        "models": [
+          {
+            "id": "claude-fable-5",
+            "name": "Claude Fable 5",
+            "description": "Claude model for creative writing, analysis, and controlled agent workflows",
+            "family": "claude-fable",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-06-07",
+            "lastUpdated": "2026-06-09",
+            "openWeights": false
+          },
+          {
+            "id": "claude-fable-5-1",
+            "name": "Claude Fable 5.1",
+            "description": "Claude model for demanding reasoning and long-horizon agentic work",
+            "family": "claude-fable",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-09-01",
+            "lastUpdated": "2026-09-01",
+            "openWeights": false
+          },
+          {
+            "id": "claude-haiku-4-5-20251001",
+            "name": "Claude Haiku 4.5",
+            "description": "Fast Claude model for responsive assistance, classification, and lightweight agents",
+            "family": "claude-haiku",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 64000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-15",
+            "lastUpdated": "2025-10-15",
+            "openWeights": false
+          },
+          {
+            "id": "claude-haiku-4-5",
+            "name": "Claude Haiku 4.5 (latest)",
+            "description": "Fast Claude lane for lightweight agents, office tasks, and responsive chat",
+            "family": "claude-haiku",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 64000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-15",
+            "lastUpdated": "2025-10-15",
+            "openWeights": false
+          },
+          {
+            "id": "claude-opus-4-5-20251101",
+            "name": "Claude Opus 4.5",
+            "description": "Flagship Claude model for deep reasoning, coding, and long-horizon agents",
+            "family": "claude-opus",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 64000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-11-24",
+            "lastUpdated": "2025-11-01",
+            "openWeights": false
+          },
+          {
+            "id": "claude-opus-4-5",
+            "name": "Claude Opus 4.5 (latest)",
+            "description": "Flagship Claude model for deep reasoning, coding, and long-horizon agents",
+            "family": "claude-opus",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 64000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-11-24",
+            "lastUpdated": "2025-11-24",
+            "openWeights": false
+          },
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "description": "High-end Claude for difficult coding, planning, and slower expert reasoning",
+            "family": "claude-opus",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-02-04",
+            "lastUpdated": "2026-03-13",
+            "openWeights": false
+          },
+          {
+            "id": "claude-opus-4-7",
+            "name": "Claude Opus 4.7",
+            "description": "Stronger Opus tier for advanced software work and high-stakes reasoning",
+            "family": "claude-opus",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-04-14",
+            "lastUpdated": "2026-04-16",
+            "openWeights": false
+          },
+          {
+            "id": "claude-opus-4-8",
+            "name": "Claude Opus 4.8",
+            "description": "Top Claude Opus tier for the hardest reasoning, coding, and long-horizon agents",
+            "family": "claude-opus",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-05-28",
+            "lastUpdated": "2026-05-28",
+            "openWeights": false
+          },
+          {
+            "id": "claude-opus-5",
+            "name": "Claude Opus 5",
+            "description": "Strongest Claude Opus model for coding, agents, and professional work",
+            "family": "claude-opus",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-07-24",
+            "lastUpdated": "2026-07-24",
+            "openWeights": false
+          },
+          {
+            "id": "claude-sonnet-4-5-20250929",
+            "name": "Claude Sonnet 4.5",
+            "description": "Balanced Claude model for coding, analysis, agent workflows, and cost control",
+            "family": "claude-sonnet",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 64000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-09-29",
+            "lastUpdated": "2025-09-29",
+            "openWeights": false
+          },
+          {
+            "id": "claude-sonnet-4-5",
+            "name": "Claude Sonnet 4.5 (latest)",
+            "description": "Balanced Claude model for coding, analysis, agent workflows, and cost control",
+            "family": "claude-sonnet",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 64000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-09-29",
+            "lastUpdated": "2025-09-29",
+            "openWeights": false
+          },
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "Claude Sonnet 4.6",
+            "description": "Claude workhorse for coding agents, careful analysis, and production cost control",
+            "family": "claude-sonnet",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-02-17",
+            "lastUpdated": "2026-03-13",
+            "openWeights": false
+          },
+          {
+            "id": "claude-sonnet-5",
+            "name": "Claude Sonnet 5",
+            "description": "Everyday Claude agent model for coding, planning, browsing, and general work",
+            "family": "claude-sonnet",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-06-29",
+            "lastUpdated": "2026-06-30",
+            "openWeights": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-provider-xai",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "xAI",
+      "description": "xAI 的 AI 模型目录",
+      "tags": [
+        "text",
+        "image",
+        "pdf",
+        "video"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": false,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "xai",
+        "sourceName": "xAI",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://api.x.ai/v1",
+        "providerType": "openai_compatible",
+        "adapterKey": "openai_compatible_chat",
+        "authType": "bearer",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": true,
+        "models": [
+          {
+            "id": "grok-4.20-0309-non-reasoning",
+            "name": "Grok 4.20 (Non-Reasoning)",
+            "description": "Grok model for agentic tool use, reasoning, coding, and live assistance",
+            "family": "grok",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 30000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-03-09",
+            "lastUpdated": "2026-03-09",
+            "openWeights": false
+          },
+          {
+            "id": "grok-4.20-0309-reasoning",
+            "name": "Grok 4.20 (Reasoning)",
+            "description": "Reasoning Grok for document-heavy analysis and long-horizon tool use",
+            "family": "grok",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 30000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-03-09",
+            "lastUpdated": "2026-03-09",
+            "openWeights": false
+          },
+          {
+            "id": "grok-4.20-multi-agent-0309",
+            "name": "Grok 4.20 Multi-Agent",
+            "description": "Grok model for agentic tool use, reasoning, coding, and live assistance",
+            "family": "grok",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 30000,
+            "reasoning": true,
+            "toolCall": false,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-03-09",
+            "lastUpdated": "2026-03-09",
+            "openWeights": false
+          },
+          {
+            "id": "grok-4.3",
+            "name": "Grok 4.3",
+            "description": "xAI's Grok for chat, coding, agentic tools, and lower hallucination risk",
+            "family": "grok",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 30000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-04-17",
+            "lastUpdated": "2026-04-17",
+            "openWeights": false
+          },
+          {
+            "id": "grok-4.5",
+            "name": "Grok 4.5",
+            "description": "xAI's Grok model for chat, coding, agentic tools, and lower hallucination risk",
+            "family": "grok",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 500000,
+            "maxOutput": 500000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-07-08",
+            "lastUpdated": "2026-07-08",
+            "openWeights": false
+          },
+          {
+            "id": "grok-4.6",
+            "name": "Grok 4.6",
+            "description": "xAI's frontier model for long-running agents, coding, knowledge work, and visual projects",
+            "family": "grok",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 500000,
+            "maxOutput": 500000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-08-12",
+            "lastUpdated": "2026-08-12",
+            "openWeights": false
+          },
+          {
+            "id": "grok-build-0.1",
+            "name": "Grok Build 0.1",
+            "description": "Fast Grok coding model tuned for agentic engineering and iterative edits",
+            "family": "grok-build",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 256000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-04-16",
+            "lastUpdated": "2026-04-16",
+            "openWeights": false
+          },
+          {
+            "id": "grok-imagine-image",
+            "name": "Grok Imagine Image",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "grok",
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "image",
+              "pdf"
+            ],
+            "context": 16000,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-01-28",
+            "lastUpdated": "2026-01-28",
+            "openWeights": false
+          },
+          {
+            "id": "grok-imagine-video",
+            "name": "Grok Imagine Video",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "grok",
+            "input": [
+              "text",
+              "image",
+              "video",
+              "pdf"
+            ],
+            "output": [
+              "video"
+            ],
+            "context": 1024,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-01-28",
+            "lastUpdated": "2026-01-28",
+            "openWeights": false
+          },
+          {
+            "id": "grok-imagine-video-1.5",
+            "name": "Grok Imagine Video 1.5",
+            "description": "Video model for image-to-video generation, editing, and extension workflows",
+            "family": "grok",
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "pdf"
+            ],
+            "output": [
+              "video"
+            ],
+            "context": 1024,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-05-30",
+            "lastUpdated": "2026-05-30",
+            "openWeights": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-provider-alibaba-cn",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "阿里云百炼",
+      "description": "阿里云百炼 的 AI 模型目录",
+      "tags": [
+        "text",
+        "audio"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": true,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "alibaba-cn",
+        "sourceName": "Alibaba (China)",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "providerType": "openai_compatible",
+        "adapterKey": "openai_compatible_chat",
+        "authType": "bearer",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": false,
+        "models": [
+          {
+            "id": "deepseek-r1",
+            "name": "DeepSeek R1",
+            "description": "DeepSeek reasoning model for multi-step analysis, math, coding, and tools",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-r1-0528",
+            "name": "DeepSeek R1 0528",
+            "description": "DeepSeek reasoning model for multi-step analysis, math, coding, and tools",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-05-28",
+            "lastUpdated": "2025-05-28",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-r1-distill-llama-70b",
+            "name": "DeepSeek R1 Distill Llama 70B",
+            "description": "DeepSeek reasoning model for multi-step analysis, math, coding, and tools",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 32768,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-r1-distill-llama-8b",
+            "name": "DeepSeek R1 Distill Llama 8B",
+            "description": "DeepSeek reasoning model for multi-step analysis, math, coding, and tools",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 32768,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-1-5b",
+            "name": "DeepSeek R1 Distill Qwen 1.5B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 32768,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-14b",
+            "name": "DeepSeek R1 Distill Qwen 14B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 32768,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-32b",
+            "name": "DeepSeek R1 Distill Qwen 32B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 32768,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-r1-distill-qwen-7b",
+            "name": "DeepSeek R1 Distill Qwen 7B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 32768,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-v3",
+            "name": "DeepSeek V3",
+            "description": "DeepSeek chat model for instruction following, coding, and analysis",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 65536,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-12-01",
+            "lastUpdated": "2024-12-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-v3-1",
+            "name": "DeepSeek V3.1",
+            "description": "DeepSeek chat model for instruction following, coding, and analysis",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 65536,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-v3-2-exp",
+            "name": "DeepSeek V3.2 Exp",
+            "description": "DeepSeek chat model for instruction following, coding, and analysis",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 65536,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-v4-flash",
+            "name": "DeepSeek V4 Flash",
+            "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
+            "family": "deepseek-flash",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 384000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-04-24",
+            "lastUpdated": "2026-04-24",
+            "openWeights": true
+          },
+          {
+            "id": "deepseek-v4-pro",
+            "name": "DeepSeek V4 Pro",
+            "description": "Open MoE flagship with million-token context for coding and long agent runs",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 384000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-04-24",
+            "lastUpdated": "2026-04-24",
+            "openWeights": true
+          },
+          {
+            "id": "glm-5",
+            "name": "GLM-5",
+            "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 202752,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-02-11",
+            "lastUpdated": "2026-02-11",
+            "openWeights": false
+          },
+          {
+            "id": "glm-5.1",
+            "name": "GLM-5.1",
+            "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 202752,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-04-14",
+            "lastUpdated": "2026-04-14",
+            "openWeights": true
+          },
+          {
+            "id": "glm-5.2",
+            "name": "GLM-5.2",
+            "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-06-13",
+            "lastUpdated": "2026-06-13",
+            "openWeights": true
+          },
+          {
+            "id": "glm-5.3",
+            "name": "GLM-5.3",
+            "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-08-14",
+            "lastUpdated": "2026-08-14",
+            "openWeights": true
+          },
+          {
+            "id": "kimi-k3",
+            "name": "Kimi K3",
+            "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+            "family": "kimi-k3",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1048576,
+            "maxOutput": 1048576,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-07-16",
+            "lastUpdated": "2026-07-16",
+            "openWeights": true
+          },
+          {
+            "id": "kimi/kimi-k2.5",
+            "name": "kimi/kimi-k2.5",
+            "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+            "family": "kimi-k2",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 262144,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-01-27",
+            "lastUpdated": "2026-01-27",
+            "openWeights": true
+          },
+          {
+            "id": "MiniMax-M2.5",
+            "name": "MiniMax-M2.5",
+            "description": "MiniMax model for chat, coding, office work, and agentic tasks",
+            "family": "minimax",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 204800,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-02-12",
+            "lastUpdated": "2026-02-12",
+            "openWeights": true
+          },
+          {
+            "id": "MiniMax/MiniMax-M2.7",
+            "name": "MiniMax-M2.7",
+            "description": "MiniMax model for chat, coding, office work, and agentic tasks",
+            "family": "minimax",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 204800,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-03-18",
+            "lastUpdated": "2026-03-18",
+            "openWeights": true
+          },
+          {
+            "id": "moonshot-kimi-k2-instruct",
+            "name": "Moonshot Kimi K2 Instruct",
+            "description": "Kimi model for long-context chat, coding, and agentic reasoning",
+            "family": "kimi-k2",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-01",
+            "lastUpdated": "2025-01-01",
+            "openWeights": true
+          },
+          {
+            "id": "kimi-k2-thinking",
+            "name": "Moonshot Kimi K2 Thinking",
+            "description": "Kimi reasoning model for long-horizon research, planning, and tool use",
+            "family": "kimi-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-11-06",
+            "lastUpdated": "2025-11-06",
+            "openWeights": true
+          },
+          {
+            "id": "kimi-k2.5",
+            "name": "Moonshot Kimi K2.5",
+            "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+            "family": "kimi-k2",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-01-27",
+            "lastUpdated": "2026-01-27",
+            "openWeights": true
+          },
+          {
+            "id": "kimi-k2.6",
+            "name": "Moonshot Kimi K2.6",
+            "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+            "family": "kimi-k2",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-04-21",
+            "lastUpdated": "2026-04-21",
+            "openWeights": true
+          },
+          {
+            "id": "qvq-max",
+            "name": "QVQ Max",
+            "description": "Multimodal reasoning model for visual analysis, planning, and tool use",
+            "family": "qvq",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-03-25",
+            "lastUpdated": "2025-03-25",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-deep-research",
+            "name": "Qwen Deep Research",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 32768,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-01",
+            "lastUpdated": "2024-01",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-doc-turbo",
+            "name": "Qwen Doc Turbo",
+            "description": "Efficient Qwen model for fast chat, extraction, and high-volume workloads",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-01",
+            "lastUpdated": "2024-01",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-flash",
+            "name": "Qwen Flash",
+            "description": "Efficient Qwen model for fast chat, extraction, and high-volume workloads",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-28",
+            "lastUpdated": "2025-07-28",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-long",
+            "name": "Qwen Long",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 10000000,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-25",
+            "lastUpdated": "2025-01-25",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-math-plus",
+            "name": "Qwen Math Plus",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 4096,
+            "maxOutput": 3072,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-08-16",
+            "lastUpdated": "2024-09-19",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-math-turbo",
+            "name": "Qwen Math Turbo",
+            "description": "Efficient Qwen model for fast chat, extraction, and high-volume workloads",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 4096,
+            "maxOutput": 3072,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-09-19",
+            "lastUpdated": "2024-09-19",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-max",
+            "name": "Qwen Max",
+            "description": "Flagship Qwen model for complex reasoning, coding, and agentic workflows",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-04-03",
+            "lastUpdated": "2025-01-25",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-plus",
+            "name": "Qwen Plus",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-01-25",
+            "lastUpdated": "2025-09-11",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-plus-character",
+            "name": "Qwen Plus Character",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 32768,
+            "maxOutput": 4096,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-01",
+            "lastUpdated": "2024-01",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-turbo",
+            "name": "Qwen Turbo",
+            "description": "Efficient Qwen model for fast chat, extraction, and high-volume workloads",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-11-01",
+            "lastUpdated": "2025-07-15",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-mt-plus",
+            "name": "Qwen-MT Plus",
+            "description": "Translation model for multilingual conversion, localization, and cross-language workflows",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 16384,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01",
+            "lastUpdated": "2025-01",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-mt-turbo",
+            "name": "Qwen-MT Turbo",
+            "description": "Translation model for multilingual conversion, localization, and cross-language workflows",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 16384,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01",
+            "lastUpdated": "2025-01",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-omni-turbo",
+            "name": "Qwen-Omni Turbo",
+            "description": "Qwen omni model for text, vision, audio, and multimodal agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "output": [
+              "text",
+              "audio"
+            ],
+            "context": 32768,
+            "maxOutput": 2048,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-01-19",
+            "lastUpdated": "2025-03-26",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-omni-turbo-realtime",
+            "name": "Qwen-Omni Turbo Realtime",
+            "description": "Qwen omni model for text, vision, audio, and multimodal agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "audio"
+            ],
+            "output": [
+              "text",
+              "audio"
+            ],
+            "context": 32768,
+            "maxOutput": 2048,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-05-08",
+            "lastUpdated": "2025-05-08",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-vl-max",
+            "name": "Qwen-VL Max",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-04-08",
+            "lastUpdated": "2025-08-13",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-vl-ocr",
+            "name": "Qwen-VL OCR",
+            "description": "OCR model for extracting structured text from documents and screenshots",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 34096,
+            "maxOutput": 4096,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-10-28",
+            "lastUpdated": "2026-09-11",
+            "openWeights": false
+          },
+          {
+            "id": "qwen-vl-plus",
+            "name": "Qwen-VL Plus",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-01-25",
+            "lastUpdated": "2025-08-15",
+            "openWeights": false
+          },
+          {
+            "id": "qwen2-5-14b-instruct",
+            "name": "Qwen2.5 14B Instruct",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-09",
+            "lastUpdated": "2024-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-32b-instruct",
+            "name": "Qwen2.5 32B Instruct",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-09",
+            "lastUpdated": "2024-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-72b-instruct",
+            "name": "Qwen2.5 72B Instruct",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-09",
+            "lastUpdated": "2024-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-7b-instruct",
+            "name": "Qwen2.5 7B Instruct",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-09",
+            "lastUpdated": "2024-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-coder-32b-instruct",
+            "name": "Qwen2.5-Coder 32B Instruct",
+            "description": "Qwen coding model for software agents, repository edits, and code reasoning",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-11",
+            "lastUpdated": "2024-11",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-coder-7b-instruct",
+            "name": "Qwen2.5-Coder 7B Instruct",
+            "description": "Qwen coding model for software agents, repository edits, and code reasoning",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-11",
+            "lastUpdated": "2024-11",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-math-72b-instruct",
+            "name": "Qwen2.5-Math 72B Instruct",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 4096,
+            "maxOutput": 3072,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-09",
+            "lastUpdated": "2024-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-math-7b-instruct",
+            "name": "Qwen2.5-Math 7B Instruct",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 4096,
+            "maxOutput": 3072,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-09",
+            "lastUpdated": "2024-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-omni-7b",
+            "name": "Qwen2.5-Omni 7B",
+            "description": "Qwen omni model for text, vision, audio, and multimodal agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "output": [
+              "text",
+              "audio"
+            ],
+            "context": 32768,
+            "maxOutput": 2048,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-12",
+            "lastUpdated": "2024-12",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-vl-72b-instruct",
+            "name": "Qwen2.5-VL 72B Instruct",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-09",
+            "lastUpdated": "2024-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen2-5-vl-7b-instruct",
+            "name": "Qwen2.5-VL 7B Instruct",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-09",
+            "lastUpdated": "2024-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-14b",
+            "name": "Qwen3 14B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04",
+            "lastUpdated": "2025-04",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-235b-a22b",
+            "name": "Qwen3 235B-A22B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04",
+            "lastUpdated": "2025-04",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-32b",
+            "name": "Qwen3 32B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04",
+            "lastUpdated": "2025-04",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-8b",
+            "name": "Qwen3 8B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04",
+            "lastUpdated": "2025-04",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-coder-flash",
+            "name": "Qwen3 Coder Flash",
+            "description": "Qwen coding model for software agents, repository edits, and code reasoning",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 65536,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-28",
+            "lastUpdated": "2025-07-28",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3-coder-plus",
+            "name": "Qwen3 Coder Plus",
+            "description": "Hosted Qwen coder for software agents, repo edits, and long-context code",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1048576,
+            "maxOutput": 65536,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-23",
+            "lastUpdated": "2026-09-11",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-max",
+            "name": "Qwen3 Max",
+            "description": "Flagship Qwen model for complex reasoning, coding, and agentic workflows",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-09-23",
+            "lastUpdated": "2026-09-11",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3-asr-flash",
+            "name": "Qwen3-ASR Flash",
+            "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+            "family": "qwen",
+            "input": [
+              "audio"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 53248,
+            "maxOutput": 4096,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-09-08",
+            "lastUpdated": "2025-09-08",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3-coder-30b-a3b-instruct",
+            "name": "Qwen3-Coder 30B-A3B Instruct",
+            "description": "Qwen coding model for software agents, repository edits, and code reasoning",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04",
+            "lastUpdated": "2025-04",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-coder-480b-a35b-instruct",
+            "name": "Qwen3-Coder 480B-A35B Instruct",
+            "description": "Qwen coding model for software agents, repository edits, and code reasoning",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04",
+            "lastUpdated": "2025-04",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-next-80b-a3b-thinking",
+            "name": "Qwen3-Next 80B-A3B (Thinking)",
+            "description": "Qwen reasoning model for deliberate problem solving, math, and coding",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-09",
+            "lastUpdated": "2025-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-next-80b-a3b-instruct",
+            "name": "Qwen3-Next 80B-A3B Instruct",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 32768,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-09",
+            "lastUpdated": "2025-09",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-omni-flash",
+            "name": "Qwen3-Omni Flash",
+            "description": "Qwen omni model for text, vision, audio, and multimodal agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "audio",
+              "video"
+            ],
+            "output": [
+              "text",
+              "audio"
+            ],
+            "context": 65536,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-09-15",
+            "lastUpdated": "2025-09-15",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3-omni-flash-realtime",
+            "name": "Qwen3-Omni Flash Realtime",
+            "description": "Qwen omni model for text, vision, audio, and multimodal agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "audio"
+            ],
+            "output": [
+              "text",
+              "audio"
+            ],
+            "context": 65536,
+            "maxOutput": 16384,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-09-15",
+            "lastUpdated": "2025-09-15",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3-vl-235b-a22b",
+            "name": "Qwen3-VL 235B-A22B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04",
+            "lastUpdated": "2025-04",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-vl-30b-a3b",
+            "name": "Qwen3-VL 30B-A3B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04",
+            "lastUpdated": "2025-04",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3-vl-plus",
+            "name": "Qwen3-VL Plus",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-09-23",
+            "lastUpdated": "2025-09-23",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.5-397b-a17b",
+            "name": "Qwen3.5 397B-A17B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-02-16",
+            "lastUpdated": "2026-02-16",
+            "openWeights": true
+          },
+          {
+            "id": "qwen3.5-flash",
+            "name": "Qwen3.5 Flash",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-02-23",
+            "lastUpdated": "2026-09-11",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.5-plus",
+            "name": "Qwen3.5 Plus",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-02-16",
+            "lastUpdated": "2026-09-11",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.6-flash",
+            "name": "Qwen3.6 Flash",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen3.6",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-04-27",
+            "lastUpdated": "2026-04-27",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.6-max-preview",
+            "name": "Qwen3.6 Max Preview",
+            "description": "Flagship Qwen model for complex reasoning, coding, and agentic workflows",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 245800,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-04-20",
+            "lastUpdated": "2026-04-21",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.6-plus",
+            "name": "Qwen3.6 Plus",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-04-02",
+            "lastUpdated": "2026-04-02",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.7-flash",
+            "name": "Qwen3.7 Flash",
+            "description": "Lightweight multimodal Qwen model for high-throughput text, image, and video tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-07-15",
+            "lastUpdated": "2026-07-15",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.7-max",
+            "name": "Qwen3.7 Max",
+            "description": "Qwen frontier model tuned for agent frameworks, coding assistants, and long tasks",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-05-21",
+            "lastUpdated": "2026-05-21",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.7-plus",
+            "name": "Qwen3.7 Plus",
+            "description": "Multimodal Qwen workhorse for long-context agents, visual inputs, and coding",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 64000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-06-02",
+            "lastUpdated": "2026-06-02",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.8-flash",
+            "name": "Qwen3.8 Flash",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-08-26",
+            "lastUpdated": "2026-08-26",
+            "openWeights": false
+          },
+          {
+            "id": "qwen3.8-max",
+            "name": "Qwen3.8 Max",
+            "description": "2.4-trillion-parameter MoE flagship for coding, professional work, multimodal understanding, and long-horizon agentic workflows",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-08-03",
+            "lastUpdated": "2026-08-03",
+            "openWeights": false
+          },
+          {
+            "id": "qwq-32b",
+            "name": "QwQ 32B",
+            "description": "Qwen reasoning model for deliberate problem solving, math, and coding",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-12",
+            "lastUpdated": "2024-12",
+            "openWeights": true
+          },
+          {
+            "id": "qwq-plus",
+            "name": "QwQ Plus",
+            "description": "Qwen reasoning model for deliberate problem solving, math, and coding",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 8192,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-03-05",
+            "lastUpdated": "2025-03-05",
+            "openWeights": false
+          },
+          {
+            "id": "siliconflow/deepseek-r1-0528",
+            "name": "siliconflow/deepseek-r1-0528",
+            "description": "DeepSeek reasoning model for multi-step analysis, math, coding, and tools",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 163840,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-05-28",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "siliconflow/deepseek-v3-0324",
+            "name": "siliconflow/deepseek-v3-0324",
+            "description": "DeepSeek chat model for instruction following, coding, and analysis",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 163840,
+            "maxOutput": 163840,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2024-12-26",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "siliconflow/deepseek-v3.1-terminus",
+            "name": "siliconflow/deepseek-v3.1-terminus",
+            "description": "DeepSeek chat model for instruction following, coding, and analysis",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 163840,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-09-29",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "siliconflow/deepseek-v3.2",
+            "name": "siliconflow/deepseek-v3.2",
+            "description": "DeepSeek chat model for instruction following, coding, and analysis",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 163840,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-12-03",
+            "lastUpdated": "2025-12-03",
+            "openWeights": false
+          },
+          {
+            "id": "tongyi-intent-detect-v3",
+            "name": "Tongyi Intent Detect V3",
+            "description": "General-purpose chat model for instruction following, writing, and analysis",
+            "family": "yi",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 8192,
+            "maxOutput": 1024,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2024-01",
+            "lastUpdated": "2024-01",
+            "openWeights": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-provider-volcengine",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "火山方舟",
+      "description": "火山方舟 的 AI 模型目录",
+      "tags": [
+        "text"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": false,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "volcengine",
+        "sourceName": "Volcengine Ark",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://ark.cn-beijing.volces.com/api/v3",
+        "providerType": "openai_compatible",
+        "adapterKey": "openai_compatible_chat",
+        "authType": "bearer",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": false,
+        "models": [
+          {
+            "id": "deepseek-v4-flash-ga-260731",
+            "name": "DeepSeek V4 Flash 0731",
+            "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
+            "family": "deepseek-flash",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 384000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-07-31",
+            "lastUpdated": "2026-07-31",
+            "openWeights": true
+          },
+          {
+            "id": "deepseek-v4-pro-ga-260813",
+            "name": "DeepSeek V4 Pro 0813",
+            "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 384000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-08-12",
+            "lastUpdated": "2026-08-22",
+            "openWeights": true
+          },
+          {
+            "id": "glm-5-2-260617",
+            "name": "GLM-5.2",
+            "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-06-13",
+            "lastUpdated": "2026-06-13",
+            "openWeights": true
+          },
+          {
+            "id": "glm-5-3-flash-260828",
+            "name": "GLM-5.3-Flash",
+            "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
+            "family": "glm-flash",
+            "input": [
+              "text",
+              "image",
+              "video",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-08-26",
+            "lastUpdated": "2026-08-26",
+            "openWeights": true
+          },
+          {
+            "id": "doubao-seed-1-6-251015",
+            "name": "Seed 1.6",
+            "description": "ByteDance Seed model for long-context reasoning, instruction following, and tool-assisted tasks",
+            "family": "seed",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 64000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-10-15",
+            "lastUpdated": "2025-10-15",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-1-6-flash-250828",
+            "name": "Seed 1.6 Flash",
+            "description": "Low-latency ByteDance Seed model for high-throughput chat, extraction, and lightweight tool use",
+            "family": "seed",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 32000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-08-28",
+            "lastUpdated": "2025-08-28",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-1-6-vision-250815",
+            "name": "Seed 1.6 Vision",
+            "description": "ByteDance Seed multimodal model for image understanding, visual reasoning, and tool-assisted tasks",
+            "family": "seed",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 32000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-08-15",
+            "lastUpdated": "2025-08-15",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-1-8-251228",
+            "name": "Seed 1.8",
+            "description": "ByteDance Seed model for multimodal reasoning, long-context analysis, and agent workflows",
+            "family": "seed",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 64000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-12-28",
+            "lastUpdated": "2025-12-28",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-2-0-code-preview-260215",
+            "name": "Seed 2.0 Code",
+            "description": "ByteDance Seed coding model for multimodal software engineering and long-running agents",
+            "family": "seed",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-02-14",
+            "lastUpdated": "2026-02-14",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-2-0-lite-260428",
+            "name": "Seed 2.0 Lite",
+            "description": "Cost-efficient ByteDance Seed 2.0 model for production chat, analysis, and structured generation",
+            "family": "seed",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-02-14",
+            "lastUpdated": "2026-02-14",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-2-0-mini-260428",
+            "name": "Seed 2.0 Mini",
+            "description": "Lightweight ByteDance Seed 2.0 model for low-latency multimodal reasoning and high-volume tasks",
+            "family": "seed",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-02-14",
+            "lastUpdated": "2026-02-14",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-2-0-pro-260215",
+            "name": "Seed 2.0 Pro",
+            "description": "Flagship ByteDance Seed 2.0 model for complex multimodal reasoning and long-horizon agent workflows",
+            "family": "seed",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 128000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-02-14",
+            "lastUpdated": "2026-02-14",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-2-1-pro-260628",
+            "name": "Seed 2.1 Pro",
+            "description": "Flagship ByteDance Seed 2.1 model for complex multimodal reasoning, coding, and agents",
+            "family": "seed",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 256000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-06-23",
+            "lastUpdated": "2026-06-23",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-2-1-turbo-260628",
+            "name": "Seed 2.1 Turbo",
+            "description": "Faster ByteDance Seed 2.1 model for multimodal reasoning and latency-sensitive agent workflows",
+            "family": "seed",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 256000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-06-23",
+            "lastUpdated": "2026-06-23",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-character-260628",
+            "name": "Seed Character",
+            "description": "ByteDance Seed model optimized for character-driven dialogue and consistent conversational behavior",
+            "family": "seed",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 256000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-06-23",
+            "lastUpdated": "2026-06-23",
+            "openWeights": false
+          },
+          {
+            "id": "doubao-seed-evolving",
+            "name": "Seed Evolving",
+            "description": "Rolling ByteDance Seed model for rapidly updated reasoning, coding, and agent capabilities",
+            "family": "seed",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 256000,
+            "maxOutput": 256000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-06-23",
+            "lastUpdated": "2026-06-23",
+            "openWeights": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-provider-zhipuai",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "智谱 AI",
+      "description": "智谱 AI 的 AI 模型目录",
+      "tags": [
+        "text"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": false,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "zhipuai",
+        "sourceName": "Zhipu AI",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://open.bigmodel.cn/api/paas/v4",
+        "providerType": "openai_compatible",
+        "adapterKey": "openai_compatible_chat",
+        "authType": "bearer",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": false,
+        "models": [
+          {
+            "id": "glm-4.5",
+            "name": "GLM-4.5",
+            "description": "Hybrid-reasoning GLM release that made the 4.5 line broadly useful",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 98304,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-28",
+            "lastUpdated": "2025-07-28",
+            "openWeights": true
+          },
+          {
+            "id": "glm-4.5-air",
+            "name": "GLM-4.5-Air",
+            "description": "Lighter GLM-4.5 variant for fast coding assistance and cheaper agents",
+            "family": "glm-air",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 98304,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-28",
+            "lastUpdated": "2025-07-28",
+            "openWeights": true
+          },
+          {
+            "id": "glm-4.5-flash",
+            "name": "GLM-4.5-Flash",
+            "description": "Efficient GLM model for fast reasoning, coding, and agent workflows",
+            "family": "glm-flash",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 98304,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-28",
+            "lastUpdated": "2025-07-28",
+            "openWeights": true
+          },
+          {
+            "id": "glm-4.5v",
+            "name": "GLM-4.5V",
+            "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
+            "family": "glm",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 64000,
+            "maxOutput": 16384,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-08-11",
+            "lastUpdated": "2025-08-11",
+            "openWeights": true
+          },
+          {
+            "id": "glm-4.6",
+            "name": "GLM-4.6",
+            "description": "Late GLM-4 workhorse for coding agents, reasoning, and structured tasks",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 204800,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-09-30",
+            "lastUpdated": "2025-09-30",
+            "openWeights": true
+          },
+          {
+            "id": "glm-4.6v",
+            "name": "GLM-4.6V",
+            "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
+            "family": "glm",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 128000,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-12-08",
+            "lastUpdated": "2025-12-08",
+            "openWeights": true
+          },
+          {
+            "id": "glm-4.7",
+            "name": "GLM-4.7",
+            "description": "Mature GLM model for dependable coding, reasoning, and structured agent tasks",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 204800,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-12-22",
+            "lastUpdated": "2025-12-22",
+            "openWeights": true
+          },
+          {
+            "id": "glm-4.7-flash",
+            "name": "GLM-4.7-Flash",
+            "description": "Budget GLM lane for fast coding help, routing, and everyday automation",
+            "family": "glm-flash",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-01-19",
+            "lastUpdated": "2026-01-19",
+            "openWeights": true
+          },
+          {
+            "id": "glm-4.7-flashx",
+            "name": "GLM-4.7-FlashX",
+            "description": "Efficient GLM model for fast reasoning, coding, and agent workflows",
+            "family": "glm-flash",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-01-19",
+            "lastUpdated": "2026-01-19",
+            "openWeights": true
+          },
+          {
+            "id": "glm-5",
+            "name": "GLM-5",
+            "description": "General GLM flagship for coding, analysis, and tool-heavy engineering workflows",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 204800,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-02-11",
+            "lastUpdated": "2026-02-11",
+            "openWeights": true
+          },
+          {
+            "id": "glm-5.1",
+            "name": "GLM-5.1",
+            "description": "Strong GLM coding model for agentic engineering, terminals, and repository generation",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-03-27",
+            "lastUpdated": "2026-03-27",
+            "openWeights": false
+          },
+          {
+            "id": "glm-5.2",
+            "name": "GLM-5.2",
+            "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-06-13",
+            "lastUpdated": "2026-06-13",
+            "openWeights": false
+          },
+          {
+            "id": "glm-5.3",
+            "name": "GLM-5.3",
+            "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-08-14",
+            "lastUpdated": "2026-08-14",
+            "openWeights": true
+          },
+          {
+            "id": "glm-5.3-flash",
+            "name": "GLM-5.3-Flash",
+            "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
+            "family": "glm-flash",
+            "input": [
+              "text",
+              "image",
+              "video",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-08-26",
+            "lastUpdated": "2026-08-26",
+            "openWeights": true
+          },
+          {
+            "id": "glm-5v-turbo",
+            "name": "GLM-5V-Turbo",
+            "description": "Fast GLM vision model for screenshots, documents, and multimodal agent tasks",
+            "family": "glm",
+            "input": [
+              "text",
+              "image",
+              "video",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 200000,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-04-01",
+            "lastUpdated": "2026-04-01",
+            "openWeights": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-provider-moonshotai-cn",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "Moonshot",
+      "description": "Moonshot 的 AI 模型目录",
+      "tags": [
+        "text"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": false,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "moonshotai-cn",
+        "sourceName": "Moonshot AI (China)",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://api.moonshot.cn/v1",
+        "providerType": "openai_compatible",
+        "adapterKey": "openai_compatible_chat",
+        "authType": "bearer",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": false,
+        "models": [
+          {
+            "id": "kimi-k2.6",
+            "name": "Kimi K2.6",
+            "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
+            "family": "kimi-k2",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 262144,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-04-21",
+            "lastUpdated": "2026-04-21",
+            "openWeights": true
+          },
+          {
+            "id": "kimi-k2.7-code",
+            "name": "Kimi K2.7 Code",
+            "description": "Coding-focused Kimi model, stronger on long-horizon repo work with less overthinking",
+            "family": "kimi-k2",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 262144,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-06-12",
+            "lastUpdated": "2026-06-12",
+            "openWeights": true
+          },
+          {
+            "id": "kimi-k2.7-code-highspeed",
+            "name": "Kimi K2.7 Code HighSpeed",
+            "description": "Coding-focused Kimi model, stronger on long-horizon repo work with less overthinking",
+            "family": "kimi-k2",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 262144,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-06-12",
+            "lastUpdated": "2026-06-12",
+            "openWeights": true
+          },
+          {
+            "id": "kimi-k3",
+            "name": "Kimi K3",
+            "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+            "family": "kimi-k3",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1048576,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2026-07-16",
+            "lastUpdated": "2026-07-16",
+            "openWeights": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-provider-modelscope",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "魔搭",
+      "description": "魔搭 的 AI 模型目录",
+      "tags": [
+        "text"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": false,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "modelscope",
+        "sourceName": "ModelScope",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://api-inference.modelscope.cn/v1",
+        "providerType": "openai_compatible",
+        "adapterKey": "openai_compatible_chat",
+        "authType": "bearer",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": false,
+        "models": [
+          {
+            "id": "ZhipuAI/GLM-4.5",
+            "name": "GLM-4.5",
+            "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131072,
+            "maxOutput": 98304,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-28",
+            "lastUpdated": "2025-07-28",
+            "openWeights": true
+          },
+          {
+            "id": "ZhipuAI/GLM-4.6",
+            "name": "GLM-4.6",
+            "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 202752,
+            "maxOutput": 98304,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-09-30",
+            "lastUpdated": "2025-09-30",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+            "name": "Qwen3 235B A22B Instruct 2507",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 131072,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04-28",
+            "lastUpdated": "2025-07-21",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+            "name": "Qwen3 30B A3B Instruct 2507",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 16384,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-30",
+            "lastUpdated": "2025-07-30",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+            "name": "Qwen3 30B A3B Thinking 2507",
+            "description": "Qwen reasoning model for deliberate problem solving, math, and coding",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 32768,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-30",
+            "lastUpdated": "2025-07-30",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+            "name": "Qwen3 Coder 30B A3B Instruct",
+            "description": "Qwen coding model for software agents, repository edits, and code reasoning",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-31",
+            "lastUpdated": "2025-07-31",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+            "name": "Qwen3-235B-A22B-Thinking-2507",
+            "description": "Qwen reasoning model for deliberate problem solving, math, and coding",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 131072,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-07-25",
+            "lastUpdated": "2025-07-25",
+            "openWeights": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-provider-siliconflow-cn",
+      "type": "ai-provider",
+      "version": "1.0.0",
+      "name": "硅基流动",
+      "description": "硅基流动 的 AI 模型目录",
+      "tags": [
+        "text"
+      ],
+      "license": "models.dev dataset",
+      "licenseURL": "https://github.com/sst/models.dev",
+      "attribution": "models.dev",
+      "featured": false,
+      "updatedAt": "2026-09-18T06:25:08.776Z",
+      "details": {
+        "providerId": "siliconflow-cn",
+        "sourceName": "SiliconFlow (China)",
+        "sourceURL": "https://models.dev/api.json",
+        "apiBaseUrl": "https://api.siliconflow.cn/v1",
+        "providerType": "openai_compatible",
+        "adapterKey": "openai_compatible_chat",
+        "authType": "bearer",
+        "modelsPath": "/models",
+        "supportsModelList": true,
+        "nativeWebSearch": false,
+        "models": [
+          {
+            "id": "baidu/ERNIE-4.5-300B-A47B",
+            "name": "baidu/ERNIE-4.5-300B-A47B",
+            "description": "Tool-capable chat model for instruction following and agentic application workflows",
+            "family": "ernie",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131000,
+            "maxOutput": 131000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-07-02",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+            "name": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+            "description": "Tool-capable chat model for instruction following and agentic application workflows",
+            "family": "seed",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-09-04",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-ai/DeepSeek-V4-Flash",
+            "name": "DeepSeek V4 Flash",
+            "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
+            "family": "deepseek-flash",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1000000,
+            "maxOutput": 384000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-04-24",
+            "lastUpdated": "2026-04-24",
+            "openWeights": true
+          },
+          {
+            "id": "deepseek-ai/DeepSeek-OCR",
+            "name": "deepseek-ai/DeepSeek-OCR",
+            "description": "OCR model for extracting structured text from documents and screenshots",
+            "family": "",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 8192,
+            "maxOutput": 8192,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-10-20",
+            "lastUpdated": "2025-10-20",
+            "openWeights": true
+          },
+          {
+            "id": "deepseek-ai/DeepSeek-R1",
+            "name": "deepseek-ai/DeepSeek-R1",
+            "description": "DeepSeek reasoning model for multi-step analysis, math, coding, and tools",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 164000,
+            "maxOutput": 164000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-05-28",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-ai/DeepSeek-V3",
+            "name": "deepseek-ai/DeepSeek-V3",
+            "description": "DeepSeek chat model for instruction following, coding, and analysis",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 164000,
+            "maxOutput": 164000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2024-12-26",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+            "name": "deepseek-ai/DeepSeek-V3.1-Terminus",
+            "description": "DeepSeek chat model for instruction following, coding, and analysis",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 164000,
+            "maxOutput": 164000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-09-29",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-ai/DeepSeek-V3.2",
+            "name": "deepseek-ai/DeepSeek-V3.2",
+            "description": "DeepSeek chat model for instruction following, coding, and analysis",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 164000,
+            "maxOutput": 164000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-12-03",
+            "lastUpdated": "2025-12-03",
+            "openWeights": false
+          },
+          {
+            "id": "deepseek-ai/DeepSeek-V4-Pro",
+            "name": "deepseek-ai/DeepSeek-V4-Pro",
+            "description": "Flagship DeepSeek model for coding, reasoning, and agentic work",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1049000,
+            "maxOutput": 393000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-04-24",
+            "lastUpdated": "2026-04-24",
+            "openWeights": true
+          },
+          {
+            "id": "zai-org/GLM-5.2",
+            "name": "GLM-5.2",
+            "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 1049000,
+            "maxOutput": 262000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-06-13",
+            "lastUpdated": "2026-06-13",
+            "openWeights": true
+          },
+          {
+            "id": "inclusionAI/Ling-flash-2.0",
+            "name": "inclusionAI/Ling-flash-2.0",
+            "description": "Efficient model for low-latency assistance, extraction, and routine automation",
+            "family": "ling",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131000,
+            "maxOutput": 131000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-09-18",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "PaddlePaddle/PaddleOCR-VL-1.5",
+            "name": "PaddlePaddle/PaddleOCR-VL-1.5",
+            "description": "Multimodal model for analyzing text, images, documents, and rich media",
+            "family": "",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 16384,
+            "maxOutput": 16384,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-01-29",
+            "lastUpdated": "2026-01-29",
+            "openWeights": true
+          },
+          {
+            "id": "Pro/deepseek-ai/DeepSeek-R1",
+            "name": "Pro/deepseek-ai/DeepSeek-R1",
+            "description": "DeepSeek reasoning model for multi-step analysis, math, coding, and tools",
+            "family": "deepseek-thinking",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 164000,
+            "maxOutput": 164000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-05-28",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Pro/deepseek-ai/DeepSeek-V3",
+            "name": "Pro/deepseek-ai/DeepSeek-V3",
+            "description": "Flagship DeepSeek model for coding, reasoning, and agentic work",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 164000,
+            "maxOutput": 164000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2024-12-26",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Pro/deepseek-ai/DeepSeek-V3.1-Terminus",
+            "name": "Pro/deepseek-ai/DeepSeek-V3.1-Terminus",
+            "description": "Flagship DeepSeek model for coding, reasoning, and agentic work",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 164000,
+            "maxOutput": 164000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-09-29",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Pro/deepseek-ai/DeepSeek-V3.2",
+            "name": "Pro/deepseek-ai/DeepSeek-V3.2",
+            "description": "Flagship DeepSeek model for coding, reasoning, and agentic work",
+            "family": "deepseek",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 164000,
+            "maxOutput": 164000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-12-03",
+            "lastUpdated": "2025-12-03",
+            "openWeights": false
+          },
+          {
+            "id": "Pro/MiniMaxAI/MiniMax-M2.5",
+            "name": "Pro/MiniMaxAI/MiniMax-M2.5",
+            "description": "Frontier MiniMax model for engineering, office tasks, and agentic reasoning",
+            "family": "minimax",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 192000,
+            "maxOutput": 131000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-02-13",
+            "lastUpdated": "2026-02-13",
+            "openWeights": false
+          },
+          {
+            "id": "Pro/moonshotai/Kimi-K2.5",
+            "name": "Pro/moonshotai/Kimi-K2.5",
+            "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+            "family": "kimi",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-01-27",
+            "lastUpdated": "2026-01-27",
+            "openWeights": true
+          },
+          {
+            "id": "Pro/moonshotai/Kimi-K2.6",
+            "name": "Pro/moonshotai/Kimi-K2.6",
+            "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+            "family": "kimi",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-04-21",
+            "lastUpdated": "2026-04-21",
+            "openWeights": true
+          },
+          {
+            "id": "Pro/zai-org/GLM-5",
+            "name": "Pro/zai-org/GLM-5",
+            "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 205000,
+            "maxOutput": 205000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-02-12",
+            "lastUpdated": "2026-02-12",
+            "openWeights": true
+          },
+          {
+            "id": "Pro/zai-org/GLM-5.1",
+            "name": "Pro/zai-org/GLM-5.1",
+            "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
+            "family": "glm",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 205000,
+            "maxOutput": 205000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-04-08",
+            "lastUpdated": "2026-04-08",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen2.5-72B-Instruct",
+            "name": "Qwen/Qwen2.5-72B-Instruct",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 33000,
+            "maxOutput": 4000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2024-09-18",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen2.5-7B-Instruct",
+            "name": "Qwen/Qwen2.5-7B-Instruct",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 33000,
+            "maxOutput": 4000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2024-09-18",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-14B",
+            "name": "Qwen/Qwen3-14B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131000,
+            "maxOutput": 131000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-04-30",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+            "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+            "description": "Qwen reasoning model for deliberate problem solving, math, and coding",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-07-28",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+            "name": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-07-30",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-32B",
+            "name": "Qwen/Qwen3-32B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131000,
+            "maxOutput": 131000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-04-30",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-8B",
+            "name": "Qwen/Qwen3-8B",
+            "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131000,
+            "maxOutput": 131000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-04-30",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+            "name": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+            "description": "Qwen coding model for software agents, repository edits, and code reasoning",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-08-01",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+            "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+            "description": "Qwen coding model for software agents, repository edits, and code reasoning",
+            "family": "qwen",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-07-31",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+            "name": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-04",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+            "name": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-04",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+            "name": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-05",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+            "name": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-11",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-VL-32B-Instruct",
+            "name": "Qwen/Qwen3-VL-32B-Instruct",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-21",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-VL-32B-Thinking",
+            "name": "Qwen/Qwen3-VL-32B-Thinking",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-21",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3-VL-8B-Instruct",
+            "name": "Qwen/Qwen3-VL-8B-Instruct",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": true,
+            "releaseDate": "2025-10-15",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "Qwen/Qwen3.5-122B-A10B",
+            "name": "Qwen/Qwen3.5-122B-A10B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-02-26",
+            "lastUpdated": "2026-02-26",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3.5-27B",
+            "name": "Qwen/Qwen3.5-27B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-02-25",
+            "lastUpdated": "2026-02-25",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3.5-35B-A3B",
+            "name": "Qwen/Qwen3.5-35B-A3B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-02-25",
+            "lastUpdated": "2026-02-25",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3.5-397B-A17B",
+            "name": "Qwen/Qwen3.5-397B-A17B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-02-16",
+            "lastUpdated": "2026-02-16",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3.5-4B",
+            "name": "Qwen/Qwen3.5-4B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-03-03",
+            "lastUpdated": "2026-03-03",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3.5-9B",
+            "name": "Qwen/Qwen3.5-9B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-03-03",
+            "lastUpdated": "2026-03-03",
+            "openWeights": true
+          },
+          {
+            "id": "Qwen/Qwen3.6-35B-A3B",
+            "name": "Qwen/Qwen3.6-35B-A3B",
+            "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+            "family": "qwen",
+            "input": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262144,
+            "maxOutput": 65536,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-04-17",
+            "lastUpdated": "2026-04-17",
+            "openWeights": true
+          },
+          {
+            "id": "stepfun-ai/Step-3.5-Flash",
+            "name": "stepfun-ai/Step-3.5-Flash",
+            "description": "StepFun flash model for efficient multimodal reasoning, coding, and tool use",
+            "family": "step",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 262000,
+            "maxOutput": 262000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2026-02-11",
+            "lastUpdated": "2026-02-11",
+            "openWeights": false
+          },
+          {
+            "id": "tencent/Hunyuan-A13B-Instruct",
+            "name": "tencent/Hunyuan-A13B-Instruct",
+            "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
+            "family": "hunyuan",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131000,
+            "maxOutput": 131000,
+            "reasoning": true,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-06-30",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "zai-org/GLM-4.5-Air",
+            "name": "zai-org/GLM-4.5-Air",
+            "description": "Efficient GLM model for fast reasoning, coding, and agent workflows",
+            "family": "glm-air",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "text"
+            ],
+            "context": 131000,
+            "maxOutput": 131000,
+            "reasoning": false,
+            "toolCall": true,
+            "structuredOutput": true,
+            "attachment": false,
+            "releaseDate": "2025-07-28",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          }
+        ]
+      }
+    }
+  ]
+}

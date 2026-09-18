@@ -45,6 +45,11 @@
       "type": "scenes",
       "version": "1.0.1",
       "path": "catalogs/scenes.json"
+    },
+    {
+      "type": "ai-providers",
+      "version": "1.0.0",
+      "path": "catalogs/ai-providers.json"
     }
   ],
   "taxonomyPath": "taxonomy/zh-CN.json",
