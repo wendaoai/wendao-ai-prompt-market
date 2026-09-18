@@ -21,6 +21,30 @@ const supplementalModels = {
   // models.dev publishes the OpenAI-compatible image models under Token Plan,
   // while the workbench exposes them as capabilities of the Bailian provider.
   "alibaba-cn": [{ providerID: "alibaba-token-plan-cn", output: "image" }],
+  // Vercel Gateway keeps OpenAI namespaced image models that are useful for
+  // OpenAI-compatible gateways but are absent from the official OpenAI entry.
+  openai: [{ providerID: "vercel", output: "image", idPrefix: "openai/", family: "gpt-image" }],
+};
+
+const curatedModels = {
+  openai: [
+    {
+      id: "dall-e-3", name: "DALL-E 3", description: "OpenAI image generation model with strong prompt adherence",
+      family: "dall-e", modalities: { input: ["text"], output: ["image"] }, release_date: "2023-10-01", last_updated: "2023-10-01",
+    },
+    {
+      id: "dall-e-2", name: "DALL-E 2", description: "OpenAI image generation and editing model",
+      family: "dall-e", modalities: { input: ["text", "image"], output: ["image"] }, release_date: "2022-11-03", last_updated: "2022-11-03", attachment: true,
+    },
+  ],
+};
+
+const preferredModels = {
+  openai: [
+    "openai/gpt-image-2.5-sunburst", "openai/gpt-image-2.5-flare", "gpt-image-2", "openai/gpt-image-2",
+    "gpt-image-1.5", "openai/gpt-image-1.5", "chatgpt-image-latest", "gpt-image-1", "openai/gpt-image-1",
+    "gpt-image-1-mini", "openai/gpt-image-1-mini", "dall-e-3", "dall-e-2",
+  ],
 };
 
 function connectionProfile(providerID, provider) {
@@ -43,6 +67,16 @@ function normalizeModel(model) {
   };
 }
 
+function sortModels(providerID, models) {
+  const preferred = new Map((preferredModels[providerID] || []).map((id, index) => [id, index]));
+  return models.sort((a, b) => {
+    const left = preferred.get(a.id);
+    const right = preferred.get(b.id);
+    if (left !== undefined || right !== undefined) return (left ?? Number.MAX_SAFE_INTEGER) - (right ?? Number.MAX_SAFE_INTEGER);
+    return a.name.localeCompare(b.name);
+  });
+}
+
 const response = await fetch(sourceURL, { headers: { Accept: "application/json" } });
 if (!response.ok) throw new Error(`models.dev 返回 HTTP ${response.status}`);
 const upstream = await response.json();
@@ -58,10 +92,13 @@ const resources = providerEntries.map(([providerID, provider]) => {
   const additions = (supplementalModels[providerID] || []).flatMap((supplement) => {
     const supplementalProvider = upstream[supplement.providerID];
     if (!supplementalProvider) throw new Error(`models.dev 缺少补充服务商 ${supplement.providerID}`);
-    return Object.values(supplementalProvider.models || {}).filter((model) => model.modalities?.output?.includes(supplement.output));
+    return Object.values(supplementalProvider.models || {}).filter((model) =>
+      model.modalities?.output?.includes(supplement.output)
+      && (!supplement.idPrefix || model.id.startsWith(supplement.idPrefix))
+      && (!supplement.family || model.family === supplement.family));
   });
-  const modelsByID = new Map([...providerModels, ...additions].map((model) => [model.id, normalizeModel(model)]));
-  const models = [...modelsByID.values()].sort((a, b) => a.name.localeCompare(b.name));
+  const modelsByID = new Map([...providerModels, ...additions, ...(curatedModels[providerID] || [])].map((model) => [model.id, normalizeModel(model)]));
+  const models = sortModels(providerID, [...modelsByID.values()]);
   if (!models.length) throw new Error(`服务商 ${providerID} 没有模型`);
   return {
     id: `ai-provider-${providerID.replace(/[^a-z0-9]+/g, "-")}`, type: "ai-provider", version: "1.0.0",

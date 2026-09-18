@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "type": "ai-providers",
   "version": "1.0.0",
-  "generatedAt": "2026-09-18T08:16:50.654Z",
+  "generatedAt": "2026-09-18T09:10:36.136Z",
   "sourceURL": "https://models.dev/api.json",
   "resources": [
     {
@@ -19,7 +19,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "302ai",
         "sourceName": "302.AI",
@@ -2683,7 +2683,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "abacus",
         "sourceName": "Abacus",
@@ -5093,7 +5093,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "abliteration-ai",
         "sourceName": "abliteration.ai",
@@ -5188,7 +5188,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "above",
         "sourceName": "above.dev",
@@ -5391,7 +5391,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "agentrouter",
         "sourceName": "AgentRouter",
@@ -5533,7 +5533,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "agnes",
         "sourceName": "Agnes AI",
@@ -5630,7 +5630,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "ai-router",
         "sourceName": "AI-ROUTER",
@@ -5776,7 +5776,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "aiand",
         "sourceName": "ai&",
@@ -6051,7 +6051,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "ai21",
         "sourceName": "AI21 Labs",
@@ -6124,7 +6124,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "aihubmix",
         "sourceName": "AIHubMix",
@@ -7898,7 +7898,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "ainetcafe",
         "sourceName": "ainetcafe",
@@ -7951,7 +7951,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "aixy",
         "sourceName": "Aixy",
@@ -8005,7 +8005,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "aki-io",
         "sourceName": "AKI.IO",
@@ -8188,7 +8188,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "alibaba",
         "sourceName": "Alibaba",
@@ -9459,7 +9459,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "alibaba-coding-plan",
         "sourceName": "Alibaba Coding Plan",
@@ -9752,7 +9752,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "alibaba-coding-plan-cn",
         "sourceName": "Alibaba Coding Plan (China)",
@@ -10045,7 +10045,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "alibaba-token-plan",
         "sourceName": "Alibaba Token Plan",
@@ -10686,7 +10686,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "amazon-bedrock",
         "sourceName": "Amazon Bedrock",
@@ -14410,7 +14410,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "ambient",
         "sourceName": "Ambient",
@@ -14659,7 +14659,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "amd",
         "sourceName": "AMD",
@@ -14819,7 +14819,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": true,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "anthropic",
         "sourceName": "Anthropic",
@@ -15172,7 +15172,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "anyapi",
         "sourceName": "AnyAPI",
@@ -15881,7 +15881,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "arcee",
         "sourceName": "Arcee",
@@ -16059,7 +16059,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "atomic-chat",
         "sourceName": "Atomic Chat",
@@ -16197,7 +16197,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "auriko",
         "sourceName": "Auriko",
@@ -16571,7 +16571,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "azure",
         "sourceName": "Azure",
@@ -18566,7 +18566,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "azure-cognitive-services",
         "sourceName": "Azure Cognitive Services",
@@ -20231,7 +20231,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "bailing",
         "sourceName": "Bailing",
@@ -20304,7 +20304,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "baseten",
         "sourceName": "Baseten",
@@ -20830,7 +20830,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "berget",
         "sourceName": "Berget.AI",
@@ -20994,7 +20994,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "blueclaw",
         "sourceName": "Blue Claw",
@@ -21067,7 +21067,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "bothub",
         "sourceName": "Bothub",
@@ -21276,7 +21276,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "cerebras",
         "sourceName": "Cerebras",
@@ -21350,7 +21350,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "hyper",
         "sourceName": "Charm Hyper",
@@ -21875,7 +21875,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "chutes",
         "sourceName": "Chutes",
@@ -22208,7 +22208,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "clarifai",
         "sourceName": "Clarifai",
@@ -22497,7 +22497,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "claudinio",
         "sourceName": "Claudinio",
@@ -22576,7 +22576,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "cline-pass",
         "sourceName": "ClinePass",
@@ -22942,7 +22942,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "cloudferro-sherlock",
         "sourceName": "CloudFerro Sherlock",
@@ -23078,7 +23078,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "cloudflare-ai-gateway",
         "sourceName": "Cloudflare AI Gateway",
@@ -24170,7 +24170,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "cloudflare-workers-ai",
         "sourceName": "Cloudflare Workers AI",
@@ -24775,7 +24775,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "cohere",
         "sourceName": "Cohere",
@@ -25104,7 +25104,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "coralbricks",
         "sourceName": "CoralBricks",
@@ -25223,7 +25223,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "wandb",
         "sourceName": "CoreWeave",
@@ -25830,7 +25830,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "cortecs",
         "sourceName": "Cortecs",
@@ -28194,7 +28194,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "crof",
         "sourceName": "CrofAI",
@@ -28754,7 +28754,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "crossmodel",
         "sourceName": "CrossModel",
@@ -30101,7 +30101,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "crusoe",
         "sourceName": "Crusoe",
@@ -30369,7 +30369,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "drun",
         "sourceName": "D.Run (China)",
@@ -30463,7 +30463,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "daoxe",
         "sourceName": "DaoXE",
@@ -30702,7 +30702,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "databricks",
         "sourceName": "Databricks",
@@ -31422,7 +31422,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "deepinfra",
         "sourceName": "Deep Infra",
@@ -32946,7 +32946,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": true,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "deepseek",
         "sourceName": "DeepSeek",
@@ -33065,7 +33065,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "llmgateway",
         "sourceName": "DevPass (LLM Gateway)",
@@ -37378,7 +37378,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "digitalocean",
         "sourceName": "DigitalOcean",
@@ -39511,7 +39511,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "dinference",
         "sourceName": "DInference",
@@ -39668,7 +39668,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "ebcloud",
         "sourceName": "EBCloud",
@@ -39783,7 +39783,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "echo",
         "sourceName": "Echo",
@@ -39836,7 +39836,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "edenai",
         "sourceName": "Eden AI",
@@ -46093,7 +46093,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "empiriolabs",
         "sourceName": "EmpirioLabs AI",
@@ -47511,7 +47511,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "evroc",
         "sourceName": "evroc",
@@ -47892,7 +47892,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "fastrouter",
         "sourceName": "FastRouter",
@@ -48965,7 +48965,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "fireworks-ai",
         "sourceName": "Fireworks AI",
@@ -49706,7 +49706,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "freemodel",
         "sourceName": "FreeModel",
@@ -49966,7 +49966,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "friendli",
         "sourceName": "Friendli",
@@ -50147,7 +50147,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "frogbot",
         "sourceName": "FrogBot",
@@ -50761,7 +50761,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "github-copilot",
         "sourceName": "GitHub Copilot",
@@ -51427,7 +51427,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "gitlab",
         "sourceName": "GitLab Duo",
@@ -52027,7 +52027,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "gmicloud",
         "sourceName": "GMI Cloud",
@@ -52382,7 +52382,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "google",
         "sourceName": "Google",
@@ -53339,7 +53339,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "greenpt",
         "sourceName": "GreenPT",
@@ -54228,7 +54228,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "groq",
         "sourceName": "Groq",
@@ -54598,7 +54598,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "helicone",
         "sourceName": "Helicone",
@@ -56582,7 +56582,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "hetzner",
         "sourceName": "Hetzner",
@@ -56657,7 +56657,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "hpc-ai",
         "sourceName": "HPC-AI",
@@ -56881,7 +56881,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "huggingface",
         "sourceName": "Hugging Face",
@@ -58560,7 +58560,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "iflowcn",
         "sourceName": "iFlow",
@@ -58886,7 +58886,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "impossibl",
         "sourceName": "Impossibl",
@@ -60627,7 +60627,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "inception",
         "sourceName": "Inception",
@@ -60721,7 +60721,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "inceptron",
         "sourceName": "Inceptron",
@@ -60838,7 +60838,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "inco",
         "sourceName": "Inco",
@@ -61026,7 +61026,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "infer",
         "sourceName": "Infer by Flow7",
@@ -61103,7 +61103,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "inference",
         "sourceName": "Inference",
@@ -61326,7 +61326,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "inferx",
         "sourceName": "InferX",
@@ -61624,7 +61624,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "infomaniak",
         "sourceName": "Infomaniak",
@@ -61872,7 +61872,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "io-net",
         "sourceName": "IO.NET",
@@ -62264,7 +62264,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "iteracompute",
         "sourceName": "IteraCompute",
@@ -62490,7 +62490,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "jalapeno",
         "sourceName": "Jalapeno Cloud",
@@ -62900,7 +62900,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "jiekou",
         "sourceName": "Jiekou.AI",
@@ -64274,7 +64274,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "kenari",
         "sourceName": "Kenari",
@@ -65634,7 +65634,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "kilo",
         "sourceName": "Kilo Gateway",
@@ -74059,7 +74059,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "kimi-for-coding",
         "sourceName": "Kimi For Coding",
@@ -74181,7 +74181,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "klokintegration",
         "sourceName": "klokintegration.se",
@@ -74275,7 +74275,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "kosmik",
         "sourceName": "Kosmik Compute",
@@ -74328,7 +74328,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "kuae-cloud-coding-plan",
         "sourceName": "KUAE Cloud Coding Plan",
@@ -74380,7 +74380,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "lilac",
         "sourceName": "Lilac",
@@ -74500,7 +74500,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "llama",
         "sourceName": "Llama",
@@ -74681,7 +74681,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "llmgateway-providers",
         "sourceName": "LLM Gateway",
@@ -83640,7 +83640,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "llmtech",
         "sourceName": "LLM Tech",
@@ -83693,7 +83693,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "llmtr",
         "sourceName": "LLMTR",
@@ -84432,7 +84432,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "lmstudio",
         "sourceName": "LMStudio",
@@ -84526,7 +84526,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "longcat",
         "sourceName": "LongCat",
@@ -84578,7 +84578,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "lucidquery",
         "sourceName": "LucidQuery",
@@ -84695,7 +84695,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "lynkr",
         "sourceName": "Lynkr",
@@ -84747,7 +84747,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "meganova",
         "sourceName": "Meganova",
@@ -85182,7 +85182,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "melious",
         "sourceName": "Melious",
@@ -85539,7 +85539,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "merge-gateway",
         "sourceName": "Merge Gateway",
@@ -89683,7 +89683,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "meta",
         "sourceName": "Meta",
@@ -89838,7 +89838,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "minimax",
         "sourceName": "MiniMax (minimax.io)",
@@ -90018,7 +90018,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "minimax-cn",
         "sourceName": "MiniMax (minimaxi.com)",
@@ -90198,7 +90198,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "minimax-coding-plan",
         "sourceName": "MiniMax Token Plan (minimax.io)",
@@ -90378,7 +90378,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "minimax-cn-coding-plan",
         "sourceName": "MiniMax Token Plan (minimaxi.com)",
@@ -90559,7 +90559,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "mistral",
         "sourceName": "Mistral",
@@ -91338,7 +91338,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "mixlayer",
         "sourceName": "Mixlayer",
@@ -91474,7 +91474,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "moark",
         "sourceName": "Moark",
@@ -91547,7 +91547,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "modal",
         "sourceName": "Modal",
@@ -91667,7 +91667,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "model-oracle-ai",
         "sourceName": "Model Oracle AI",
@@ -92035,7 +92035,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "modelis",
         "sourceName": "Modelis",
@@ -92271,7 +92271,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "moonshotai-cn",
         "sourceName": "Moonshot AI (China)",
@@ -92394,7 +92394,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "moonshotai",
         "sourceName": "Moonshot AI",
@@ -92517,7 +92517,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "morph",
         "sourceName": "Morph",
@@ -92611,7 +92611,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "nan",
         "sourceName": "NaN",
@@ -92796,7 +92796,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "nano-gpt",
         "sourceName": "NanoGPT",
@@ -105326,7 +105326,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "nearai",
         "sourceName": "NEAR AI Cloud",
@@ -106079,7 +106079,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "nebius",
         "sourceName": "Nebius Token Factory",
@@ -106469,7 +106469,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "neon",
         "sourceName": "Neon",
@@ -107562,7 +107562,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "neosmith",
         "sourceName": "NeoSmith",
@@ -107681,7 +107681,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "neuralwatt",
         "sourceName": "Neuralwatt",
@@ -108163,7 +108163,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "nova",
         "sourceName": "Nova",
@@ -108243,7 +108243,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "novita-ai",
         "sourceName": "NovitaAI",
@@ -110579,7 +110579,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "nvidia",
         "sourceName": "Nvidia",
@@ -112870,7 +112870,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "oci",
         "sourceName": "OCI Generative AI",
@@ -113096,7 +113096,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "ofox",
         "sourceName": "Ofox",
@@ -116356,7 +116356,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "ollama-cloud",
         "sourceName": "Ollama Cloud",
@@ -116898,15 +116898,15 @@
       "name": "OpenAI",
       "description": "OpenAI 的 AI 模型目录",
       "tags": [
-        "text",
         "image",
+        "text",
         "audio"
       ],
       "license": "models.dev dataset",
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": true,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "openai",
         "sourceName": "OpenAI",
@@ -116921,6 +116921,135 @@
         "supportsModelList": true,
         "nativeWebSearch": true,
         "models": [
+          {
+            "id": "openai/gpt-image-2.5-sunburst",
+            "name": "GPT Image 2.5 Sunburst",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-09-08",
+            "lastUpdated": "2026-09-08",
+            "openWeights": false
+          },
+          {
+            "id": "openai/gpt-image-2.5-flare",
+            "name": "GPT Image 2.5 Flare",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-09-08",
+            "lastUpdated": "2026-09-08",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-image-2",
+            "name": "gpt-image-2",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2026-04-21",
+            "lastUpdated": "2026-04-21",
+            "openWeights": false
+          },
+          {
+            "id": "openai/gpt-image-2",
+            "name": "GPT Image 2",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2026-04-21",
+            "lastUpdated": "2026-04-21",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-image-1.5",
+            "name": "gpt-image-1.5",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text",
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-11-25",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
+          {
+            "id": "openai/gpt-image-1.5",
+            "name": "GPT Image 1.5",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-11-25",
+            "lastUpdated": "2025-11-25",
+            "openWeights": false
+          },
           {
             "id": "chatgpt-image-latest",
             "name": "chatgpt-image-latest",
@@ -116942,6 +117071,136 @@
             "attachment": true,
             "releaseDate": "2025-12-16",
             "lastUpdated": "2025-12-16",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-image-1",
+            "name": "gpt-image-1",
+            "description": "OpenAI image model for production generation, edits, and brand-safe visual workflows",
+            "family": "gpt-image",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-04-24",
+            "lastUpdated": "2025-04-24",
+            "openWeights": false
+          },
+          {
+            "id": "openai/gpt-image-1",
+            "name": "GPT Image 1",
+            "description": "OpenAI image model for production generation, edits, and brand-safe visual workflows",
+            "family": "gpt-image",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-04-24",
+            "lastUpdated": "2025-04-24",
+            "openWeights": false
+          },
+          {
+            "id": "gpt-image-1-mini",
+            "name": "gpt-image-1-mini",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "text",
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2025-09-26",
+            "lastUpdated": "2025-09-26",
+            "openWeights": false
+          },
+          {
+            "id": "openai/gpt-image-1-mini",
+            "name": "GPT Image 1 Mini",
+            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+            "family": "gpt-image",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2025-10-06",
+            "lastUpdated": "2025-10-06",
+            "openWeights": false
+          },
+          {
+            "id": "dall-e-3",
+            "name": "DALL-E 3",
+            "description": "OpenAI image generation model with strong prompt adherence",
+            "family": "dall-e",
+            "input": [
+              "text"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": false,
+            "releaseDate": "2023-10-01",
+            "lastUpdated": "2023-10-01",
+            "openWeights": false
+          },
+          {
+            "id": "dall-e-2",
+            "name": "DALL-E 2",
+            "description": "OpenAI image generation and editing model",
+            "family": "dall-e",
+            "input": [
+              "text",
+              "image"
+            ],
+            "output": [
+              "image"
+            ],
+            "context": 0,
+            "maxOutput": 0,
+            "reasoning": false,
+            "toolCall": false,
+            "structuredOutput": false,
+            "attachment": true,
+            "releaseDate": "2022-11-03",
+            "lastUpdated": "2022-11-03",
             "openWeights": false
           },
           {
@@ -117683,96 +117942,6 @@
             "openWeights": false
           },
           {
-            "id": "gpt-image-1",
-            "name": "gpt-image-1",
-            "description": "OpenAI image model for production generation, edits, and brand-safe visual workflows",
-            "family": "gpt-image",
-            "input": [
-              "text",
-              "image"
-            ],
-            "output": [
-              "image"
-            ],
-            "context": 0,
-            "maxOutput": 0,
-            "reasoning": false,
-            "toolCall": false,
-            "structuredOutput": false,
-            "attachment": true,
-            "releaseDate": "2025-04-24",
-            "lastUpdated": "2025-04-24",
-            "openWeights": false
-          },
-          {
-            "id": "gpt-image-1-mini",
-            "name": "gpt-image-1-mini",
-            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
-            "family": "gpt-image",
-            "input": [
-              "text",
-              "image"
-            ],
-            "output": [
-              "text",
-              "image"
-            ],
-            "context": 0,
-            "maxOutput": 0,
-            "reasoning": false,
-            "toolCall": false,
-            "structuredOutput": false,
-            "attachment": true,
-            "releaseDate": "2025-09-26",
-            "lastUpdated": "2025-09-26",
-            "openWeights": false
-          },
-          {
-            "id": "gpt-image-1.5",
-            "name": "gpt-image-1.5",
-            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
-            "family": "gpt-image",
-            "input": [
-              "text",
-              "image"
-            ],
-            "output": [
-              "text",
-              "image"
-            ],
-            "context": 0,
-            "maxOutput": 0,
-            "reasoning": false,
-            "toolCall": false,
-            "structuredOutput": false,
-            "attachment": true,
-            "releaseDate": "2025-11-25",
-            "lastUpdated": "2025-11-25",
-            "openWeights": false
-          },
-          {
-            "id": "gpt-image-2",
-            "name": "gpt-image-2",
-            "description": "Image model for prompt-driven generation, editing, and visual design workflows",
-            "family": "gpt-image",
-            "input": [
-              "text",
-              "image"
-            ],
-            "output": [
-              "image"
-            ],
-            "context": 0,
-            "maxOutput": 0,
-            "reasoning": false,
-            "toolCall": false,
-            "structuredOutput": false,
-            "attachment": true,
-            "releaseDate": "2026-04-21",
-            "lastUpdated": "2026-04-21",
-            "openWeights": false
-          },
-          {
             "id": "gpt-realtime-2.1",
             "name": "GPT-Realtime-2.1",
             "description": "Realtime speech-to-speech model with configurable reasoning, tool use, and robust voice-agent behavior",
@@ -118008,7 +118177,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "opencode-go",
         "sourceName": "OpenCode Go",
@@ -118841,7 +119010,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "opencode",
         "sourceName": "OpenCode Zen",
@@ -121179,7 +121348,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "openreason",
         "sourceName": "OpenReason",
@@ -121276,7 +121445,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "openrouter",
         "sourceName": "OpenRouter",
@@ -129502,7 +129671,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "opper",
         "sourceName": "Opper",
@@ -130453,7 +130622,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "orcarouter",
         "sourceName": "OrcaRouter",
@@ -133129,7 +133298,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "ovhcloud",
         "sourceName": "OVHcloud AI Endpoints",
@@ -133481,7 +133650,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "pendra",
         "sourceName": "Pendra",
@@ -133639,7 +133808,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "perplexity",
         "sourceName": "Perplexity",
@@ -133756,7 +133925,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "perplexity-agent",
         "sourceName": "Perplexity Agent",
@@ -134289,7 +134458,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "pioneer",
         "sourceName": "Pioneer",
@@ -136799,7 +136968,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "poe",
         "sourceName": "Poe",
@@ -139842,7 +140011,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "poolside",
         "sourceName": "Poolside",
@@ -139936,7 +140105,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "privatemode-ai",
         "sourceName": "Privatemode AI",
@@ -140203,7 +140372,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "qihang-ai",
         "sourceName": "QiHang",
@@ -140444,7 +140613,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "qiniu-ai",
         "sourceName": "Qiniu",
@@ -142472,7 +142641,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "qvac",
         "sourceName": "QVAC",
@@ -142702,7 +142871,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "regolo-ai",
         "sourceName": "Regolo AI",
@@ -143121,7 +143290,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "requesty",
         "sourceName": "Requesty",
@@ -146600,7 +146769,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "routing-run",
         "sourceName": "routing.run",
@@ -146966,7 +147135,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "runinfra",
         "sourceName": "RunInfra",
@@ -147147,7 +147316,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "sakana",
         "sourceName": "Sakana AI",
@@ -147267,7 +147436,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "salad-cloud",
         "sourceName": "SaladCloud AI Gateway",
@@ -147320,7 +147489,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "sap-ai-core",
         "sourceName": "SAP AI Core",
@@ -148463,7 +148632,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "sarvam",
         "sourceName": "Sarvam AI",
@@ -148536,7 +148705,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "scaleway",
         "sourceName": "Scaleway",
@@ -148889,7 +149058,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "scnet-token-plan",
         "sourceName": "SCNet Token Plan",
@@ -149329,7 +149498,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "scx-ai",
         "sourceName": "SCX.ai",
@@ -149446,7 +149615,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "sensenova",
         "sourceName": "SenseNova (China)",
@@ -149584,7 +149753,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "siliconflow",
         "sourceName": "SiliconFlow",
@@ -150654,7 +150823,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "snowflake-cortex",
         "sourceName": "Snowflake Cortex",
@@ -151252,7 +151421,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "stackit",
         "sourceName": "STACKIT",
@@ -151454,7 +151623,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "standardcompute",
         "sourceName": "Standard Compute",
@@ -151508,7 +151677,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "stepfun",
         "sourceName": "StepFun (China)",
@@ -151710,7 +151879,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "stepfun-ai",
         "sourceName": "StepFun (Global)",
@@ -151911,7 +152080,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "stepfun-step-plan",
         "sourceName": "StepFun Step Plan (China)",
@@ -152028,7 +152197,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "stepfun-ai-step-plan",
         "sourceName": "StepFun Step Plan (Global)",
@@ -152124,7 +152293,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "subconscious",
         "sourceName": "Subconscious",
@@ -152197,7 +152366,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "submodel",
         "sourceName": "submodel",
@@ -152417,7 +152586,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "synthetic",
         "sourceName": "Synthetic",
@@ -152664,7 +152833,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "tencent-coding-plan",
         "sourceName": "Tencent Coding Plan (China)",
@@ -152865,7 +153034,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "tencent-token-plan",
         "sourceName": "Tencent Token Plan",
@@ -152938,7 +153107,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "tencent-tokenhub",
         "sourceName": "Tencent TokenHub",
@@ -153032,7 +153201,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "tensorx",
         "sourceName": "TensorX",
@@ -153630,7 +153799,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "the-grid-ai",
         "sourceName": "The Grid AI",
@@ -153853,7 +154022,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "thinkingmachines",
         "sourceName": "Thinking Machines",
@@ -153928,7 +154097,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "tinfoil",
         "sourceName": "Tinfoil",
@@ -154155,7 +154324,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "togetherai",
         "sourceName": "Together AI",
@@ -155019,7 +155188,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "tokengo",
         "sourceName": "TokenGo",
@@ -155333,7 +155502,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "tokenrouter",
         "sourceName": "TokenRouter",
@@ -155385,7 +155554,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "trustedrouter",
         "sourceName": "TrustedRouter",
@@ -155577,7 +155746,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "umans-ai",
         "sourceName": "Umans AI",
@@ -155740,7 +155909,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "umans-ai-coding-plan",
         "sourceName": "Umans AI Coding Plan",
@@ -155925,7 +156094,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "unorouter",
         "sourceName": "UnoRouter",
@@ -156466,7 +156635,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "upstage",
         "sourceName": "Upstage",
@@ -156581,7 +156750,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "v0",
         "sourceName": "v0",
@@ -156678,7 +156847,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "vancine",
         "sourceName": "Vancine",
@@ -156890,7 +157059,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "venice",
         "sourceName": "Venice AI",
@@ -159233,7 +159402,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "vercel",
         "sourceName": "Vercel AI Gateway",
@@ -167455,7 +167624,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "google-vertex",
         "sourceName": "Vertex",
@@ -168684,7 +168853,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "google-vertex-anthropic",
         "sourceName": "Vertex (Anthropic)",
@@ -169037,7 +169206,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "vispark",
         "sourceName": "Vispark",
@@ -169143,7 +169312,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "vivgrid",
         "sourceName": "Vivgrid",
@@ -169787,7 +169956,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "volcengine-coding-plan",
         "sourceName": "Volcengine Ark Coding Plan",
@@ -170043,7 +170212,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "vultr",
         "sourceName": "Vultr",
@@ -170290,7 +170459,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "wafer.ai",
         "sourceName": "Wafer",
@@ -170429,7 +170598,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "wallaby",
         "sourceName": "Wallaby",
@@ -170483,7 +170652,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "watsonx",
         "sourceName": "watsonx.ai",
@@ -170624,7 +170793,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "xai",
         "sourceName": "xAI",
@@ -170888,7 +171057,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "xiaomi",
         "sourceName": "Xiaomi",
@@ -171053,7 +171222,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "xiaomi-token-plan-cn",
         "sourceName": "Xiaomi Token Plan (China)",
@@ -171235,7 +171404,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "xiaomi-token-plan-ams",
         "sourceName": "Xiaomi Token Plan (Europe)",
@@ -171417,7 +171586,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "xiaomi-token-plan-sgp",
         "sourceName": "Xiaomi Token Plan (Singapore)",
@@ -171598,7 +171767,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "xpersona",
         "sourceName": "Xpersona",
@@ -171915,7 +172084,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "zai",
         "sourceName": "Z.AI",
@@ -172292,7 +172461,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "zai-coding-plan",
         "sourceName": "Z.AI Coding Plan",
@@ -172473,7 +172642,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "zeldoc",
         "sourceName": "Zeldoc",
@@ -172526,7 +172695,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "zenifra",
         "sourceName": "Zenifra",
@@ -172578,7 +172747,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "zenmux",
         "sourceName": "ZenMux",
@@ -175277,7 +175446,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "zhipuai-coding-plan",
         "sourceName": "Zhipu AI Coding Plan",
@@ -175397,7 +175566,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "zhipuai",
         "sourceName": "Zhipu AI",
@@ -175753,7 +175922,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "volcengine",
         "sourceName": "Volcengine Ark",
@@ -176142,7 +176311,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "siliconflow-cn",
         "sourceName": "SiliconFlow (China)",
@@ -177187,7 +177356,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": true,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "alibaba-cn",
         "sourceName": "Alibaba (China)",
@@ -179226,7 +179395,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "alibaba-token-plan-cn",
         "sourceName": "Alibaba Token Plan (China)",
@@ -179867,7 +180036,7 @@
       "licenseURL": "https://github.com/sst/models.dev",
       "attribution": "models.dev",
       "featured": false,
-      "updatedAt": "2026-09-18T08:16:50.654Z",
+      "updatedAt": "2026-09-18T09:10:36.136Z",
       "details": {
         "providerId": "modelscope",
         "sourceName": "ModelScope",
