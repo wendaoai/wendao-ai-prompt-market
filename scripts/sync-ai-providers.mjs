@@ -21,9 +21,11 @@ const supplementalModels = {
   // models.dev publishes the OpenAI-compatible image models under Token Plan,
   // while the workbench exposes them as capabilities of the Bailian provider.
   "alibaba-cn": [{ providerID: "alibaba-token-plan-cn", output: "image" }],
-  // Vercel Gateway keeps OpenAI namespaced image models that are useful for
-  // OpenAI-compatible gateways but are absent from the official OpenAI entry.
-  openai: [{ providerID: "vercel", output: "image", idPrefix: "openai/", family: "gpt-image" }],
+};
+
+const gatewayNamespaceOverrides = {
+  "alibaba-cn": "alibaba", "alibaba-token-plan-cn": "alibaba", "moonshotai-cn": "moonshotai",
+  "minimax-cn": "minimax", "minimax": "minimax", volcengine: "bytedance", xai: "spacexai", zhipuai: "zai",
 };
 
 const curatedModels = {
@@ -73,8 +75,14 @@ function sortModels(providerID, models) {
     const left = preferred.get(a.id);
     const right = preferred.get(b.id);
     if (left !== undefined || right !== undefined) return (left ?? Number.MAX_SAFE_INTEGER) - (right ?? Number.MAX_SAFE_INTEGER);
-    return a.name.localeCompare(b.name);
+    const dateOrder = (b.lastUpdated || b.releaseDate || "").localeCompare(a.lastUpdated || a.releaseDate || "");
+    return dateOrder || a.name.localeCompare(b.name);
   });
+}
+
+function gatewayModels(providerID, upstream) {
+  const namespace = gatewayNamespaceOverrides[providerID] || providerID;
+  return Object.values(upstream.vercel?.models || {}).filter((model) => model.id.startsWith(`${namespace}/`));
 }
 
 const response = await fetch(sourceURL, { headers: { Accept: "application/json" } });
@@ -97,7 +105,9 @@ const resources = providerEntries.map(([providerID, provider]) => {
       && (!supplement.idPrefix || model.id.startsWith(supplement.idPrefix))
       && (!supplement.family || model.family === supplement.family));
   });
-  const modelsByID = new Map([...providerModels, ...additions, ...(curatedModels[providerID] || [])].map((model) => [model.id, normalizeModel(model)]));
+  const modelsByID = new Map([
+    ...providerModels, ...additions, ...gatewayModels(providerID, upstream), ...(curatedModels[providerID] || []),
+  ].map((model) => [model.id, normalizeModel(model)]));
   const models = sortModels(providerID, [...modelsByID.values()]);
   if (!models.length) throw new Error(`服务商 ${providerID} 没有模型`);
   return {
