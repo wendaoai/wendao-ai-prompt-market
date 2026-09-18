@@ -149,8 +149,9 @@ for (const item of resources) {
   }
   if (item.type === "ai-provider") {
     const details = item.details || {};
-    if (!details.providerId || !details.apiBaseUrl || !["openai_compatible", "anthropic"].includes(details.providerType)) fail(`${item.id}: AI 服务商连接配置无效`);
-    if (!Array.isArray(details.models) || details.models.length < 1 || details.models.length > 500) fail(`${item.id}: AI 服务商模型列表无效`);
+    if (!details.providerId || !details.protocol || typeof details.configurable !== "boolean") fail(`${item.id}: AI 服务商协议声明无效`);
+    if (details.configurable && (!details.apiBaseUrl || !["openai_compatible", "anthropic"].includes(details.providerType) || !details.adapterKey)) fail(`${item.id}: AI 服务商连接配置无效`);
+    if (!Array.isArray(details.models) || details.models.length < 1 || details.models.length > 2000) fail(`${item.id}: AI 服务商模型列表无效`);
     const modelIDs = new Set();
     for (const model of details.models || []) {
       if (!model.id || model.id.length > 180 || modelIDs.has(model.id)) fail(`${item.id}: 模型 ID 无效或重复`);

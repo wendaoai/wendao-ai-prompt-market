@@ -3,18 +3,35 @@ import path from "node:path";
 
 const sourceURL = "https://models.dev/api.json";
 const outputPath = path.resolve(import.meta.dirname, "../data/catalogs/ai-providers.json");
-const profiles = {
+const profileOverrides = {
   deepseek: ["DeepSeek", "https://api.deepseek.com", "openai_compatible", "openai_compatible_chat"],
   openai: ["OpenAI", "https://api.openai.com/v1", "openai_compatible", "openai_compatible_chat", true],
   anthropic: ["Anthropic", "https://api.anthropic.com", "anthropic", "anthropic_chat", true],
   xai: ["xAI", "https://api.x.ai/v1", "openai_compatible", "openai_compatible_chat", true],
   "alibaba-cn": ["阿里云百炼", "https://dashscope.aliyuncs.com/compatible-mode/v1", "openai_compatible", "openai_compatible_chat"],
+  "alibaba-token-plan-cn": ["阿里云百炼 Token Plan", "https://token-plan.cn-beijing.maas.aliyuncs.com/compatible-mode/v1", "openai_compatible", "openai_compatible_chat"],
   volcengine: ["火山方舟", "https://ark.cn-beijing.volces.com/api/v3", "openai_compatible", "openai_compatible_chat"],
   zhipuai: ["智谱 AI", "https://open.bigmodel.cn/api/paas/v4", "openai_compatible", "openai_compatible_chat"],
   "moonshotai-cn": ["Moonshot", "https://api.moonshot.cn/v1", "openai_compatible", "openai_compatible_chat"],
   modelscope: ["魔搭", "https://api-inference.modelscope.cn/v1", "openai_compatible", "openai_compatible_chat"],
   "siliconflow-cn": ["硅基流动", "https://api.siliconflow.cn/v1", "openai_compatible", "openai_compatible_chat"],
 };
+
+const supplementalModels = {
+  // models.dev publishes the OpenAI-compatible image models under Token Plan,
+  // while the workbench exposes them as capabilities of the Bailian provider.
+  "alibaba-cn": [{ providerID: "alibaba-token-plan-cn", output: "image" }],
+};
+
+function connectionProfile(providerID, provider) {
+  if (provider.npm === "@ai-sdk/openai-compatible" || provider.npm === "@ai-sdk/openai") {
+    return profileOverrides[providerID] || [provider.name || providerID, provider.api || "", "openai_compatible", "openai_compatible_chat"];
+  }
+  if (provider.npm === "@ai-sdk/anthropic") {
+    return profileOverrides[providerID] || [provider.name || providerID, provider.api || "", "anthropic", "anthropic_chat"];
+  }
+  return [provider.name || providerID, provider.api || "", "unsupported", ""];
+}
 
 function normalizeModel(model) {
   return {
@@ -30,10 +47,21 @@ const response = await fetch(sourceURL, { headers: { Accept: "application/json" 
 if (!response.ok) throw new Error(`models.dev 返回 HTTP ${response.status}`);
 const upstream = await response.json();
 const generatedAt = new Date().toISOString();
-const resources = Object.entries(profiles).map(([providerID, profile]) => {
-  const provider = upstream[providerID];
-  if (!provider) throw new Error(`models.dev 缺少服务商 ${providerID}`);
-  const models = Object.values(provider.models || {}).map(normalizeModel).sort((a, b) => a.name.localeCompare(b.name));
+const providerEntries = Object.entries(upstream)
+  .filter(([, provider]) => Object.keys(provider.models || {}).length > 0)
+  .sort((left, right) => (profileOverrides[left[0]]?.[0] || left[1].name || left[0]).localeCompare(profileOverrides[right[0]]?.[0] || right[1].name || right[0]));
+
+const resources = providerEntries.map(([providerID, provider]) => {
+  const profile = connectionProfile(providerID, provider);
+  const configurable = profile[2] !== "unsupported" && Boolean(profile[1]);
+  const providerModels = Object.values(provider.models || {});
+  const additions = (supplementalModels[providerID] || []).flatMap((supplement) => {
+    const supplementalProvider = upstream[supplement.providerID];
+    if (!supplementalProvider) throw new Error(`models.dev 缺少补充服务商 ${supplement.providerID}`);
+    return Object.values(supplementalProvider.models || {}).filter((model) => model.modalities?.output?.includes(supplement.output));
+  });
+  const modelsByID = new Map([...providerModels, ...additions].map((model) => [model.id, normalizeModel(model)]));
+  const models = [...modelsByID.values()].sort((a, b) => a.name.localeCompare(b.name));
   if (!models.length) throw new Error(`服务商 ${providerID} 没有模型`);
   return {
     id: `ai-provider-${providerID.replace(/[^a-z0-9]+/g, "-")}`, type: "ai-provider", version: "1.0.0",
@@ -41,9 +69,10 @@ const resources = Object.entries(profiles).map(([providerID, profile]) => {
     license: "models.dev dataset", licenseURL: "https://github.com/sst/models.dev", attribution: "models.dev",
     featured: ["deepseek", "openai", "anthropic", "alibaba-cn"].includes(providerID), updatedAt: generatedAt,
     details: {
-      providerId: providerID, sourceName: provider.name, sourceURL, apiBaseUrl: profile[1], providerType: profile[2],
-      adapterKey: profile[3], authType: profile[2] === "anthropic" ? "x-api-key" : "bearer", modelsPath: "/models",
-      supportsModelList: true, nativeWebSearch: Boolean(profile[4]), models,
+      providerId: providerID, sourceName: provider.name, sourceURL, protocol: provider.npm || "unknown",
+      configurable, apiBaseUrl: profile[1], providerType: profile[2], adapterKey: profile[3],
+      authType: profile[2] === "anthropic" ? "x-api-key" : "bearer", modelsPath: "/models",
+      supportsModelList: configurable, nativeWebSearch: Boolean(profile[4]), models,
     },
   };
 });
