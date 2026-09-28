@@ -4,7 +4,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 
 const root = path.resolve(import.meta.dirname, '..')
-const catalogs = ['prompts', 'prompt-styles', 'fonts', 'papers', 'overlays', 'decorations', 'models', 'scenes']
+const catalogs = ['prompts', 'prompt-styles', 'fonts', 'papers', 'overlays', 'decorations', 'models', 'scenes', 'cover-templates', 'inner-templates']
 
 function dimensions(filename) {
   return new Promise((resolve, reject) => {
