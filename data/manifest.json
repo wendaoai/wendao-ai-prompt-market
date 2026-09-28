@@ -55,6 +55,11 @@
       "type": "inner-templates",
       "version": "1.0.0",
       "path": "catalogs/inner-templates.json"
+    },
+    {
+      "type": "ai-providers",
+      "version": "1.0.0",
+      "path": "catalogs/ai-providers.json"
     }
   ],
   "taxonomyPath": "taxonomy/zh-CN.json",

@@ -3,8 +3,8 @@ import { readFile, readdir, stat } from "node:fs/promises";
 import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
-const allowedTypes = new Set(["prompt", "prompt-style", "font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template"]);
-const expectedCatalogs = new Set(["prompts", "prompt-styles", "fonts", "papers", "overlays", "decorations", "models", "scenes", "cover-templates", "inner-templates"]);
+const allowedTypes = new Set(["prompt", "prompt-style", "font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template", "ai-provider"]);
+const expectedCatalogs = new Set(["prompts", "prompt-styles", "fonts", "papers", "overlays", "decorations", "models", "scenes", "cover-templates", "inner-templates", "ai-providers"]);
 const errors = [];
 const ids = new Set();
 const paths = new Map();
@@ -146,6 +146,18 @@ for (const item of resources) {
     if (!taxonomy.categories[item.details?.category]) fail(`${item.id}: 分类不存在 ${item.details?.category}`);
     for (const style of item.details?.styles || []) if (!taxonomy.styles[style]) fail(`${item.id}: 风格不存在 ${style}`);
     for (const scene of item.details?.scenes || []) if (!taxonomy.scenes[scene]) fail(`${item.id}: 场景不存在 ${scene}`);
+  }
+  if (item.type === "ai-provider") {
+    const details = item.details || {};
+    if (!details.providerId || !details.protocol || typeof details.configurable !== "boolean") fail(`${item.id}: AI 服务商协议声明无效`);
+    if (details.configurable && (!details.apiBaseUrl || !["openai_compatible", "anthropic"].includes(details.providerType) || !details.adapterKey)) fail(`${item.id}: AI 服务商连接配置无效`);
+    if (!Array.isArray(details.models) || details.models.length < 1 || details.models.length > 2000) fail(`${item.id}: AI 服务商模型列表无效`);
+    const modelIDs = new Set();
+    for (const model of details.models || []) {
+      if (!model.id || model.id.length > 180 || modelIDs.has(model.id)) fail(`${item.id}: 模型 ID 无效或重复`);
+      modelIDs.add(model.id);
+      if (!Array.isArray(model.input) || !Array.isArray(model.output)) fail(`${item.id}/${model.id}: 模型模态无效`);
+    }
   }
   await validateFile(item, "assetPath", "byteSize", "sha256");
   await validateFile(item, "previewPath", "previewByteSize", "previewSha256");
