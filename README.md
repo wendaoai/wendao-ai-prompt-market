@@ -37,6 +37,12 @@ scripts/validate-market.mjs   # 完整性与安全校验
 
 应用把目录和预览缓存写入 `cache/resource-market`，把用户明确安装的文件写入 `resources/fonts`、`resources/materials` 或 `resources/models`。这些目录不进入发布 ZIP，应用升级也不会清理它们。
 
+## 专业创作预览图库
+
+专业创作的 12 张生图赛道和 5 张卡片预览位于 `previews/expert-resources/`，由狐文配置的图片服务（gpt-image-2）生成。全部使用渐进式 JPEG，长边 1024 像素；本批总计 2,271,376 字节。
+
+索引：[previews/expert-resources/manifest.json](previews/expert-resources/manifest.json)。索引包含稳定资源 ID、名称、图片路径、尺寸、字节数和 SHA-256，可按资源 ID 对应桌面端的效果预览。这是专业创作预览文件集，使用独立索引；安装配方由桌面端的专业创作目录管理。
+
 ## 许可
 
 提示词案例源自 `freestylefly/awesome-gpt-image-2`，遵循 MIT 许可并保留来源字段。字体遵循各自 `licenses/fonts/` 中的许可证。Content Workbench 素材的归属见条目及 `NOTICE.md`；新增素材必须先确认再分发权。

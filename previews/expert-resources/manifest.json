@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "previewSetId": "cw-expert-resource-previews",
+  "version": "20261024-v3",
+  "generatedAt": "2026-10-24T17:54:43+08:00",
+  "compressedAt": "2026-10-24T18:19:46+08:00",
+  "source": "AI generated with Content Workbench configured image service (gpt-image-2, medium)",
+  "totalByteSize": 2271376,
+  "items": [
+    {
+      "resourceId": "cw-expert-breakfast-daily",
+      "name": "早餐日签",
+      "previewPath": "previews/expert-resources/breakfast-daily.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 154758,
+      "sha256": "fe85500ee4a501357a2d8b206ef7df2b328ec64d39536ad1c6e57f13dbea2d8b"
+    },
+    {
+      "resourceId": "cw-expert-classic-annotation-long",
+      "name": "古文笺长图",
+      "previewPath": "previews/expert-resources/classic-annotation-long.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 121628,
+      "sha256": "ea633200c0859ad5d2cdc64ef6f55d0f74a5734c3abb26dc088cc57f89977690"
+    },
+    {
+      "resourceId": "cw-expert-content-longread-card",
+      "name": "内容长图",
+      "previewPath": "previews/expert-resources/content-longread-card.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 109093,
+      "sha256": "ff4978cd09f18b3cfd0bcd30a8f67ca84dc2ec322c3d40fd1f933c011131270f"
+    },
+    {
+      "resourceId": "cw-expert-covert-character-candid",
+      "name": "偷拍感角色摄影",
+      "previewPath": "previews/expert-resources/covert-character-candid.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 112696,
+      "sha256": "63428b9752b8cb932fa92561367c9ccc1362914f5ac9578ebf4d9f4a3657d991"
+    },
+    {
+      "resourceId": "cw-expert-cozy-still-life",
+      "name": "生活静物治愈",
+      "previewPath": "previews/expert-resources/cozy-still-life.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 135830,
+      "sha256": "ce1f170eb8dee5f2eb5a9fe99d7f0d7f692c837c96116ec0031c173e2ef6bed2"
+    },
+    {
+      "resourceId": "cw-expert-golden-quote-poster",
+      "name": "金句海报",
+      "previewPath": "previews/expert-resources/golden-quote-poster.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 68972,
+      "sha256": "b017c612f5b5b5a5ff49ccea6a61e269008068bfe791d326c309439210961dab"
+    },
+    {
+      "resourceId": "cw-expert-human-metaphor-illustration",
+      "name": "人性隐喻插画",
+      "previewPath": "previews/expert-resources/human-metaphor-illustration.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 137557,
+      "sha256": "1b689de25fbe1dabc0927f3472c3dff56596c14af23aa47f587435277357b0bb"
+    },
+    {
+      "resourceId": "cw-expert-oriental-art-poster",
+      "name": "东方艺术海报",
+      "previewPath": "previews/expert-resources/oriental-art-poster.jpg",
+      "mimeType": "image/jpeg",
+      "width": 576,
+      "height": 1024,
+      "byteSize": 93774,
+      "sha256": "ddb9c7f50fef273c5c2eb547599163445eb2de3e83a842b04838def2d5d3e20e"
+    },
+    {
+      "resourceId": "cw-expert-outfit-flatlay",
+      "name": "穿搭平铺拆解",
+      "previewPath": "previews/expert-resources/outfit-flatlay.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 202664,
+      "sha256": "afee085b296144a658a8a8ffb35d7d1d838fdd364f2edf15c93597dfd168c551"
+    },
+    {
+      "resourceId": "cw-expert-photo-to-sketch-cover",
+      "name": "照片转手绘封面",
+      "previewPath": "previews/expert-resources/photo-to-sketch-cover.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 177051,
+      "sha256": "7f49740fafd71ae1f5f1f0b5c81815b126e025ab9de7f524b72c3ba0b84944ff"
+    },
+    {
+      "resourceId": "cw-expert-selfie-portrait",
+      "name": "自拍风人像",
+      "previewPath": "previews/expert-resources/selfie-portrait.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 140630,
+      "sha256": "bf06263aefb0351a09ad163fa4c87fcaa42e401ee843526a6a1110fbd70529b1"
+    },
+    {
+      "resourceId": "cw-expert-shadow-character",
+      "name": "影子角色摄影",
+      "previewPath": "previews/expert-resources/shadow-character.jpg",
+      "mimeType": "image/jpeg",
+      "width": 576,
+      "height": 1024,
+      "byteSize": 137783,
+      "sha256": "67a892867667da43c916595a6cdf9e86bef1fc1ef4ea71c2bfaaf91b22e34145"
+    },
+    {
+      "resourceId": "cw-expert-tutorial-video-still",
+      "name": "教学视频风",
+      "previewPath": "previews/expert-resources/tutorial-video-still.jpg",
+      "mimeType": "image/jpeg",
+      "width": 1024,
+      "height": 576,
+      "byteSize": 76745,
+      "sha256": "1b648e2dfa1ca30aa648dd09dd470d594f2853d1553eb30790a85ed46ea590c1"
+    },
+    {
+      "resourceId": "cw-expert-vibeshot-candid",
+      "name": "抓拍人像",
+      "previewPath": "previews/expert-resources/vibeshot-candid.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 172318,
+      "sha256": "0817cd65310e6e6d076a6d1562e9192c1477a43479c680c87c13da238146e2ae"
+    },
+    {
+      "resourceId": "cw-expert-word-note-card",
+      "name": "单词笔记卡",
+      "previewPath": "previews/expert-resources/word-note-card.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 158692,
+      "sha256": "743d1009df4801b388c133a34b30aa0cc7858812bc808848bcd11b10cb9cd3d0"
+    },
+    {
+      "resourceId": "cw-expert-viral-topic-hook",
+      "name": "爆款话题卡",
+      "previewPath": "previews/expert-resources/xhs-topic-card.jpg",
+      "mimeType": "image/jpeg",
+      "width": 768,
+      "height": 1024,
+      "byteSize": 108635,
+      "sha256": "f59ff64be6e575f2d84926f0b31a7fca7039d1d316b1b050af1498a32913aaad"
+    },
+    {
+      "resourceId": "cw-expert-xianxia-celestial",
+      "name": "仙侠天宫",
+      "previewPath": "previews/expert-resources/xianxia-celestial.jpg",
+      "mimeType": "image/jpeg",
+      "width": 576,
+      "height": 1024,
+      "byteSize": 162550,
+      "sha256": "ceb41a49433b637564c45ee7dea1591e0a19db80191f4f8a170a24c14c6c2395"
+    }
+  ]
+}
