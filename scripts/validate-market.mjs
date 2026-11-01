@@ -125,6 +125,7 @@ if (expectedCatalogs.size) fail(`缺少目录: ${[...expectedCatalogs].join(", "
 
 for (const item of resources) {
   validateSchema(item, resourceSchema, `resource:${item.id || "unknown"}`);
+  if (item.type !== "font" && item.byteSize > 16 * 1024 * 1024) fail(`${item.id}: 素材大小超过限制`);
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id || "") || item.id.length > 100 || ids.has(item.id)) fail(`资源 ID 无效或重复: ${item.id}`);
   ids.add(item.id);
   if (!allowedTypes.has(item.type)) fail(`${item.id}: 未知资源类型`);

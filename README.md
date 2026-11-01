@@ -27,7 +27,7 @@ scripts/validate-market.mjs   # 完整性与安全校验
 5. 更新目录版本、`marketVersion`、`generatedAt` 和 `sourceRevision`。
 6. 运行 `npm run validate`，必须零错误后才能发布。
 
-字体仅接受 WOFF2。图片仅接受 JPEG、PNG 和 WebP；校验器会检查文件头、可解码尺寸、哈希、引用和孤立文件。资源目录不得包含脚本、HTML、CSS、可执行文件或压缩包。
+字体仅接受 WOFF2，不设置固定文件大小上限，安装时按目录声明大小下载并校验 SHA-256。超过 16 MiB 的字体需要使用已取消字体大小上限的客户端。图片仅接受 JPEG、PNG 和 WebP；校验器会检查文件头、可解码尺寸、哈希、引用和孤立文件。资源目录不得包含脚本、HTML、CSS、可执行文件或压缩包。
 
 官方模特和场景条目分别使用 `type: model`、`type: scene`，原图放在 `assets/models/` 或 `assets/scenes/`，并同时声明 `assetPath`、`previewPath`、MIME、尺寸、大小和哈希。`details` 至少填写 `width`、`height`；人物特征或场景描述可继续放入自定义字段。只有授权范围明确、允许随应用分发和用于内容生成的图片才能进入目录。模特和场景目录允许暂存尚未登记的候选图片，但只有写入对应 catalog 的资源才会对客户端可见。
 
