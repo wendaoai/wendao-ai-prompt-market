@@ -46,3 +46,5 @@ scripts/validate-market.mjs   # 完整性与安全校验
 ## 许可
 
 提示词案例源自 `freestylefly/awesome-gpt-image-2`，遵循 MIT 许可并保留来源字段。字体遵循各自 `licenses/fonts/` 中的许可证。Content Workbench 素材的归属见条目及 `NOTICE.md`；新增素材必须先确认再分发权。
+
+大字体兼容：超过旧版 16 MiB 上限的字体单独放在可选 `fonts-extended` catalog，资源类型仍为 `font`。新版合并展示；旧版忽略该未知目录，继续读取 `fonts` 和其他资源。

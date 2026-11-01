@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "type": "fonts",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "resources": [
     {
       "id": "font-ma-shan-zheng",
@@ -835,80 +835,6 @@
       "previewMimeType": "image/webp"
     },
     {
-      "id": "font-source-han-serif-sc-medium",
-      "type": "font",
-      "version": "2.3.0",
-      "name": "思源宋体 SC · 中等",
-      "description": "思源宋体简体中文 2.003，中等字重。保留原始完整字符集，适合中文正文与标题排版。",
-      "tags": [
-        "宋体",
-        "中文",
-        "Source Han Serif SC"
-      ],
-      "license": "OFL-1.1",
-      "licenseURL": "https://openfontlicense.org",
-      "attribution": "Adobe; Source Han Serif contributors",
-      "featured": false,
-      "updatedAt": "2026-11-01T11:01:47+08:00",
-      "assetPath": "assets/fonts/SourceHanSerifSC-Medium.woff2",
-      "previewPath": "previews/fonts/font-source-han-serif-sc-medium.webp",
-      "byteSize": 17065052,
-      "sha256": "5d947cdb619e8bbf2fd27eda9abaa44494ff67e295fe1d7ff14c239a41e2c637",
-      "mimeType": "font/woff2",
-      "details": {
-        "family": "SourceHanSerifSC-Medium",
-        "displayName": "思源宋体 SC · 中等",
-        "style": "normal",
-        "weight": 500,
-        "format": "woff2",
-        "licenseFile": "licenses/fonts/SourceHanSerifSC-OFL.txt",
-        "previewWidth": 640,
-        "previewHeight": 240,
-        "sourceFamily": "Source Han Serif SC",
-        "sourceVersion": "2.003"
-      },
-      "previewByteSize": 8518,
-      "previewSha256": "142ccd77df7f30d18a4d93a4c14fda4645d13cc8688da526b38ae0a3fd65f574",
-      "previewMimeType": "image/webp"
-    },
-    {
-      "id": "font-source-han-serif-sc-semi-bold",
-      "type": "font",
-      "version": "2.3.0",
-      "name": "思源宋体 SC · 半粗",
-      "description": "思源宋体简体中文 2.003，半粗字重。保留原始完整字符集，适合中文正文与标题排版。",
-      "tags": [
-        "宋体",
-        "中文",
-        "Source Han Serif SC"
-      ],
-      "license": "OFL-1.1",
-      "licenseURL": "https://openfontlicense.org",
-      "attribution": "Adobe; Source Han Serif contributors",
-      "featured": false,
-      "updatedAt": "2026-11-01T11:01:47+08:00",
-      "assetPath": "assets/fonts/SourceHanSerifSC-SemiBold.woff2",
-      "previewPath": "previews/fonts/font-source-han-serif-sc-semi-bold.webp",
-      "byteSize": 17112716,
-      "sha256": "ed41f54f6c18a717248be51e88c2096d698c853e0153343febaaf00d361f2780",
-      "mimeType": "font/woff2",
-      "details": {
-        "family": "SourceHanSerifSC-SemiBold",
-        "displayName": "思源宋体 SC · 半粗",
-        "style": "normal",
-        "weight": 600,
-        "format": "woff2",
-        "licenseFile": "licenses/fonts/SourceHanSerifSC-OFL.txt",
-        "previewWidth": 640,
-        "previewHeight": 240,
-        "sourceFamily": "Source Han Serif SC",
-        "sourceVersion": "2.003"
-      },
-      "previewByteSize": 8782,
-      "previewSha256": "5877ebeba011283e11f5879e269a4fb4a34eb53a0d0bbddc01236626cf23ff89",
-      "previewMimeType": "image/webp"
-    },
-    {
       "id": "font-source-han-serif-sc-extra-light",
       "type": "font",
       "version": "2.3.0",
@@ -943,43 +869,6 @@
       },
       "previewByteSize": 7828,
       "previewSha256": "9115a73edfa76719532a333a6de89bfaa0206d4a129e5de14e1ee9d77353ba62",
-      "previewMimeType": "image/webp"
-    },
-    {
-      "id": "font-source-han-serif-sc-bold",
-      "type": "font",
-      "version": "2.3.0",
-      "name": "思源宋体 SC · 粗体",
-      "description": "思源宋体简体中文 2.003，粗体字重。保留原始完整字符集，适合中文正文与标题排版。",
-      "tags": [
-        "宋体",
-        "中文",
-        "Source Han Serif SC"
-      ],
-      "license": "OFL-1.1",
-      "licenseURL": "https://openfontlicense.org",
-      "attribution": "Adobe; Source Han Serif contributors",
-      "featured": false,
-      "updatedAt": "2026-11-01T11:01:47+08:00",
-      "assetPath": "assets/fonts/SourceHanSerifSC-Bold.woff2",
-      "previewPath": "previews/fonts/font-source-han-serif-sc-bold.webp",
-      "byteSize": 17837288,
-      "sha256": "fe46b13cfd0eeaff1c9fe0a51590635357130308bdfeb84d70b12ded4cdc6f84",
-      "mimeType": "font/woff2",
-      "details": {
-        "family": "SourceHanSerifSC-Bold",
-        "displayName": "思源宋体 SC · 粗体",
-        "style": "normal",
-        "weight": 700,
-        "format": "woff2",
-        "licenseFile": "licenses/fonts/SourceHanSerifSC-OFL.txt",
-        "previewWidth": 640,
-        "previewHeight": 240,
-        "sourceFamily": "Source Han Serif SC",
-        "sourceVersion": "2.003"
-      },
-      "previewByteSize": 9136,
-      "previewSha256": "627f68d6fe4bafcfdcaa296ceed89f5e721b8eb589b0545aef102658f726527b",
       "previewMimeType": "image/webp"
     },
     {

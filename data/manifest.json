@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "marketId": "wendao-ai-resource-market",
-  "marketVersion": "2.3.0",
-  "generatedAt": "2026-11-01T11:01:47+08:00",
+  "marketVersion": "2.3.1",
+  "generatedAt": "2026-11-01T11:10:16+08:00",
   "sourceRevision": "fonts-chill-duan-hei-song-source-han-serif-2026-11-01",
   "license": "Mixed; see each resource and NOTICE.md",
   "catalogs": [
@@ -18,7 +18,7 @@
     },
     {
       "type": "fonts",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "path": "catalogs/fonts.json"
     },
     {
@@ -60,6 +60,11 @@
       "type": "ai-providers",
       "version": "1.0.0",
       "path": "catalogs/ai-providers.json"
+    },
+    {
+      "type": "fonts-extended",
+      "version": "1.0.0",
+      "path": "catalogs/fonts-extended.json"
     }
   ],
   "taxonomyPath": "taxonomy/zh-CN.json",

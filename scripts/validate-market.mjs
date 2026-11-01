@@ -5,6 +5,7 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..");
 const allowedTypes = new Set(["prompt", "prompt-style", "font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template", "ai-provider"]);
 const expectedCatalogs = new Set(["prompts", "prompt-styles", "fonts", "papers", "overlays", "decorations", "models", "scenes", "cover-templates", "inner-templates", "ai-providers"]);
+const optionalCatalogs = new Set(["fonts-extended"]);
 const errors = [];
 const ids = new Set();
 const paths = new Map();
@@ -109,12 +110,12 @@ const resourceSchema = await json("schemas/resource.schema.json", 128 * 1024);
 const manifest = await json("data/manifest.json", 64 * 1024);
 validateSchema(manifest, manifestSchema, "manifest");
 if (manifest.schemaVersion !== 2 || manifest.marketId !== "wendao-ai-resource-market") fail("manifest schemaVersion 或 marketId 无效");
-if (!Array.isArray(manifest.catalogs) || manifest.catalogs.length !== expectedCatalogs.size) fail("manifest catalogs 数量无效");
+if (!Array.isArray(manifest.catalogs) || (manifest.catalogs.length < expectedCatalogs.size || manifest.catalogs.length > expectedCatalogs.size + optionalCatalogs.size)) fail("manifest catalogs 数量无效");
 const resources = [];
 const taxonomy = await json(`data/${manifest.taxonomyPath}`, 128 * 1024);
 if (taxonomy.schemaVersion !== 2 || !taxonomy.categories || !taxonomy.styles || !taxonomy.scenes) fail("中文 taxonomy 格式无效");
 for (const descriptor of manifest.catalogs || []) {
-  if (!expectedCatalogs.delete(descriptor.type)) fail(`未知或重复目录类型: ${descriptor.type}`);
+  if (!expectedCatalogs.delete(descriptor.type) && !optionalCatalogs.delete(descriptor.type)) fail(`未知或重复目录类型: ${descriptor.type}`);
   if (!safeRelative(descriptor.path) || !descriptor.path.startsWith("catalogs/")) { fail(`目录路径不安全: ${descriptor.path}`); continue; }
   const document = await json(`data/${descriptor.path}`, 16 * 1024 * 1024);
   if (document.schemaVersion !== 2 || document.version !== descriptor.version || !Array.isArray(document.resources)) fail(`${descriptor.path}: 目录头无效`);
