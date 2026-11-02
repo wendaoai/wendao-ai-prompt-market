@@ -14,7 +14,7 @@
     "tags": { "type": "array", "maxItems": 40, "items": { "type": "string", "minLength": 1, "maxLength": 60 } },
     "assetPath": { "type": "string", "maxLength": 240 },
     "previewPath": { "type": "string", "maxLength": 240 },
-    "byteSize": { "type": "integer", "minimum": 1, "maximum": 104857600 },
+    "byteSize": { "type": "integer", "minimum": 1 },
     "previewByteSize": { "type": "integer", "minimum": 1, "maximum": 12582912 },
     "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
     "previewSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
@@ -26,5 +26,11 @@
     "featured": { "type": "boolean" },
     "updatedAt": { "type": "string", "format": "date-time" },
     "details": { "type": "object" }
-  }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "font" } } },
+      "else": { "properties": { "byteSize": { "maximum": 16777216 } } }
+    }
+  ]
 }

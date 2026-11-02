@@ -4,7 +4,8 @@ import { readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 
 const root = path.resolve(import.meta.dirname, '..')
-const catalogs = ['prompts', 'prompt-styles', 'fonts', 'papers', 'overlays', 'decorations', 'models', 'scenes', 'cover-templates', 'inner-templates']
+const manifest = JSON.parse(await readFile(path.join(root, 'data/manifest.json'), 'utf8'))
+const catalogs = manifest.catalogs.filter(item => !item.source).map(item => item.type)
 
 async function metadata(relativePath) {
   const data = await readFile(path.join(root, relativePath))
