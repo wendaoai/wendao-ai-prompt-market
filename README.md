@@ -48,3 +48,15 @@ scripts/validate-market.mjs   # 完整性与安全校验
 提示词案例源自 `freestylefly/awesome-gpt-image-2`，遵循 MIT 许可并保留来源字段。字体遵循各自 `licenses/fonts/` 中的许可证。Content Workbench 素材的归属见条目及 `NOTICE.md`；新增素材必须先确认再分发权。
 
 大字体兼容：超过旧版 16 MiB 上限的字体单独放在可选 `fonts-extended` catalog，资源类型仍为 `font`。新版合并展示；旧版忽略该未知目录，继续读取 `fonts` 和其他资源。
+
+
+## 分类仓库与三个平台镜像
+
+提示词、风格、AI 服务配置在本仓库维护；字体在 `wendao-ai-font-market`，视觉素材在 `wendao-ai-material-market`，模板在 `wendao-ai-template-market` 维护。
+每类均由 GitCode 主仓库原生 Push 镜像同步到 GitHub/Gitee 的 `wendaoai` 组织同名仓库。
+
+统一索引的 `source` 是固定来源别名（`fonts`、`materials`），目录同时声明 `sha256` 和 `count`。客户端按分类读取，未变化目录复用缓存，并在镜像限流或内容不一致时切换来源。
+
+本仓库原有字体和视觉素材路径暂留只读快照，避免新客户端发布前破坏现有入口；新资源只在独立仓库维护。运行 `npm run sync-metadata` 不会改写这些旧快照。
+
+克隆三个主仓库到同一个父目录后，先在资源仓库执行元数据同步和校验，推送并确认镜像一致；再在本仓库执行 `npm run sync-index`、`npm run validate`，提交统一索引。索引工具会自动递增市场补丁版本，资源 ID 不变。

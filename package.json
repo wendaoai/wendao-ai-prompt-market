@@ -3,8 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-	"sync-metadata": "node scripts/sync-metadata.mjs",
+    "sync-metadata": "node scripts/sync-metadata.mjs",
     "sync-ai-providers": "node scripts/sync-ai-providers.mjs",
-    "validate": "node scripts/validate-market.mjs"
+    "validate": "node scripts/validate-market.mjs",
+    "sync-index": "node scripts/sync-index.mjs"
   }
 }

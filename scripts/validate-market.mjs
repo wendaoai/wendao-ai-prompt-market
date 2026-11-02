@@ -4,7 +4,10 @@ import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
 const allowedTypes = new Set(["prompt", "prompt-style", "font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template", "ai-provider"]);
-const expectedCatalogs = new Set(["prompts", "prompt-styles", "fonts", "papers", "overlays", "decorations", "models", "scenes", "cover-templates", "inner-templates", "ai-providers"]);
+const allCatalogs = ["prompts", "prompt-styles", "fonts", "papers", "overlays", "decorations", "models", "scenes", "cover-templates", "inner-templates", "ai-providers"];
+const expectedCatalogs = new Set();
+const resourceRoots = new Map();
+const sourceRepos = { fonts: "wendao-ai-font-market", materials: "wendao-ai-material-market" };
 const optionalCatalogs = new Set(["fonts-extended"]);
 const errors = [];
 const ids = new Set();
@@ -48,8 +51,8 @@ function validateSchema(value, schema, location) {
 function safeRelative(value) {
   return typeof value === "string" && value.length > 0 && value.length <= 240 && !value.startsWith("/") && !/[\\:?#]/.test(value) && !value.split("/").includes("..");
 }
-async function json(relativePath, maxBytes) {
-  const filename = path.join(root, relativePath);
+async function json(relativePath, maxBytes, repositoryRoot = root) {
+  const filename = path.join(repositoryRoot, relativePath);
   const info = await stat(filename).catch(() => null);
   if (!info || !info.isFile()) throw new Error(`${relativePath} 不存在`);
   if (info.size > maxBytes) throw new Error(`${relativePath} 超过 ${maxBytes} 字节限制`);
@@ -84,9 +87,10 @@ async function validateFile(item, field, sizeField, hashField) {
   if (!relativePath) return;
   const allowedRoot = field === "previewPath" ? ["assets/", "previews/"] : ["assets/"];
   if (!safeRelative(relativePath) || !allowedRoot.some((prefix) => relativePath.startsWith(prefix))) { fail(`${item.id}: ${field} 路径不安全`); return; }
-  if (paths.has(relativePath) && paths.get(relativePath) !== item.id && item.type !== "prompt-style") fail(`${item.id}: 文件路径重复 ${relativePath}`);
-  paths.set(relativePath, item.id); referenced.add(relativePath);
-  const buffer = await readFile(path.join(root, relativePath)).catch(() => null);
+  const pathKey = `${resourceRoots.get(item.id) || root}:${relativePath}`;
+  if (paths.has(pathKey) && paths.get(pathKey) !== item.id && item.type !== "prompt-style") fail(`${item.id}: 文件路径重复 ${relativePath}`);
+  paths.set(pathKey, item.id); referenced.add(relativePath);
+  const buffer = await readFile(path.join(resourceRoots.get(item.id) || root, relativePath)).catch(() => null);
   if (!buffer) { fail(`${item.id}: 文件不存在 ${relativePath}`); return; }
   if (buffer.length !== item[sizeField]) fail(`${item.id}: ${sizeField} 不匹配`);
   if (sha256(buffer) !== item[hashField]) fail(`${item.id}: ${hashField} 不匹配`);
@@ -109,7 +113,13 @@ const manifestSchema = await json("schemas/manifest.schema.json", 128 * 1024);
 const resourceSchema = await json("schemas/resource.schema.json", 128 * 1024);
 const manifest = await json("data/manifest.json", 64 * 1024);
 validateSchema(manifest, manifestSchema, "manifest");
-if (manifest.schemaVersion !== 2 || manifest.marketId !== "wendao-ai-resource-market") fail("manifest schemaVersion 或 marketId 无效");
+const requiredByMarket = {
+  "wendao-ai-resource-market": allCatalogs,
+  "wendao-ai-font-market": ["fonts"],
+  "wendao-ai-material-market": ["papers", "overlays", "decorations", "models", "scenes", "cover-templates", "inner-templates"],
+};
+if (manifest.schemaVersion !== 2 || !requiredByMarket[manifest.marketId]) fail("manifest schemaVersion 或 marketId 无效");
+for (const type of requiredByMarket[manifest.marketId] || []) expectedCatalogs.add(type);
 if (!Array.isArray(manifest.catalogs) || (manifest.catalogs.length < expectedCatalogs.size || manifest.catalogs.length > expectedCatalogs.size + optionalCatalogs.size)) fail("manifest catalogs 数量无效");
 const resources = [];
 const taxonomy = await json(`data/${manifest.taxonomyPath}`, 128 * 1024);
@@ -117,7 +127,12 @@ if (taxonomy.schemaVersion !== 2 || !taxonomy.categories || !taxonomy.styles || 
 for (const descriptor of manifest.catalogs || []) {
   if (!expectedCatalogs.delete(descriptor.type) && !optionalCatalogs.delete(descriptor.type)) fail(`未知或重复目录类型: ${descriptor.type}`);
   if (!safeRelative(descriptor.path) || !descriptor.path.startsWith("catalogs/")) { fail(`目录路径不安全: ${descriptor.path}`); continue; }
-  const document = await json(`data/${descriptor.path}`, 16 * 1024 * 1024);
+  const repositoryRoot = descriptor.source ? path.resolve(root, "..", sourceRepos[descriptor.source] || "INVALID_SOURCE") : root;
+  const raw = await readFile(path.join(repositoryRoot, "data", descriptor.path));
+  if (descriptor.sha256 && sha256(raw) !== descriptor.sha256) fail(`${descriptor.path}: 目录 SHA-256 不匹配`);
+  const document = await json(`data/${descriptor.path}`, 16 * 1024 * 1024, repositoryRoot);
+  if (descriptor.count !== undefined && document.resources?.length !== descriptor.count) fail(`${descriptor.path}: 目录数量不匹配`);
+  for (const item of document.resources || []) resourceRoots.set(item.id, repositoryRoot);
   if (document.schemaVersion !== 2 || document.version !== descriptor.version || !Array.isArray(document.resources)) fail(`${descriptor.path}: 目录头无效`);
   if (document.resources?.length > 2000) fail(`${descriptor.path}: 资源数量超过限制`);
   resources.push(...(document.resources || []));
@@ -137,7 +152,7 @@ for (const item of resources) {
   if (item.previewPath && !["image/webp", "image/png", "image/jpeg"].includes(item.previewMimeType)) fail(`${item.id}: 预览 MIME 无效`);
   if (item.type === "font" && (!safeRelative(item.details?.licenseFile || "") || !item.details.licenseFile.startsWith("licenses/fonts/"))) fail(`${item.id}: 字体许可证路径无效`);
   if (item.type === "font" && item.details?.licenseFile) {
-    const license = await stat(path.join(root, item.details.licenseFile)).catch(() => null);
+    const license = await stat(path.join(resourceRoots.get(item.id) || root, item.details.licenseFile)).catch(() => null);
     if (!license?.isFile()) fail(`${item.id}: 字体许可证不存在`);
   }
   if (["model", "scene", "cover-template", "inner-template"].includes(item.type)) {
