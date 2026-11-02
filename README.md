@@ -1,6 +1,8 @@
-# 文到 AI 资源市场
+# 狐文提示词与配置市场
 
-本仓库是 Content Workbench 的官方远程资源源，统一提供提示词、风格模板、字体、纸张、光效、装饰素材和官方模特。应用程序更新由 `cw-updater` 独立完成；这里的版本和下载失败不会触发或阻塞系统更新。
+本仓库维护提示词、风格与公共 AI 服务配置，并提供四类资源的统一索引。字体在 `wendao-ai-font-market`、视觉素材在 `wendao-ai-material-market`、模板在 `wendao-ai-template-market` 独立维护；本仓库保留的旧字体与素材文件仅为只读兼容快照，不再新增内容。应用更新使用独立的 `wendao-ai-updates` 仓库，由 `cw-updater` 处理；资源市场下载失败不会触发或阻塞应用更新。
+
+项目共五个仓库：本仓库、字体、视觉素材、模板、应用更新。各仓库在 GitCode、GitHub、Gitee 保持同名镜像；原有资源总仓复用为本仓库，不再另设一个资源总仓。
 
 ## 目录
 
@@ -9,10 +11,10 @@ data/manifest.json            # schema v2 唯一入口
 data/catalogs/*.json          # 各类资源目录
 data/taxonomy/zh-CN.json      # 中文分类、风格和场景
 assets/prompts/               # 提示词预览图
-assets/fonts/                 # WOFF2 字体
-assets/materials/             # 纸张、光效和装饰原图
-assets/models/                # 官方模特原图与预览图
-assets/scenes/                # 官方场景原图与预览图
+assets/fonts/                 # 历史字体只读快照；新增字体到独立字体仓库
+assets/materials/             # 历史素材只读快照；新增素材到独立素材仓库
+assets/models/                # 历史模特只读快照
+assets/scenes/                # 历史场景只读快照
 licenses/fonts/               # 字体许可证
 schemas/                      # JSON Schema
 scripts/validate-market.mjs   # 完整性与安全校验
@@ -20,7 +22,7 @@ scripts/validate-market.mjs   # 完整性与安全校验
 
 ## 新增资源
 
-1. 将文件放入对应 `assets/` 子目录。
+1. 本仓库只新增提示词、风格和公共配置；文件放入对应目录。字体、视觉素材和模板到各自仓库更新，随后同步本仓库统一索引。
 2. 在对应 `data/catalogs/*.json` 增加条目，使用全局唯一的稳定字符串 ID。
 3. 填写真实 `byteSize` 和 SHA-256；macOS 可运行 `stat -f %z FILE` 与 `shasum -a 256 FILE`。
 4. 填写 MIME、授权、来源及字体或图片专属 `details`。授权不明确的文件禁止发布。
@@ -29,7 +31,7 @@ scripts/validate-market.mjs   # 完整性与安全校验
 
 字体仅接受 WOFF2，不设置固定文件大小上限，安装时按目录声明大小下载并校验 SHA-256。超过 16 MiB 的字体需要使用已取消字体大小上限的客户端。图片仅接受 JPEG、PNG 和 WebP；校验器会检查文件头、可解码尺寸、哈希、引用和孤立文件。资源目录不得包含脚本、HTML、CSS、可执行文件或压缩包。
 
-官方模特和场景条目分别使用 `type: model`、`type: scene`，原图放在 `assets/models/` 或 `assets/scenes/`，并同时声明 `assetPath`、`previewPath`、MIME、尺寸、大小和哈希。`details` 至少填写 `width`、`height`；人物特征或场景描述可继续放入自定义字段。只有授权范围明确、允许随应用分发和用于内容生成的图片才能进入目录。模特和场景目录允许暂存尚未登记的候选图片，但只有写入对应 catalog 的资源才会对客户端可见。
+视觉素材仓库的官方模特和场景条目分别使用 `type: model`、`type: scene`，原图放在 `assets/models/` 或 `assets/scenes/`，并同时声明 `assetPath`、`previewPath`、MIME、尺寸、大小和哈希。`details` 至少填写 `width`、`height`；人物特征或场景描述可继续放入自定义字段。只有授权范围明确、允许随应用分发和用于内容生成的图片才能进入目录。模特和场景目录允许暂存尚未登记的候选图片，但只有写入对应 catalog 的资源才会对客户端可见。
 
 ## 发布顺序
 
@@ -59,7 +61,7 @@ scripts/validate-market.mjs   # 完整性与安全校验
 
 本仓库原有字体和视觉素材路径暂留只读快照，避免新客户端发布前破坏现有入口；新资源只在独立仓库维护。运行 `npm run sync-metadata` 不会改写这些旧快照。
 
-克隆三个主仓库到同一个父目录后，先在资源仓库执行元数据同步和校验，推送并确认镜像一致；再在本仓库执行 `npm run sync-index`、`npm run validate`，提交统一索引。索引工具会自动递增市场补丁版本，资源 ID 不变。
+将四个资源主仓库克隆到同一个父目录后，先在资源仓库执行元数据同步和校验，推送并确认镜像一致；再在本仓库执行 `npm run sync-index`、`npm run validate`，提交统一索引。索引工具会自动递增市场补丁版本，资源 ID 不变。
 
 ## 离线资源包
 
