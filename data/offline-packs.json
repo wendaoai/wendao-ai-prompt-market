@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "prompts",
+      "name": "提示词与配置包",
+      "version": "1.0.0",
+      "count": 784,
+      "bytes": 136233618,
+      "sha256": "49b5df7d973298620ea7f12951a47dfde5a3a2e2a97140ee7230dcf665fe0782",
+      "urls": [
+        "https://gitcode.com/wendao-ai/wendao-ai-prompt-market/releases/download/offline-v1.0.0/wendao-prompts-1.0.0.zip"
+      ]
+    },
+    {
+      "id": "fonts",
+      "name": "字体包",
+      "version": "1.0.0",
+      "count": 29,
+      "bytes": 224944431,
+      "sha256": "126a4ce786cee6fa77a9e6fb3d09e02561c5cc984dff9b39e4f54b08dd3347d0",
+      "urls": [
+        "https://gitcode.com/wendao-ai/wendao-ai-font-market/releases/download/offline-v1.0.0/wendao-fonts-1.0.0.zip"
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "视觉素材包",
+      "version": "1.0.0",
+      "count": 18,
+      "bytes": 3530156,
+      "sha256": "c98b7127a818e7212c96618d3889da51e9348e6d61994e944001bd75aa17076e",
+      "urls": [
+        "https://gitcode.com/wendao-ai/wendao-ai-material-market/releases/download/offline-v1.0.0/wendao-materials-1.0.0.zip",
+        "https://gitee.com/wendaoai/wendao-ai-material-market/releases/download/offline-v1.0.0/wendao-materials-1.0.0.zip"
+      ]
+    },
+    {
+      "id": "templates",
+      "name": "模板包",
+      "version": "1.0.0",
+      "count": 279,
+      "bytes": 126206152,
+      "sha256": "fa56ce4d79cb2074a1e8b2541c7a8381fd7a447dbf41bf99349b0b82220e4ba3",
+      "urls": [
+        "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.0.0/wendao-templates-1.0.0.zip"
+      ]
+    }
+  ]
+}
