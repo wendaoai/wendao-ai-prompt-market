@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "marketId": "wendao-ai-resource-market",
-  "marketVersion": "2.4.0",
-  "generatedAt": "2026-11-02T13:01:45+08:00",
+  "marketVersion": "2.4.1",
+  "generatedAt": "2026-11-08T16:16:06+08:00",
   "sourceRevision": "split-fonts-materials-three-platform-mirrors",
   "license": "Mixed; see each resource and NOTICE.md",
   "catalogs": [
@@ -22,11 +22,11 @@
     },
     {
       "type": "fonts",
-      "version": "2.1.1",
+      "version": "2.2.0",
       "path": "catalogs/fonts.json",
       "source": "fonts",
-      "sha256": "939edf7d54f5338af14855aba9ce5aaaa791c7cfbbc4ca3c95b7b26b60a33a2b",
-      "count": 26
+      "sha256": "9c6776d012f3309137316a8ebe985d4ff20e665d0fa492c8a0a44c2aa0e4c394",
+      "count": 32
     },
     {
       "type": "papers",
