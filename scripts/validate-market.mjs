@@ -77,7 +77,7 @@ async function validateFile(item, field, sizeField, hashField) {
     if (buffer.toString("ascii", 0, 4) !== "wOF2" || item.mimeType !== "font/woff2") fail(`${item.id}: 字体不是合法 WOFF2`);
     return;
   }
-  if (item.type === 'model' && field === 'assetPath') {
+  if (item.type === 'model' && field === 'assetPath' && item.mimeType === 'application/zip') {
     if (item.mimeType !== 'application/zip' || !relativePath.startsWith('assets/models/') || !relativePath.endsWith('.cwmodel.zip')) {
       fail(`${item.id}: 官方模特必须是 assets/models/ 下的 .cwmodel.zip`);
       return;
@@ -128,14 +128,14 @@ if (expectedCatalogs.size) fail(`缺少目录: ${[...expectedCatalogs].join(", "
 
 for (const item of resources) {
   validateSchema(item, resourceSchema, `resource:${item.id || "unknown"}`);
-  if (item.type !== "font" && item.byteSize > 16 * 1024 * 1024) fail(`${item.id}: 素材大小超过限制`);
+  if (item.type !== "font" && item.type !== "model" && item.byteSize > 16 * 1024 * 1024) fail(`${item.id}: 素材大小超过限制`);
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id || "") || item.id.length > 100 || ids.has(item.id)) fail(`资源 ID 无效或重复: ${item.id}`);
   ids.add(item.id);
   if (!allowedTypes.has(item.type)) fail(`${item.id}: 未知资源类型`);
   if (!item.name || item.name.length > 120 || !item.version || !item.license || !item.attribution || !item.details) fail(`${item.id}: 缺少必要字段`);
   if (!Array.isArray(item.tags) || item.tags.length > 40) fail(`${item.id}: tags 无效`);
   if (["font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template"].includes(item.type) && !item.assetPath) fail(`${item.id}: 可安装资源缺少 assetPath`);
-  if (item.byteSize > (item.type === 'model' ? maxModelBytes : 16 * 1024 * 1024)) fail(`${item.id}: 资源大小超过限制`);
+  if (item.type !== 'font' && item.byteSize > (item.type === 'model' ? maxModelBytes : 16 * 1024 * 1024)) fail(`${item.id}: 资源大小超过限制`);
   if (item.type === "font" && (item.details?.format !== "woff2" || !item.details?.family || !item.details?.displayName)) fail(`${item.id}: 字体 details 无效`);
   if (item.previewPath && !["image/webp", "image/png", "image/jpeg"].includes(item.previewMimeType)) fail(`${item.id}: 预览 MIME 无效`);
   if (item.type === "font" && (!safeRelative(item.details?.licenseFile || "") || !item.details.licenseFile.startsWith("licenses/fonts/"))) fail(`${item.id}: 字体许可证路径无效`);
