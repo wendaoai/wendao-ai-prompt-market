@@ -70,7 +70,8 @@
           "source": {
             "enum": [
               "fonts",
-              "materials"
+              "materials",
+              "templates"
             ]
           },
           "sha256": {

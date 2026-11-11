@@ -3,9 +3,9 @@ import { readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 
 const root = path.resolve(import.meta.dirname, '..')
-const filename = path.join(root, 'data/manifest.json')
+const filename = path.join(root, 'data/manifest-v3.json')
 const manifest = JSON.parse(await readFile(filename, 'utf8'))
-const sources = { fonts: 'wendao-ai-font-market', materials: 'wendao-ai-material-market' }
+const sources = { fonts: 'wendao-ai-font-market', materials: 'wendao-ai-material-market', templates: 'wendao-ai-template-market' }
 let changed = false
 for (const descriptor of manifest.catalogs) {
   if (descriptor.source && !sources[descriptor.source]) throw new Error('Unknown source')

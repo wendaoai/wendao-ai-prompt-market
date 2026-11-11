@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 2,
+  "marketId": "wendao-ai-resource-market",
+  "marketVersion": "2.5.2",
+  "generatedAt": "2026-11-11T20:10:10+08:00",
+  "sourceRevision": "split-fonts-materials-three-platform-mirrors",
+  "license": "Mixed; see each resource and NOTICE.md",
+  "catalogs": [
+    {
+      "type": "prompts",
+      "version": "2.0.0",
+      "path": "catalogs/prompts.json",
+      "sha256": "5cae705994b8383d85d58ba9252d53c2b4a26af17d250cef5598bb38ac14da07",
+      "count": 541
+    },
+    {
+      "type": "prompt-styles",
+      "version": "2.0.0",
+      "path": "catalogs/prompt-styles.json",
+      "sha256": "91b4775c275d94f3bc97b181f7c8442b1db98298a3de8f992b420c7bb4401baa",
+      "count": 22
+    },
+    {
+      "type": "fonts",
+      "version": "2.2.0",
+      "path": "catalogs/fonts.json",
+      "source": "fonts",
+      "sha256": "9c6776d012f3309137316a8ebe985d4ff20e665d0fa492c8a0a44c2aa0e4c394",
+      "count": 32
+    },
+    {
+      "type": "papers",
+      "version": "2.0.0",
+      "path": "catalogs/papers.json",
+      "source": "materials",
+      "sha256": "17d55ff3264a61e0a50456aae361a85e3f7da26554f859d347e3430d53a7d5c4",
+      "count": 4
+    },
+    {
+      "type": "overlays",
+      "version": "2.0.0",
+      "path": "catalogs/overlays.json",
+      "source": "materials",
+      "sha256": "31214195e58d9efb471e53b2a54762d78c0b58dc54fdd4a2a82de1bd57f68dc0",
+      "count": 12
+    },
+    {
+      "type": "decorations",
+      "version": "2.0.1",
+      "path": "catalogs/decorations.json",
+      "source": "materials",
+      "sha256": "421c140ad2ec38f0d5742d906a5a4969d161ff20d363c6ae624544c82005e4db",
+      "count": 14
+    },
+    {
+      "type": "models",
+      "version": "1.0.0",
+      "path": "catalogs/models.json",
+      "source": "materials",
+      "sha256": "da0b52378bb891ebf2c4785f72b8d48f5f281d6fe3711d6efe9a913703a17ce7",
+      "count": 1
+    },
+    {
+      "type": "scenes",
+      "version": "1.0.1",
+      "path": "catalogs/scenes.json",
+      "source": "materials",
+      "sha256": "54ca29ac7c01297258a54782d187fcb9346b4b3eac633ec2bc59ee7224b19690",
+      "count": 1
+    },
+    {
+      "type": "cover-templates",
+      "version": "1.0.0",
+      "path": "catalogs/cover-templates.json",
+      "source": "materials",
+      "sha256": "22bb9e62dd004b9547523974754a4518b7f6b0cc3184f4b510355825a857ddb3",
+      "count": 0
+    },
+    {
+      "type": "inner-templates",
+      "version": "1.0.0",
+      "path": "catalogs/inner-templates.json",
+      "source": "materials",
+      "sha256": "ab7c621b655056b0676ee046de1e51fe589685c199ab16df064fead608d874c8",
+      "count": 0
+    },
+    {
+      "type": "ai-providers",
+      "version": "1.0.0",
+      "path": "catalogs/ai-providers.json",
+      "sha256": "d640436355376bcf443a8ceb942a6e101319510390b199d6464aa86fcfeccfc1",
+      "count": 221
+    },
+    {
+      "type": "fonts-extended",
+      "version": "1.0.0",
+      "path": "catalogs/fonts-extended.json",
+      "source": "fonts",
+      "sha256": "63608e228f4013369371e264984bc6b886faedc823f463c76f0fb34743931cfa",
+      "count": 3
+    },
+    {
+      "type": "recipes",
+      "version": "1.0.0",
+      "path": "catalogs/recipes.json",
+      "sha256": "dccb0e8c5580704acf739b1d9c2b73d7d6f43b9c69d3a92c2297b7cae525c386",
+      "count": 30
+    },
+    {
+      "type": "music",
+      "version": "1.0.0",
+      "path": "catalogs/music.json",
+      "sha256": "0596e1abc7dcee38cb9a644789f8da8ba77b1dc15a91dfbc6cf5090261225e3f",
+      "count": 3,
+      "source": "materials"
+    },
+    {
+      "type": "sound-effects",
+      "version": "1.0.0",
+      "path": "catalogs/sound-effects.json",
+      "sha256": "9988e4752237909f9d511096646bc1b99200a1cc4ea5bf60500894c07fd0d63e",
+      "count": 6,
+      "source": "materials"
+    },
+    {
+      "type": "lotties",
+      "version": "1.0.0",
+      "path": "catalogs/lotties.json",
+      "sha256": "c50a28c7a176fc379fe349d52b0b2176144ce290f9540e234c29411d7435fde0",
+      "count": 6,
+      "source": "materials"
+    },
+    {
+      "type": "videos",
+      "version": "1.0.0",
+      "path": "catalogs/videos.json",
+      "sha256": "3cabef083a8ec3ead41c10a358e717e96432edbee057e28c59f388efa92d44bc",
+      "count": 3,
+      "source": "materials"
+    },
+    {
+      "type": "motion-templates",
+      "version": "1.0.0",
+      "path": "catalogs/motion-templates.json",
+      "sha256": "8889249ef2e104e0a36d0fc045f76cc7f1d837120e5e9df4851be5b6ca99e53f",
+      "count": 10,
+      "source": "templates"
+    }
+  ],
+  "taxonomyPath": "taxonomy/zh-CN.json",
+  "assetBasePath": "assets/",
+  "previewBasePath": "previews/"
+}

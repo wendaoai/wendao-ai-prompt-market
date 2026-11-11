@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 2,
+  "type": "recipes",
+  "version": "1.0.0",
+  "resources": [
+    {
+      "id": "cw-expert-health-wellness",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "健康养生",
+      "description": "面向日常健康疑问，解释行为、身体反应与适用条件；需要方法时讲清做法，不把个体体验写成医学因果。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-health-wellness.json",
+      "byteSize": 7634,
+      "sha256": "b1a11971d5c92630103e182d63af24f6ba563bc75008f13b7f49a07e908469ab",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-health-wellness-v3"
+      }
+    },
+    {
+      "id": "cw-expert-silver-age",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "银发老年",
+      "description": "面向中老年人与家属，讲清日常安排、家庭关系与实际选择；尊重本人意愿，不默认孤独、落后或需要被教育。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-silver-age.json",
+      "byteSize": 6535,
+      "sha256": "b059916aa3767cbffa83a4fdec50591ce22105137a06c07eea6531d4080a1ba7",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-silver-age-v3"
+      }
+    },
+    {
+      "id": "cw-expert-emotional-companion",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "情感鸡汤",
+      "description": "写个人偏爱、生活兴致、关系观察和感受；把在意的对象与难以割舍的考虑展开，不默认受委屈、学会拒绝或被治愈。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-emotional-companion.json",
+      "byteSize": 7216,
+      "sha256": "74913d8522ea354937a7e7174a468eda24267ca097b38257d45fd053251bfb08",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-emotional-companion-v7"
+      }
+    },
+    {
+      "id": "cw-expert-parenting-education",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "育儿教育",
+      "description": "讨论具体年龄与情境中的亲子关系、学习和教育选择；解释孩子与照护者的考虑，按任务提供做法，不制造教育焦虑。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-parenting-education.json",
+      "byteSize": 7525,
+      "sha256": "b3fa1cceaacd888994770edea080d3d223159dea193d43ba460dd221e942b5b6",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-parenting-education-v3"
+      }
+    },
+    {
+      "id": "cw-expert-career-growth",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "职场成长",
+      "description": "写具体工作、协作和职业选择；用任务、关系与制度解释处境，区分个人观察、职业报道和实用方法，不强套管理框架。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-career-growth.json",
+      "byteSize": 6700,
+      "sha256": "39568d36a36febeb1497daca8c69ef33391d80f7c93a247f9d4ab2c8b7066c1e",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-career-growth-v4"
+      }
+    },
+    {
+      "id": "cw-expert-finance-investment",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "财经投资",
+      "description": "面向普通读者解释经济、资金与投资选择中的过程和取舍；按条件分析，不把个体收益、故事或预测写成投资保证。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-finance-investment.json",
+      "byteSize": 7521,
+      "sha256": "0eebef005ded37eb44422500d04f16e550f878aaeb7dfcfe0515a555f8aa1cce",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-finance-investment-v3"
+      }
+    },
+    {
+      "id": "cw-expert-entertainment-observer",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "娱乐八卦",
+      "description": "从作品细节、人物选择与产业现象形成评论，支持书影音推荐和多作品比较；保留作者声音，不把剧情复述或热搜态度当分析。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-entertainment-observer.json",
+      "byteSize": 7607,
+      "sha256": "e9116a9867e95430f652db8bf4043974c483bc2228bdbf816d20685a47661049",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-entertainment-observer-v3"
+      }
+    },
+    {
+      "id": "cw-expert-news-analysis",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "新闻解读",
+      "description": "讲清事件经过、关键变化和具体影响；沿人物、规则与材料解释分歧，保留用户评论角度，不默认每条消息都需辟谣。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-news-analysis.json",
+      "byteSize": 7618,
+      "sha256": "b2d1725bc3a499b3852bc5c7d24591aa3c893b8a184e22507c482dc584c3cb67",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-news-analysis-v3"
+      }
+    },
+    {
+      "id": "cw-expert-food-travel",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "美食旅行",
+      "description": "展开食物、地方和旅行对象的具体特点，连接吃法、地理、历史与个人偏好；攻略按需要提供，不默认列打卡路线。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-food-travel.json",
+      "byteSize": 6768,
+      "sha256": "c6c0f0072839c7ecdf247e477bff3c5946542010b6adbee66fa51d2b71939819",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-food-travel-v3"
+      }
+    },
+    {
+      "id": "cw-expert-tech-digital",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "科技数码",
+      "description": "解释科技产品、功能变化和使用取舍；将技术细节接到具体动作与限制上，区分资料解释、教程和亲测，不强作购买推荐。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-tech-digital.json",
+      "byteSize": 6795,
+      "sha256": "3e12c2803d3285d71e57644d266a4f97596a1926b73b81f453e645fbcf85afdd",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-tech-digital-v3"
+      }
+    },
+    {
+      "id": "cw-expert-psychology-growth",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "心理情感",
+      "description": "从可观察的行为、感受和关系理解心理问题；概念服务于解释，需要方法时讲清具体做法，不用标签代替人的处境。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-psychology-growth.json",
+      "byteSize": 7497,
+      "sha256": "7e0ee3936afb95f49a63cefd2ba9a8bab2605112be361eb177092bb866eae890",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-psychology-growth-v4"
+      }
+    },
+    {
+      "id": "cw-expert-guoxue-culture",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "国学文化",
+      "description": "讲清经典、历史人物和文化表达的具体内容及来由；可细读或串联作品研究，不将每段原典强译成人生建议。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-guoxue-culture.json",
+      "byteSize": 6683,
+      "sha256": "3b2cda52227e91f5dba628cef051d2ad107e624436ebdca1069a10bb0980dee4",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-guoxue-culture-v3"
+      }
+    },
+    {
+      "id": "cw-expert-female-growth",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "女性成长",
+      "description": "写女性具体生活、职业、关系与自我选择；保留个人偏好和现实条件，支持经验与议论，不预设逆袭、独立宣言或对立结局。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-female-growth.json",
+      "byteSize": 6929,
+      "sha256": "4892216f91f65d4984816f4f88d3b6adb3782b90519fb5e3ab8c297eec9d80bc",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-female-growth-v4"
+      }
+    },
+    {
+      "id": "cw-expert-rural-life",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "三农生活",
+      "description": "写乡村生活、农业经营与县域变化；连接季节、生产、市场与人的选择，不把乡村浪漫化，也不自动写成政策解读。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-rural-life.json",
+      "byteSize": 6680,
+      "sha256": "2d4d3a2ef5278d99b1bc3b1547ae29722525e452c23855c1933588639f4bacc4",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-rural-life-v3"
+      }
+    },
+    {
+      "id": "cw-expert-legal-anti-fraud",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "法律反诈",
+      "description": "解释法律问题、消费纠纷与骗局如何发生，讲清规则作用和可行选择；不以电影、比喻或虚构案件代替现实法律判断。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-legal-anti-fraud.json",
+      "byteSize": 7511,
+      "sha256": "350d484d8b51592e8bedcd6f10086054c0736db68a887f75e6fefdf386322e9c",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-legal-anti-fraud-v3"
+      }
+    },
+    {
+      "id": "cw-expert-business-marketing",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "商业营销",
+      "description": "解释经营、平台和营销中的具体选择，连接客户行为、成本、规则与回报；方法落在实际约束上，不靠增长术语和成功故事撑篇。",
+      "tags": [
+        "专业创作",
+        "text-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-business-marketing.json",
+      "byteSize": 6868,
+      "sha256": "66339e46b9b3033665ca47d74f8819602c47dda6b552a0a1f49fd5533947df6a",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "text-track",
+        "recipeVersion": "system-business-marketing-v3"
+      }
+    },
+    {
+      "id": "cw-expert-covert-character-candid",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "偷拍感角色摄影",
+      "description": "偷拍感抓拍：半遮挡窥视机位、前景障碍、长焦压缩与不完美构图，虚构摆拍电影化模拟，仅限公共/半公共空间。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-covert-character-candid.json",
+      "byteSize": 18319,
+      "sha256": "bf0576c9d36bd7d27f39a6c4e8f09aee4333a6cd24b16cbccb5a1140cae4a865",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-covert-character-candid-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-covert-character-candid.jpg",
+      "previewByteSize": 112696,
+      "previewSha256": "63428b9752b8cb932fa92561367c9ccc1362914f5ac9578ebf4d9f4a3657d991",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-shadow-character",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "影子角色摄影",
+      "description": "角色缺席摄影：只拍人物投射在浅色地面的巨大剪影，服装实体散落地面前景，两层叙事。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-shadow-character.json",
+      "byteSize": 11590,
+      "sha256": "b6494468733e87064026824c541e5a6195109954d2a76ba2924e248fa96910b8",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-shadow-character-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-shadow-character.jpg",
+      "previewByteSize": 137783,
+      "previewSha256": "67a892867667da43c916595a6cdf9e86bef1fc1ef4ea71c2bfaaf91b22e34145",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-breakfast-daily",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "早餐日签",
+      "description": "把日常早餐拍成有食欲、有生活气的治愈系贴图，每天换主题、构图与光线。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-breakfast-daily.json",
+      "byteSize": 5637,
+      "sha256": "6432fe81478a6e3dcff8cfd9c34207c694bcc9393065ce04eb7001b9937b21c0",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-breakfast-daily-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-breakfast-daily.jpg",
+      "previewByteSize": 154758,
+      "previewSha256": "fe85500ee4a501357a2d8b206ef7df2b328ec64d39536ad1c6e57f13dbea2d8b",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-oriental-art-poster",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "东方艺术海报",
+      "description": "东方当代艺术展主视觉海报，手工艺术纸质感、留白与浅浮雕压纹，克制高级。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-oriental-art-poster.json",
+      "byteSize": 9876,
+      "sha256": "be2e2a0843f9cd1c2d335c8a569b522114852e511c7c48b2b7489a963068e3bf",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-oriental-art-poster-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-oriental-art-poster.jpg",
+      "previewByteSize": 93774,
+      "previewSha256": "ddb9c7f50fef273c5c2eb547599163445eb2de3e83a842b04838def2d5d3e20e",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-human-metaphor-illustration",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "人性隐喻插画",
+      "description": "极简哲理手绘插画，人物加巨大象征物制造荒诞反差，一眼看懂、细想扎心。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-human-metaphor-illustration.json",
+      "byteSize": 8647,
+      "sha256": "0fd1eb357a20c6c7ad12be0f5b4258b5830843adde691bcea16a5f5252c188c8",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-human-metaphor-illustration-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-human-metaphor-illustration.jpg",
+      "previewByteSize": 137557,
+      "previewSha256": "1b689de25fbe1dabc0927f3472c3dff56596c14af23aa47f587435277357b0bb",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-vibeshot-candid",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "抓拍人像",
+      "description": "真实生活抓拍人像，多维变量池组合场景、着装、动作、光线与镜头质感。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-vibeshot-candid.json",
+      "byteSize": 7239,
+      "sha256": "4ba60c4107547d0c315b72fa2930749ecce316a07306e8c599baf00628d4f7cf",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-vibeshot-candid-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-vibeshot-candid.jpg",
+      "previewByteSize": 172318,
+      "previewSha256": "0817cd65310e6e6d076a6d1562e9192c1477a43479c680c87c13da238146e2ae",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-xianxia-celestial",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "仙侠天宫",
+      "description": "东方仙侠天宫概念场景，云雾仙山、飘渺光影，恢弘史诗感概念艺术。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-xianxia-celestial.json",
+      "byteSize": 5755,
+      "sha256": "2c7166245c8ae85dc03eb1853e7341f5da689dd67daa5dea36d6a6a3b24cd013",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-xianxia-celestial-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-xianxia-celestial.jpg",
+      "previewByteSize": 162550,
+      "previewSha256": "ceb41a49433b637564c45ee7dea1591e0a19db80191f4f8a170a24c14c6c2395",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-tutorial-video-still",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "教学视频风",
+      "description": "真实教学视频暂停截图风，固定机位课堂纪实，9:16与16:9变体，超写实纪录片质感。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-tutorial-video-still.json",
+      "byteSize": 11235,
+      "sha256": "de61b81f432401b2416a9fe16903d96a09137f677848a8b9174064fcbdd5af11",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-tutorial-video-still-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-tutorial-video-still.jpg",
+      "previewByteSize": 76745,
+      "previewSha256": "1b648e2dfa1ca30aa648dd09dd470d594f2853d1553eb30790a85ed46ea590c1",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-selfie-portrait",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "自拍风人像",
+      "description": "真实iPhone自拍风人像，自然手机摄影质感，场景、着装、角度与表情多维变化。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-selfie-portrait.json",
+      "byteSize": 6121,
+      "sha256": "c41c2f13fc1d9dcbc1192cbd9a6ae795cd05046e255e7309bf733b53f19599b7",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-selfie-portrait-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-selfie-portrait.jpg",
+      "previewByteSize": 140630,
+      "previewSha256": "bf06263aefb0351a09ad163fa4c87fcaa42e401ee843526a6a1110fbd70529b1",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-cozy-still-life",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "生活静物治愈",
+      "description": "治愈系生活静物摄影，书桌、窗台、咖啡与植物，温馨干净有生活气息。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-cozy-still-life.json",
+      "byteSize": 6216,
+      "sha256": "afc4ed76f535f6b6055665620f6b8567dfc8bf55ef2aff09b9315d67a399fc74",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-cozy-still-life-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-cozy-still-life.jpg",
+      "previewByteSize": 135830,
+      "previewSha256": "ce1f170eb8dee5f2eb5a9fe99d7f0d7f692c837c96116ec0031c173e2ef6bed2",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-outfit-flatlay",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "穿搭平铺拆解",
+      "description": "基于上传的穿搭参考图，在木地板场景平铺拆解整套服装，第一视角拍摄感与真实影子。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-outfit-flatlay.json",
+      "byteSize": 7722,
+      "sha256": "0cabc98542b9ad86fb8f7272071cab335729e7fd7334d06b3f8bab39ae7dbb1f",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-outfit-flatlay-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-outfit-flatlay.jpg",
+      "previewByteSize": 202664,
+      "previewSha256": "afee085b296144a658a8a8ffb35d7d1d838fdd364f2edf15c93597dfd168c551",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-expert-photo-to-sketch-cover",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "照片转手绘封面",
+      "description": "基于上传照片提炼主体，转绘成极简纸感手绘封面：粗糙白纸、简线加丙烯色块、大量留白。",
+      "tags": [
+        "专业创作",
+        "image-track"
+      ],
+      "assetPath": "assets/recipes/cw-expert-photo-to-sketch-cover.json",
+      "byteSize": 7923,
+      "sha256": "40ee46fecc7ae943751875f28852bba19dbec03aa2aa289b842c6f08490d760e",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "image-track",
+        "recipeVersion": "system-photo-to-sketch-cover-v1"
+      },
+      "previewPath": "previews/expert/cw-expert-photo-to-sketch-cover.jpg",
+      "previewByteSize": 177051,
+      "previewSha256": "7f49740fafd71ae1f5f1f0b5c81815b126e025ab9de7f524b72c3ba0b84944ff",
+      "previewMimeType": "image/jpeg"
+    },
+    {
+      "id": "cw-series-lesson-health-food-track-001",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "养生美食短文",
+      "description": "用短、轻、具体的生活化内容承接高完读和搜索需求。",
+      "tags": [
+        "专业创作",
+        "series-blueprint"
+      ],
+      "assetPath": "assets/recipes/cw-series-lesson-health-food-track-001.json",
+      "byteSize": 865,
+      "sha256": "0a8149abab4a6fdb57d8703edd1ecf0c59107abd37e08dbd11635cd78307a3fa",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "series-blueprint",
+        "recipeVersion": "1"
+      }
+    },
+    {
+      "id": "cw-series-lesson-old-song-track-001",
+      "type": "recipe",
+      "version": "1.0.0",
+      "name": "经典老歌怀旧",
+      "description": "用经典歌曲承接记忆、祝福、陪伴和评论互动。",
+      "tags": [
+        "专业创作",
+        "series-blueprint"
+      ],
+      "assetPath": "assets/recipes/cw-series-lesson-old-song-track-001.json",
+      "byteSize": 843,
+      "sha256": "95bb2a9fad1bce5d6f9d44953de768d62016ce35fcf707071d53770e552012ef",
+      "mimeType": "application/json",
+      "license": "Huwen original recipe; see project license",
+      "licenseURL": "",
+      "attribution": "狐文专业创作",
+      "featured": false,
+      "updatedAt": "2026-11-11T12:00:00+08:00",
+      "details": {
+        "recipeType": "series-blueprint",
+        "recipeVersion": "1"
+      }
+    }
+  ]
+}

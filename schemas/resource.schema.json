@@ -4,33 +4,165 @@
   "title": "Wendao AI resource item",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "type", "version", "name", "description", "tags", "license", "licenseURL", "attribution", "featured", "updatedAt", "details"],
+  "required": [
+    "id",
+    "type",
+    "version",
+    "name",
+    "description",
+    "tags",
+    "license",
+    "licenseURL",
+    "attribution",
+    "featured",
+    "updatedAt",
+    "details"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "maxLength": 100 },
-    "type": { "enum": ["prompt", "prompt-style", "font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template", "ai-provider"] },
-    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
-    "name": { "type": "string", "minLength": 1, "maxLength": 120 },
-    "description": { "type": "string", "maxLength": 500 },
-    "tags": { "type": "array", "maxItems": 40, "items": { "type": "string", "minLength": 1, "maxLength": 60 } },
-    "assetPath": { "type": "string", "maxLength": 240 },
-    "previewPath": { "type": "string", "maxLength": 240 },
-    "byteSize": { "type": "integer", "minimum": 1 },
-    "previewByteSize": { "type": "integer", "minimum": 1, "maximum": 12582912 },
-    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
-    "previewSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
-    "previewMimeType": { "enum": ["image/webp", "image/png", "image/jpeg"] },
-    "mimeType": { "enum": ["font/woff2", "image/webp", "image/png", "image/jpeg", "application/zip"] },
-    "license": { "type": "string", "minLength": 1, "maxLength": 120 },
-    "licenseURL": { "type": "string", "maxLength": 300 },
-    "attribution": { "type": "string", "minLength": 1, "maxLength": 300 },
-    "featured": { "type": "boolean" },
-    "updatedAt": { "type": "string", "format": "date-time" },
-    "details": { "type": "object" }
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 100
+    },
+    "type": {
+      "enum": [
+        "prompt",
+        "prompt-style",
+        "font",
+        "paper",
+        "overlay",
+        "decoration",
+        "model",
+        "scene",
+        "cover-template",
+        "inner-template",
+        "ai-provider",
+        "music",
+        "sound-effect",
+        "lottie",
+        "video",
+        "motion-template",
+        "recipe"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "tags": {
+      "type": "array",
+      "maxItems": 40,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 60
+      }
+    },
+    "assetPath": {
+      "type": "string",
+      "maxLength": 240
+    },
+    "previewPath": {
+      "type": "string",
+      "maxLength": 240
+    },
+    "byteSize": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "previewByteSize": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12582912
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "previewSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "previewMimeType": {
+      "enum": [
+        "image/webp",
+        "image/png",
+        "image/jpeg",
+        "audio/mpeg",
+        "audio/wav",
+        "video/mp4",
+        "application/json"
+      ]
+    },
+    "mimeType": {
+      "enum": [
+        "font/woff2",
+        "image/webp",
+        "image/png",
+        "image/jpeg",
+        "application/zip",
+        "audio/mpeg",
+        "audio/wav",
+        "video/mp4",
+        "application/json"
+      ]
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "licenseURL": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "attribution": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "details": {
+      "type": "object"
+    }
   },
   "allOf": [
     {
-      "if": { "properties": { "type": { "const": "font" } } },
-      "else": { "properties": { "byteSize": { "maximum": 16777216 } } }
+      "if": {
+        "properties": {
+          "type": {
+            "enum": [
+              "font",
+              "music",
+              "sound-effect",
+              "lottie",
+              "video"
+            ]
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "byteSize": {
+            "maximum": 16777216
+          }
+        }
+      }
     }
   ]
 }

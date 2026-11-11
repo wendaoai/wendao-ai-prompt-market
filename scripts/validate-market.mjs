@@ -1,16 +1,16 @@
 import { createHash } from "node:crypto";
-import { readFile, readdir, stat } from "node:fs/promises";
+import { readFile, readdir, stat, access } from "node:fs/promises";
 import path from "node:path";
 import { imageSize } from "./image-size.mjs";
 import { maxModelBytes, validateModelPackage } from './model-package.mjs';
 
 const root = path.resolve(import.meta.dirname, "..");
-const allowedTypes = new Set(["prompt", "prompt-style", "font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template", "ai-provider"]);
+const allowedTypes = new Set(["prompt", "prompt-style", "font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template", "ai-provider","music","sound-effect","lottie","video","motion-template","recipe"]);
 const allCatalogs = ["prompts", "prompt-styles", "fonts", "papers", "overlays", "decorations", "models", "scenes", "cover-templates", "inner-templates", "ai-providers"];
 const expectedCatalogs = new Set();
 const resourceRoots = new Map();
-const sourceRepos = { fonts: "wendao-ai-font-market", materials: "wendao-ai-material-market" };
-const optionalCatalogs = new Set(["fonts-extended"]);
+const sourceRepos = { fonts: "wendao-ai-font-market", materials: "wendao-ai-material-market", templates: "wendao-ai-template-market" };
+const optionalCatalogs = new Set(["fonts-extended","music","sound-effects","lotties","videos","motion-templates","recipes"]);
 const errors = [];
 const ids = new Set();
 const paths = new Map();
@@ -85,6 +85,22 @@ async function validateFile(item, field, sizeField, hashField) {
     try { validateModelPackage(buffer); } catch (error) { fail(`${item.id}: ${error.message}`); }
     return;
   }
+  const mime = field === "previewPath" ? item.previewMimeType : item.mimeType;
+  if (["music","sound-effect","lottie","video","recipe","motion-template"].includes(item.type)) {
+    try {
+      if (mime === "application/json") {
+        const data = JSON.parse(buffer.toString("utf8"));
+        if (!data || typeof data !== "object") throw new Error("invalid JSON data");
+        if (item.type === "lottie" && (!Array.isArray(data.layers) || !(data.w>0 && data.h>0 && data.fr>0 && data.op>data.ip))) throw new Error("invalid Lottie");
+      } else if (mime === "audio/mpeg") {
+        if (buffer.toString("ascii",0,3)!=="ID3" && !(buffer[0]===255 && (buffer[1]&224)===224)) throw new Error("invalid MP3");
+      } else if (mime === "video/mp4") {
+        if(buffer.toString("ascii",4,8)!=="ftyp") throw new Error("invalid MP4");
+      } else if (!["image/png","image/jpeg","image/webp"].includes(mime)) throw new Error("unexpected media MIME");
+      else imageSize(buffer,relativePath);
+    } catch(error) { fail(item.id+": "+error.message); }
+    return;
+  }
   try {
     const dimensions = imageSize(buffer, relativePath);
     const declaredMime = field === "previewPath" ? item.previewMimeType : item.mimeType;
@@ -98,7 +114,8 @@ async function validateFile(item, field, sizeField, hashField) {
 
 const manifestSchema = await json("schemas/manifest.schema.json", 128 * 1024);
 const resourceSchema = await json("schemas/resource.schema.json", 128 * 1024);
-const manifest = await json("data/manifest.json", 64 * 1024);
+const manifestFile = await access(path.join(root,"data/manifest-v3.json")).then(()=>"data/manifest-v3.json").catch(()=>"data/manifest.json");
+const manifest = await json(manifestFile, 64 * 1024);
 validateSchema(manifest, manifestSchema, "manifest");
 const requiredByMarket = {
   "wendao-ai-resource-market": allCatalogs,
@@ -137,7 +154,7 @@ for (const item of resources) {
   if (["font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template"].includes(item.type) && !item.assetPath) fail(`${item.id}: 可安装资源缺少 assetPath`);
   if (item.type !== 'font' && item.byteSize > (item.type === 'model' ? maxModelBytes : 16 * 1024 * 1024)) fail(`${item.id}: 资源大小超过限制`);
   if (item.type === "font" && (item.details?.format !== "woff2" || !item.details?.family || !item.details?.displayName)) fail(`${item.id}: 字体 details 无效`);
-  if (item.previewPath && !["image/webp", "image/png", "image/jpeg"].includes(item.previewMimeType)) fail(`${item.id}: 预览 MIME 无效`);
+  if (item.previewPath && !["image/webp", "image/png", "image/jpeg", "audio/mpeg", "audio/wav", "video/mp4", "application/json"].includes(item.previewMimeType)) fail(`${item.id}: 预览 MIME 无效`);
   if (item.type === "font" && (!safeRelative(item.details?.licenseFile || "") || !item.details.licenseFile.startsWith("licenses/fonts/"))) fail(`${item.id}: 字体许可证路径无效`);
   if (item.type === "font" && item.details?.licenseFile) {
     const license = await stat(path.join(resourceRoots.get(item.id) || root, item.details.licenseFile)).catch(() => null);
