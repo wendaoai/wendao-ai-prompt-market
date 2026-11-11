@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 2,
+  "packs": [
+    {
+      "id": "prompts",
+      "name": "提示词与配置包",
+      "version": "1.2.0",
+      "count": 814,
+      "bytes": 149809065,
+      "parts": [
+        {
+          "id": "cases-1",
+          "name": "提示词案例 1/2",
+          "count": 246,
+          "bytes": 89548254,
+          "sha256": "5611a6de80e8963e5d37813ba8d4b9a95ef65bd19ecdc6524ae94048bf5c79f2",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-prompt-market/releases/download/offline-v1.2.0/wendao-prompts-cases-1-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-prompt-market/releases/download/offline-v1.2.0/wendao-prompts-cases-1-1.2.0.zip"
+          ]
+        },
+        {
+          "id": "cases-2",
+          "name": "提示词案例 2/2",
+          "count": 295,
+          "bytes": 48204283,
+          "sha256": "c1888cd15b9475c2b1c3542b1c1404f2c10f02b939538076b1cd51d20242511f",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-prompt-market/releases/download/offline-v1.2.0/wendao-prompts-cases-2-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-prompt-market/releases/download/offline-v1.2.0/wendao-prompts-cases-2-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-prompt-market/releases/download/offline-v1.2.0/wendao-prompts-cases-2-1.2.0.zip"
+          ]
+        },
+        {
+          "id": "styles-config",
+          "name": "风格与公共配置",
+          "count": 273,
+          "bytes": 12056528,
+          "sha256": "838f3435bce6f9871ff1f7095e99b2a0baeb80db2defe1bc7178cb486a6c9777",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-prompt-market/releases/download/offline-v1.2.0/wendao-prompts-styles-config-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-prompt-market/releases/download/offline-v1.2.0/wendao-prompts-styles-config-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-prompt-market/releases/download/offline-v1.2.0/wendao-prompts-styles-config-1.2.0.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fonts",
+      "name": "字体包",
+      "version": "1.2.0",
+      "count": 35,
+      "bytes": 237050710,
+      "parts": [
+        {
+          "id": "base-1",
+          "name": "基础字体 1/3",
+          "count": 8,
+          "bytes": 88051502,
+          "sha256": "196d4f8b570f6e27f1b088efd68166ef7997456240734be1b3eba0ba2e3f44a9",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-base-1-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-base-1-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-base-1-1.2.0.zip"
+          ]
+        },
+        {
+          "id": "base-2",
+          "name": "基础字体 2/3",
+          "count": 20,
+          "bytes": 86608421,
+          "sha256": "a93baa8329f5acc0adba8699cfa01affd7f00c8c9162a08d9cc6cf2b89d1585b",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-base-2-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-base-2-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-base-2-1.2.0.zip"
+          ]
+        },
+        {
+          "id": "base-3",
+          "name": "基础字体 3/3",
+          "count": 4,
+          "bytes": 10290240,
+          "sha256": "3e158ee41bc90bceb6538c87d8f8eed3143fb4a4102e013264c6c670d6aae47f",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-base-3-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-base-3-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-base-3-1.2.0.zip"
+          ]
+        },
+        {
+          "id": "extended",
+          "name": "扩展字体",
+          "count": 3,
+          "bytes": 52100547,
+          "sha256": "4baf1b176373aa6a9d6958a7276c94c2db5e43560bcebd883180f04b3dd8a0fe",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-extended-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-extended-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-font-market/releases/download/offline-v1.2.0/wendao-fonts-extended-1.2.0.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "name": "视觉素材包",
+      "version": "1.2.0",
+      "count": 50,
+      "bytes": 11881981,
+      "parts": [
+        {
+          "id": "all",
+          "name": "视觉素材",
+          "count": 32,
+          "bytes": 7210567,
+          "sha256": "a2897340651b4405af32da32f321ba61054c287f7828a510d76e5eb6f53e0bb5",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-material-market/releases/download/offline-v1.2.0/wendao-materials-all-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-material-market/releases/download/offline-v1.2.0/wendao-materials-all-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-material-market/releases/download/offline-v1.2.0/wendao-materials-all-1.2.0.zip"
+          ]
+        },
+        {
+          "id": "audio",
+          "name": "音乐与音效",
+          "count": 9,
+          "bytes": 2167120,
+          "sha256": "eb6a56fdbc6644b7a67e5e5428c33bc2ed0c25910a2fa94d0e883a77dd1b428f",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-material-market/releases/download/offline-v1.2.0/wendao-materials-audio-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-material-market/releases/download/offline-v1.2.0/wendao-materials-audio-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-material-market/releases/download/offline-v1.2.0/wendao-materials-audio-1.2.0.zip"
+          ]
+        },
+        {
+          "id": "motion-media",
+          "name": "动画与视频",
+          "count": 9,
+          "bytes": 2504294,
+          "sha256": "7a188c17959c7169ac7367b6af26791f108bb6db7a0aa16781ab5c905ed0de55",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-material-market/releases/download/offline-v1.2.0/wendao-materials-motion-media-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-material-market/releases/download/offline-v1.2.0/wendao-materials-motion-media-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-material-market/releases/download/offline-v1.2.0/wendao-materials-motion-media-1.2.0.zip"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "templates",
+      "name": "模板包",
+      "version": "1.2.0",
+      "count": 289,
+      "bytes": 126542429,
+      "parts": [
+        {
+          "id": "layouts",
+          "name": "排版模板",
+          "count": 199,
+          "bytes": 80546627,
+          "sha256": "98b73eb1488fcf44fe183e9c15a720880a551d8295dd4d353b31127f01b8bb3e",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.0/wendao-templates-layouts-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.0/wendao-templates-layouts-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.0/wendao-templates-layouts-1.2.0.zip"
+          ]
+        },
+        {
+          "id": "images",
+          "name": "图片模板",
+          "count": 80,
+          "bytes": 45668139,
+          "sha256": "701cbebb9c634bed24e2560f9ef16ec808fda3393dd2042507b6bf1a6c1465f0",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.0/wendao-templates-images-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.0/wendao-templates-images-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.0/wendao-templates-images-1.2.0.zip"
+          ]
+        },
+        {
+          "id": "motion",
+          "name": "视频动效模板",
+          "count": 10,
+          "bytes": 327663,
+          "sha256": "cba4454f3e3d2f6e795da50e7ea14eb779b5d9c420590971b751001f3f8ddfe8",
+          "urls": [
+            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.0/wendao-templates-motion-1.2.0.zip",
+            "https://github.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.0/wendao-templates-motion-1.2.0.zip",
+            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.0/wendao-templates-motion-1.2.0.zip"
+          ]
+        }
+      ]
+    }
+  ]
+}
