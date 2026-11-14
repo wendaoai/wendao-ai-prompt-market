@@ -10,11 +10,13 @@ const allCatalogs = ["prompts", "prompt-styles", "fonts", "papers", "overlays", 
 const expectedCatalogs = new Set();
 const resourceRoots = new Map();
 const sourceRepos = { fonts: "wendao-ai-font-market", materials: "wendao-ai-material-market", templates: "wendao-ai-template-market" };
-const optionalCatalogs = new Set(["fonts-extended","music","sound-effects","lotties","videos","motion-templates","recipes"]);
+const optionalCatalogs = new Set(["fonts-extended","music","sound-effects","lotties","videos","motion-templates","motion-projects","recipes"]);
 const errors = [];
 const ids = new Set();
 const paths = new Map();
 const referenced = new Set();
+// Match the client's streamed media/data path; 16 MiB is an image budget.
+const declaredSizeTypes = new Set(["font", "music", "sound-effect", "lottie", "video", "motion-template", "recipe"]);
 
 function fail(message) { errors.push(message); }
 function validateSchema(value, schema, location) {
@@ -145,14 +147,13 @@ if (expectedCatalogs.size) fail(`缺少目录: ${[...expectedCatalogs].join(", "
 
 for (const item of resources) {
   validateSchema(item, resourceSchema, `resource:${item.id || "unknown"}`);
-  if (item.type !== "font" && item.type !== "model" && item.byteSize > 16 * 1024 * 1024) fail(`${item.id}: 素材大小超过限制`);
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id || "") || item.id.length > 100 || ids.has(item.id)) fail(`资源 ID 无效或重复: ${item.id}`);
   ids.add(item.id);
   if (!allowedTypes.has(item.type)) fail(`${item.id}: 未知资源类型`);
   if (!item.name || item.name.length > 120 || !item.version || !item.license || !item.attribution || !item.details) fail(`${item.id}: 缺少必要字段`);
   if (!Array.isArray(item.tags) || item.tags.length > 40) fail(`${item.id}: tags 无效`);
   if (["font", "paper", "overlay", "decoration", "model", "scene", "cover-template", "inner-template"].includes(item.type) && !item.assetPath) fail(`${item.id}: 可安装资源缺少 assetPath`);
-  if (item.type !== 'font' && item.byteSize > (item.type === 'model' ? maxModelBytes : 16 * 1024 * 1024)) fail(`${item.id}: 资源大小超过限制`);
+  if (!declaredSizeTypes.has(item.type) && item.byteSize > (item.type === 'model' ? maxModelBytes : 16 * 1024 * 1024)) fail(`${item.id}: 资源大小超过限制`);
   if (item.type === "font" && (item.details?.format !== "woff2" || !item.details?.family || !item.details?.displayName)) fail(`${item.id}: 字体 details 无效`);
   if (item.previewPath && !["image/webp", "image/png", "image/jpeg", "audio/mpeg", "audio/wav", "video/mp4", "application/json"].includes(item.previewMimeType)) fail(`${item.id}: 预览 MIME 无效`);
   if (item.type === "font" && (!safeRelative(item.details?.licenseFile || "") || !item.details.licenseFile.startsWith("licenses/fonts/"))) fail(`${item.id}: 字体许可证路径无效`);
