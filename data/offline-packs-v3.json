@@ -151,52 +151,52 @@
     {
       "id": "templates",
       "name": "模板包",
-      "version": "1.2.3",
-      "count": 296,
-      "bytes": 175189312,
+      "version": "1.2.4",
+      "count": 297,
+      "bytes": 176377002,
       "parts": [
         {
           "id": "layouts",
           "name": "排版模板",
           "count": 199,
-          "bytes": 80550446,
-          "sha256": "268c61214c81099bd3b9242b809e2f7803f022babfb56aa5644bdcbf4e2afc06",
+          "bytes": 80550934,
+          "sha256": "98395a7ce9b5f96eab977aff732207f227b4d24a7fe9f39202d6cefd213e2d4b",
           "urls": [
-            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.3/wendao-templates-layouts-1.2.3.zip",
-            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.3/wendao-templates-layouts-1.2.3.zip"
+            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.4/wendao-templates-layouts-1.2.4.zip",
+            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.4/wendao-templates-layouts-1.2.4.zip"
           ]
         },
         {
           "id": "images",
           "name": "图片模板",
           "count": 80,
-          "bytes": 45671995,
-          "sha256": "e952a1fa2a15f936ad7279b8161231ba948643d3d8314f6aa51943d122aa5c31",
+          "bytes": 45672500,
+          "sha256": "6be8a6e55a6ed7c4cb1a4c73a3881a697311ca76571fc7dab4365616946e5366",
           "urls": [
-            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.3/wendao-templates-images-1.2.3.zip",
-            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.3/wendao-templates-images-1.2.3.zip"
+            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.4/wendao-templates-images-1.2.4.zip",
+            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.4/wendao-templates-images-1.2.4.zip"
           ]
         },
         {
           "id": "motion",
           "name": "视频动效模板",
           "count": 10,
-          "bytes": 331429,
-          "sha256": "a407892590c8abb7877592d09069d057e9bfc05f6b96ea150e063445a10bacbe",
+          "bytes": 331924,
+          "sha256": "799c006ea658bad2a15e658c1cbcdebd15aa8b61bbadb48a0fe325936baaba01",
           "urls": [
-            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.3/wendao-templates-motion-1.2.3.zip",
-            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.3/wendao-templates-motion-1.2.3.zip"
+            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.4/wendao-templates-motion-1.2.4.zip",
+            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.4/wendao-templates-motion-1.2.4.zip"
           ]
         },
         {
           "id": "projects",
           "name": "完整视频工程",
-          "count": 7,
-          "bytes": 48635442,
-          "sha256": "8ac9df719bd3064d830d315e40c756bf856b6c3aed8cf645d90f9cd97e00a5cf",
+          "count": 8,
+          "bytes": 49821644,
+          "sha256": "4b113793818928a544eaba3925458b2f987ac9ae1b8c3b5234a94f395403503b",
           "urls": [
-            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.3/wendao-templates-projects-1.2.3.zip",
-            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.3/wendao-templates-projects-1.2.3.zip"
+            "https://gitcode.com/wendao-ai/wendao-ai-template-market/releases/download/offline-v1.2.4/wendao-templates-projects-1.2.4.zip",
+            "https://gitee.com/wendaoai/wendao-ai-template-market/releases/download/offline-v1.2.4/wendao-templates-projects-1.2.4.zip"
           ]
         }
       ]

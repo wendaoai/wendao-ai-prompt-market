@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "marketId": "wendao-ai-resource-market",
-  "marketVersion": "2.5.6",
-  "generatedAt": "2026-11-15T01:18:20+08:00",
+  "marketVersion": "2.5.7",
+  "generatedAt": "2026-11-15T20:30:49+08:00",
   "sourceRevision": "split-fonts-materials-three-platform-mirrors",
   "license": "Mixed; see each resource and NOTICE.md",
   "catalogs": [
@@ -149,10 +149,10 @@
     {
       "type": "motion-projects",
       "path": "catalogs/motion-projects.json",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "templates",
-      "sha256": "3086dfbf921b4050160d14b2427f8ecf3d90e78b90538c3c1c2f45a4e3be6806",
-      "count": 7
+      "sha256": "ad56f8d357c7ac5aa73991ecbf355b6188f1b44239c9a567f355a5b0f5514543",
+      "count": 8
     }
   ],
   "taxonomyPath": "taxonomy/zh-CN.json",
